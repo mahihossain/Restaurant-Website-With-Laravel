@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 section {
     background: #fff;
     overflow: hidden;
@@ -106,3 +107,70 @@ z-index: 1000;
 .navbar-light .navbar-toggler{
     border-color:#d6f202;
 }
+=======
+#panel, #flip {
+    padding: 5px;
+    text-align: center;
+    background-color: #e5eecc;
+    border: solid 1px #c3c3c3;
+  }
+  
+  #panel {
+    padding: 50px;
+    display: none;
+  }
+  /* .myImg {
+      max-width: 800px;
+      width: 55%;
+      right: 0;
+    } */
+    body{
+      font-family: 'Dekko', cursive;
+  }
+  .myImg{
+      padding-block-start: 1%;
+      
+  }
+  .right-image{
+      /* max-width: 800px;
+      width: 55%;
+      right: 0; */
+      padding-block-end: 1%;
+      padding-block-start: 1%;
+  }
+  .left-image{
+      /* max-width: 800px;
+      width: 55%;
+      left: 0; */
+      padding-block-end: 1%;
+      padding-block-start: 1%;;
+  }
+  
+  .second{
+      top: 160%;
+  }
+  
+  .third{
+      top: 270%
+  }
+  
+  .last{
+      top: 700%;
+  }
+  
+  #reverse{
+      flex-wrap: wrap-reverse;
+  }
+  
+  #footer{
+      background: #ffcc00;
+      position: relative;
+      width: 80%;
+      height: 55%;
+      left: 10%;
+      top: 440%;
+  }
+  #location{
+      border-radius:50%; 
+  }
+>>>>>>> frontend
