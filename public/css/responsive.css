@@ -1,0 +1,68 @@
+
+/* 1920 laptop monitor*/
+@media (min-width: 1400px) and (max-width: 2300px) {
+    
+    /* home 1st part nav */
+    .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+        font-size: 35px;
+    }
+
+
+}
+
+
+
+/* 1366laptop monitor*/
+
+@media (min-width: 1300px) and (max-width: 1400px) {
+
+
+       
+}
+
+
+/* In middle */
+
+@media (min-width: 1200px) and (max-width: 1299px) {
+ 
+ 
+
+}
+
+
+/* Medium Devices (Landscape Tablets & Medium Desktops) */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    
+
+}
+
+
+/* Small Devices (Portrait Tablets & Small Desktops) */
+
+@media (min-width: 768px) and (max-width: 991px) {
+   
+
+}
+
+
+/* Extra Small Devices (Landscape Phones & Portrait Tablets) */
+/* midea player button willbe half from here */
+@media (min-width: 481px) and (max-width: 767px) {
+
+
+}
+
+
+/* Extra Small Devices (Portrait Phones & Smaller Devices) */
+
+@media (max-width: 480px) {
+
+
+}
+/* Extra Small Devices (Portrait Phones & Smaller Devices) */
+
+@media (max-width: 320px) {
+
+
+}    
