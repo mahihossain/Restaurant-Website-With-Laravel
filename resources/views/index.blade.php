@@ -4,6 +4,6 @@
     <title>Artrium</title>
 </head>
 <body>
-        <h1>Our homepage goes here</h1>
+        <h1>Our homepage</h1>
 </body>
 </html>
