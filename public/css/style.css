@@ -1,4 +1,7 @@
-
+body{
+  background-color:#2b2b2b !important; 
+  color: #f8fafc !important;
+}
 section {
     background: #fff;
     overflow: hidden;
@@ -80,22 +83,27 @@ header .overlay {
   z-index: 1;
 }
 .navDiv {       /* for showing nav over the video */
- position: absolute;
-z-index: 1000;
+  position: absolute;
+  z-index: 1000;
+  right: 0;
    
 }
 
 .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link {
-    color: #d6f202;
+    /* color: #d6f202; */ /*color for brocoli */
+    
+    color: #778c87;
     font-size: 21px;
     font-family: 'Yanone Kaffeesatz', sans-serif;
     font-weight: 390;
     text-transform: uppercase;
     letter-spacing: 1px;
     text-decoration: none;
+    right: 0;
 }
 .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover{
-    color: #97aa03;
+    /* color: #97aa03; */ /*color for brocoli */
+    color: #8e1805;
     font-size: 23px;
     -webkit-transition: font-size .3s; /* Safari */
      transition: font-size .3s;
@@ -105,7 +113,8 @@ z-index: 1000;
     /* flex-direction: row; */ /* for horizontal nav */
 }
 .navbar-light .navbar-toggler{
-    border-color:#d6f202;
+    /* border-color:#d6f202; */  /*color for brocoli */
+      border-color: #8e1805;
 }
 
 /* ================================code by dhrubo bhai===================================================== */
@@ -146,13 +155,15 @@ z-index: 1000;
 }
 
 #footer{
-  background: #ffcc00;
   position: relative;
-  width: 80%;
-  height: 55%;
-  left: 10%;
+  bottom: 0;
+  width: 100%;
+  background: #f1e2e0;
+  height: 30%;
   top: 440%;
+  margin-left: 0;
 }
 #location{
   border-radius:50%; 
+  right:0;
 }

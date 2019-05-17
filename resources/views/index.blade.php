@@ -8,7 +8,7 @@
         <!-- font -->
         <link href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz" rel="stylesheet"> 
     <!-- bootsratp -->
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="{{asset('css/app.css')}}">
     <!-- myCss -->
         <link rel="stylesheet" href="{{ asset('css/style.css') }}">
         <link rel="stylesheet" href="{{ asset('css/responsive.css') }}">
@@ -63,7 +63,7 @@
          </div> -->
       <div class="overlay"></div>
       <video poster="{{ asset('video/bg.jpg') }}" playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
-        <source src="{{ asset('video/food.mp4') }}" type="video/mp4">
+        <source src="{{ asset('video/Mongolian.mp4') }}" type="video/mp4">
       </video>
 
     </header>
@@ -75,7 +75,7 @@
                   Croissant donut cake lemon drops cake candy pudding. Lollipop I love topping jelly beans bonbon. Tart dessert croissant lemon drops biscuit bear claw sugar plum donut I love. Cotton candy pie cake liquorice wafer powder jujubes bonbon.
               </p>
           </div>
-          <div id="squeeze" class="col-sm-6">
+          <div id="squeeze" class="col-sm-8">
               <img class="img-fluid rounded float-right myImg left-image" alt="Responsive image" src="{{asset('image/appetizer-bowl-delicious.jpg')}}">
           </div>
       </div>
@@ -83,7 +83,7 @@
 
   <div class="container-fluid second">
       <div class="row">
-          <div class="col-sm-7">
+          <div class="col-sm-8">
               <img class="img-fluid rounded float-right myImg right-image" alt="Responsive image" src="{{asset('image/appetizer-bowl-delicious.jpg')}}">
           </div>
           <div class="col col align-self-center">
@@ -109,15 +109,15 @@
 
        
       <div class="row" id="footer">
-          <div class="col col align-self-center">
+          <div class="col-sm-5 align-self-centre">
               <p class=" text-justify text-center">
                   Muffin I love jelly beans pudding. I love donut chocolate bar topping. Apple pie croissant toffee lollipop lollipop fruitcake tootsie roll biscuit. Oat cake cookie I love bonbon apple pie pudding oat cake carrot cake marzipan.
               </p>
           </div>
-          <div class="col">
+          <div class="col-sm-2">
               <a href="https://www.google.com/maps/place/The+Atrium+Restaurant/@23.8033073,90.4192192,15z/data=!4m5!3m4!1s0x3755c7b1c6ccc04b:0xa6f2a07bd56571af!8m2!3d23.802477!4d90.4228988"  target="_blank"><img class="img-fluid "id="location" src="{{asset('image/atruim-location.png')}}" alt=""></a>
           </div>
-          <div class="col col align-self-center">
+          <div class="col-sm-5">
               <p class=" text-justify text-center">
                   Sugar plum macaroon I love sweet caramels. Muffin dragée halvah pastry gummies biscuit candy canes jelly-o donut. Carrot cake jelly-o croissant I love I love donut cake cheesecake wafer.
               </p>
