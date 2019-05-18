@@ -1,7 +1,4 @@
-body{
-  background-color:#2b2b2b !important; 
-  color: #f8fafc !important;
-}
+
 section {
     background: #fff;
     overflow: hidden;
@@ -117,53 +114,92 @@ header .overlay {
       border-color: #8e1805;
 }
 
-/* ================================code by dhrubo bhai===================================================== */
+/* ======================================================================code by dhrubo bhai===================================================== */
 
-.myImg{
-  padding-block-start: 1%;
-  
-}
-.right-image{
-  /* max-width: 800px;
-  width: 55%;
-  right: 0; */
-  padding-block-end: 1%;
-  padding-block-start: 1%;
-}
-.left-image{
-  /* max-width: 800px;
-  width: 55%;
-  left: 0; */
-  padding-block-end: 1%;
-  padding-block-start: 1%;;
+
+.myImg {
+	padding-block-start: 1%;
+	max-width: 70%;
 }
 
-.second{
-  top: 160%;
+.genre {
+	margin-block-end: 5%;
 }
 
-.third{
-  top: 270%
+.content {
+	min-height: 100vh !important;
+	flex-wrap: wrap-reverse !important;
 }
 
-.last{
-  top: 700%;
+.content-two {
+	min-height: 100vh !important;
+	flex-wrap: wrap !important;
+}
+/* ============================================positioning the container-fluid div ================================================================== */
+.first {
+	top: 120% !important;
+	position: absolute !important;
+}
+.second {
+	top: 230% !important;
+	position: absolute !important;
 }
 
-#reverse{
-  flex-wrap: wrap-reverse;
+.third {
+	top: 330% !important;
+	position: absolute !important;
 }
 
-#footer{
-  position: relative;
-  bottom: 0;
-  width: 100%;
-  background: #f1e2e0;
-  height: 30%;
-  top: 440%;
-  margin-left: 0;
+.fourth {
+	top: 440% !important;
+	position: absolute !important;
 }
-#location{
-  border-radius:50%; 
-  right:0;
+/* ============================================positioning the container-fluid div ================================================================== */
+
+#footer {
+	position: relative;
+	bottom: 0;
+	width: 100%;
+	background: #f1e2e0;
+	height: 30%;
+	top: 440%;
+	margin-left: 0;
+}
+#location {
+	border-radius: 50%;
+}
+
+/*============================================================FLOATING IMAGES =========================================================================*/
+
+.overlay-right {
+	position: absolute;
+	top: 6%;
+	right: 0;
+	z-index: 200;
+	
+}
+
+.overlay-left {
+	position: absolute;
+	top: 10%;
+	left: 0;
+	z-index: 200;
+}
+
+.gradient-color-right {
+	position: absolute;
+	top: 0%;
+    right: 0;
+    width: 75%;
+    height: 32.5%;
+	z-index: 100;
+}
+
+.gradient-color-left {
+	position: absolute;
+	top: 0%;
+    left: 0;
+    width: 75%;
+    height: 32.5%;
+	z-index: 100;
 }
