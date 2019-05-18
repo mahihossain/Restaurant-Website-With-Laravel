@@ -3,16 +3,16 @@
 <head>
   <title>Gallery</title>
 
-  <link rel="stylesheet" type="text/css" href="gallery.css">
+  <link rel="stylesheet" type="text/css" href="{{ asset('css/gallery.css') }}">
 </head>
 <body>
   <div class="container">
   <div class="top">
       <ul>
-          <li><a href="#img_1"><img src="https://farm8.staticflickr.com/7564/16097104758_e60521f7fa_b.jpg"></a></li>
-            <li><a href="#img_2"><img src="https://picjumbo.imgix.net/HNCK4011.jpg?q=40&w=1650&sharp=30"></a></li>
+          <li><a href="#img_1"><img src="https://images.unsplash.com/photo-1511690656952-34342bb7c2f2?ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=80"></a></li>
+            <li><a href="#img_2"><img src="https://images.unsplash.com/photo-1490818387583-1baba5e638af?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=931&q=80"></a></li>
             <li><a href="#img_3"><img src="https://images.unsplash.com/32/Mc8kW4x9Q3aRR3RkP5Im_IMG_4417.jpg?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=46a85a1451e47aea5152ade8299f2894"></a></li>
-            <li><a href="#img_4"><img src="https://picjumbo.imgix.net/HNCK3991.jpg?q=40&w=1650&sharp=30"></a></li>
+            <li><a href="#img_4"><img src="https://images.unsplash.com/photo-1504754524776-8f4f37790ca0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"></a></li>
             <li><a href="#img_5"><img src="https://image.freepik.com/free-photo/sunlight-in-the-forest_1004-9.jpg"></a></li>
             <li><a href="#img_6"><img src="https://image.freepik.com/free-photo/road-curve-landscape_426-19324358.jpg"></a></li>
             <li><a href="#img_7"><img src="https://image.freepik.com/free-photo/shiny-lights_385-19321244.jpg"></a></li>
@@ -26,10 +26,10 @@
             <li><a href="#img_15"><img src="https://image.freepik.com/free-photo/colorful-springtime_385-19321241.jpg"></a></li>
             <li><a href="#img_16"><img src="https://image.freepik.com/free-photo/from-blue-to-brown_426-19320820.jpg"></a></li>
         </ul>
-        <a href="#_1" class="lightbox trans" id="img_1"><img src="https://farm8.staticflickr.com/7564/16097104758_e60521f7fa_b.jpg"></a>
-        <a href="#_2" class="lightbox trans" id="img_2"><img src="https://picjumbo.imgix.net/HNCK4011.jpg?q=40&w=1650&sharp=30"></a>
+        <a href="#_1" class="lightbox trans" id="img_1"><img src="https://images.unsplash.com/photo-1511690656952-34342bb7c2f2?ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=80"></a>
+        <a href="#_2" class="lightbox trans" id="img_2"><img src="https://images.unsplash.com/photo-1490818387583-1baba5e638af?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=931&q=80"></a>
         <a href="#_3" class="lightbox trans" id="img_3"><img src="https://images.unsplash.com/32/Mc8kW4x9Q3aRR3RkP5Im_IMG_4417.jpg?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=46a85a1451e47aea5152ade8299f2894"></a>
-        <a href="#_4" class="lightbox trans" id="img_4"><img src="https://picjumbo.imgix.net/HNCK3991.jpg?q=40&w=1650&sharp=30"></a>
+        <a href="#_4" class="lightbox trans" id="img_4"><img src="https://images.unsplash.com/photo-1504754524776-8f4f37790ca0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"></a>
         <a href="#_5" class="lightbox trans" id="img_5"><img src="https://image.freepik.com/free-photo/sunlight-in-the-forest_1004-9.jpg"></a>
         <a href="#_6" class="lightbox trans" id="img_6"><img src="https://image.freepik.com/free-photo/road-curve-landscape_426-19324358.jpg"></a>
         <a href="#_7" class="lightbox trans" id="img_7"><img src="https://image.freepik.com/free-photo/shiny-lights_385-19321244.jpg"></a>
