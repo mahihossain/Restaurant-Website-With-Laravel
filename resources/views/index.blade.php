@@ -162,6 +162,109 @@
               </div>
           </div>
 
+          {{-- gallery code --}}
+          <section class="gallery-block compact-gallery float-right fifth">
+              <div class="container">
+                <div class="heading">
+                </div>
+                
+                <div class="row no-gutters">
+                  <div class="col-md-6 col-lg-4 item zoom-on-hover">
+                    <a class="lightbox" href="{{asset('image/galleryimg/F1.jpg')}}">
+                      <img class="img-fluid image" src="{{asset('image/galleryimg/F1.jpg')}}">
+                      <span class="description">
+                        <span class="description-heading">Lorem Ipsum</span>
+                        <span class="description-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                      </span>
+                    </a>
+                  </div>
+                  
+                  
+                  <div class="col-md-6 col-lg-4 item zoom-on-hover">
+                    <a class="lightbox" href="{{asset('image/galleryimg/F2.jpg')}}">
+                      <img class="img-fluid image" src="{{asset('image/galleryimg/F2.jpg')}}">
+                      <span class="description">
+                        <span class="description-heading">Lorem Ipsum</span>
+                        <span class="description-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                      </span>
+                    </a>
+                  </div>
+                  
+                  
+                  <div class="col-md-6 col-lg-4 item zoom-on-hover">
+                    <a class="lightbox" href="{{asset('image/galleryimg/F3.jpg')}}">
+                      <img class="img-fluid image" src="{{asset('image/galleryimg/F3.jpg')}}">
+                      <span class="description">
+                        <span class="description-heading">Lorem Ipsum</span>
+                        <span class="description-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                      </span>
+                    </a>
+                  </div>
+                  
+                  <div class="col-md-6 col-lg-4 item zoom-on-hover">
+                    <a class="lightbox" href="{{asset('image/galleryimg/F4.jpg')}}">
+                      <img class="img-fluid image" src="{{asset('image/galleryimg/F4.jpg')}}">
+                      <span class="description">
+                        <span class="description-heading">Lorem Ipsum</span>
+                        <span class="description-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                      </span>
+                    </a>
+                  </div>
+                  
+                  
+                  <div class="col-md-6 col-lg-4 item zoom-on-hover">
+                    <a class="lightbox" href="{{asset('image/galleryimg/F5.jpg')}}">
+                      <img class="img-fluid image" src="{{asset('image/galleryimg/F5.jpg')}}">
+                      <span class="description">
+                        <span class="description-heading">Lorem Ipsum</span>
+                        <span class="description-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                      </span>
+                    </a>
+                  </div>
+                  
+                  
+                  <div class="col-md-6 col-lg-4 item zoom-on-hover">
+                    <a class="lightbox" href="{{asset('image/galleryimg/F6.jpg')}}">
+                      <img class="img-fluid image" src="{{asset('image/galleryimg/F6.jpg')}}">
+                      <span class="description">
+                        <span class="description-heading">Lorem Ipsum</span>
+                        <span class="description-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                      </span>
+                    </a>
+                  </div>
+                  
+                  <div class="col-md-6 col-lg-4 item zoom-on-hover">
+                    <a class="lightbox" href="{{asset('image/galleryimg/F7.jpg')}}">
+                      <img class="img-fluid image" src="{{asset('image/galleryimg/F7.jpg')}}">
+                      <span class="description">
+                        <span class="description-heading">Lorem Ipsum</span>
+                        <span class="description-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                      </span>
+                    </a>
+                  </div>
+                  
+                  <div class="col-md-6 col-lg-4 item zoom-on-hover">
+                    <a class="lightbox" href="{{asset('image/galleryimg/F8.jpg')}}">
+                      <img class="img-fluid image" src="{{asset('image/galleryimg/F8.jpg')}}">
+                      <span class="description">
+                        <span class="description-heading">Lorem Ipsum</span>
+                        <span class="description-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                      </span>
+                    </a>
+                  </div>
+                  
+                  <div class="col-md-6 col-lg-4 item zoom-on-hover">
+                    <a class="lightbox" href="{{asset('image/galleryimg/F9.jpg')}}">
+                      <img class="img-fluid image" src="{{asset('image/galleryimg/F9.jpg')}}">
+                      <span class="description">
+                        <span class="description-heading">Lorem Ipsum</span>
+                        <span class="description-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                      </span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </section>
 
   
 
@@ -178,12 +281,16 @@
     <!-- bootstrap -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
          <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
+    {{-- library for gallery --}}
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
          <!-- lattering -->
         <script src="{{ asset('js/lettering/jquery.lettering-0.6.1.min.js') }}"></script>
 
     <!-- myJS -->
         <script src="{{ asset('js/active.js') }}"></script>
+        <script>
+            baguetteBox.run('.compact-gallery',{animation:'slideIn'});
+        </script>
   
 </body>
 </html>
