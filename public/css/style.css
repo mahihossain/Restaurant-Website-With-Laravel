@@ -181,7 +181,7 @@ header .overlay {
 
 .overlay-left {
 	position: absolute;
-	top: -13%;
+	top: 8%;
 	left: 0;
 	z-index: 200;
 }
@@ -197,10 +197,10 @@ header .overlay {
 
 .gradient-color-left {
     position: absolute;
-    top: -15%;
+     top: -3%;
     left: 0;
     width: 75%;
-    height: 45.5%;
+    height: 34.5%;
 	z-index: 100;
 }
 p{
