@@ -26,7 +26,7 @@
      
      <header>
          <div class="navDiv">
-            <nav class="navbar navbar-expand-lg navbar-light">   <!-- "fixed-top" class for fixed in the top -->
+            <nav class="navbar navbar-expand-lg navbar-light fixed-top">   <!-- "fixed-top" class for fixed in the top -->
               <!-- <a class="navbar-brand" href="#"> 
                 <img src="/docs/4.0/assets/brand/bootstrap-solid.svg" width="30" height="30" alt="">
               </a> --> <!-- this for logo -->
@@ -63,11 +63,12 @@
            <img src="{{ asset('image/logo/logo.jpg') }}">
          </div> -->
       <div class="overlay"></div>
-      <video poster="{{ asset('video/bg.jpg') }}" playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
-        <source src="{{ asset('video/Mongolian.mp4') }}" type="video/mp4">
+      <video poster="{{ asset('video/bg.jpg') }}" playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" >
+        <source src="{{ asset('video/mergeFood720p.mp4') }}" type="video/mp4">
       </video>
-
     </header>
+
+    
     <div class="container-fluid first">
       <div id="content" class="row content">
           <div class="col-md-6 align-self-center">   
