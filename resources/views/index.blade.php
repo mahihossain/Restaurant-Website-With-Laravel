@@ -159,59 +159,13 @@
                   </div>
               </div>
           </div>
-          
- {{-- Gallery --}}
 
- {{-- <div class="gallery">
-  <ul>
-  <li>
-    <span>New York</span>
-    <img src='http://i1276.photobucket.com/albums/y465/gaeowyn/new_york_city_2-wallpaper-960x540_zpsce336d7f.jpg' /></li>
-  
-  <li>
-    <span>London</span>
-    <img src='http://i1276.photobucket.com/albums/y465/gaeowyn/london_in_black_and_white-wallpaper-960x540_zpsa7fa9d45.jpg' /></li>
-  
-  <li>
-    <span>Poznań</span>
-    <img src='http://i1276.photobucket.com/albums/y465/gaeowyn/poznan_poland-wallpaper-960x540_zps6a5470ed.jpg' /></li>
-  
-  <li>
-    <span>Chicago</span>
-    <img src='http://i1276.photobucket.com/albums/y465/gaeowyn/cityscape_skyline_chicago_sculpture-wallpaper-960x540_zps19c2d09d.jpg' />
-  </li>
-  
-  <li>
-    <span>Golden Gate</span>
-    <img src='http://i1276.photobucket.com/albums/y465/gaeowyn/golden_gate_in_fog-wallpaper-960x540_zps1f6fc1af.jpg' />
-  </li>
-</ul>
-</div> --}}
 
   
 
 
 
 
-
-<!-- 
-
-       
-       <div class="row" id="footer">
-          <div class="col-sm-5 align-self-centre">
-              <p class=" text-justify text-center">
-                  Muffin I love jelly beans pudding. I love donut chocolate bar topping. Apple pie croissant toffee lollipop lollipop fruitcake tootsie roll biscuit. Oat cake cookie I love bonbon apple pie pudding oat cake carrot cake marzipan.
-              </p>
-          </div>
-          <div class="col-sm-2">
-              <a href="https://www.google.com/maps/place/The+Atrium+Restaurant/@23.8033073,90.4192192,15z/data=!4m5!3m4!1s0x3755c7b1c6ccc04b:0xa6f2a07bd56571af!8m2!3d23.802477!4d90.4228988"  target="_blank"><img class="img-fluid "id="location" src="../assets/atruim-location.png" alt=""></a>
-          </div>
-      </div>
-
-
-
-
--->
 
 
 
