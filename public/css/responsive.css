@@ -90,8 +90,8 @@
         position: absolute;
         top: 0%;
         right: 0;
-        width: 75%;
-        height: 75%;
+        width: 51%;
+        height: 61%;
         z-index: 100;
     }
     
@@ -99,9 +99,54 @@
         position: absolute;
         top: 0%;
         left: 0;
-        width: 75%;
-        height: 75%;
+        width: 51%;
+        height: 61%;
         z-index: 100;
+    }
+    .content {
+      min-height: 100vh !important;
+      flex-wrap: nowrap !important;
+    }
+    .content-two {
+      min-height: 100vh !important;
+      flex-wrap: nowrap !important;
+    }
+    h2{
+      font-size: 4.8rem;
+    }
+    p{
+      font-size: 20px;
+      font-family: 'Yanone Kaffeesatz', sans-serif !important;
+    
+    }
+    
+      .myImg {
+        padding-block-start: 1%;
+        max-width: 56%;
+      }
+
+        /* ============================================positioning the container-fluid div ================================================================== */
+    .first {
+      top: 150% !important;
+      position: absolute !important;
+    }
+    .second {
+      top: 300% !important;
+      position: absolute !important;
+    }
+
+    .third {
+      top: 450% !important;
+      position: absolute !important;
+    }
+
+    .fourth {
+      top: 600% !important;
+      position: absolute !important;
+    }
+    .myImg {
+      padding-block-start: 1%;
+      max-width: 70%;
     }
 }
 
@@ -111,14 +156,14 @@
 	.overlay-left {
 		position: absolute;
 		top: 35%;
-		max-width: 55%;
+		max-width: 60%;
 		z-index: 100;
     }
     
     .overlay-right {
 		position: absolute;
 		top: 35%;
-		max-width: 55%;
+		max-width: 60%;
 		z-index: 100;
     }
     
@@ -126,8 +171,8 @@
         position: absolute;
         top: 0%;
         right: 0;
-        width: 48%;
-        height: 75%;
+        width: 50%;
+        height: 69%;
         z-index: 100;
     }
     
@@ -135,10 +180,34 @@
         position: absolute;
         top: 0%;
         left: 0;
-        width: 48%;
-        height: 75%;
+        width: 50%;
+        height: 69%;
         z-index: 100;
     }
+
+    /* ============================================positioning the container-fluid div ================================================================== */
+      .first {
+        top: 150% !important;
+        position: absolute !important;
+      }
+      .second {
+        top: 300% !important;
+        position: absolute !important;
+      }
+
+      .third {
+        top: 450% !important;
+        position: absolute !important;
+      }
+
+      .fourth {
+        top: 600% !important;
+        position: absolute !important;
+      }
+      .myImg {
+        padding-block-start: 1%;
+        max-width: 65%;
+      }
 }
 
 
@@ -146,15 +215,15 @@
 @media (min-width: 992px) {
 	.overlay-left {
 		position: absolute;
-		top: 4%;
-		max-width: 55%;
+		top: 44%;
+		max-width: 70%;
 		z-index: 100;
     }
     
     .overlay-right {
 		position: absolute;
-		top: 4%;
-		max-width: 55%;
+		top: 44%;
+		max-width: 70%;
 		z-index: 100;
     }
     
@@ -162,8 +231,8 @@
         position: absolute;
         top: 0%;
         right: 0;
-        width: 52%;
-        height: 40%;
+        width: 48%;
+        height: 75%;
         z-index: 100;
     }
     
@@ -171,10 +240,34 @@
         position: absolute;
         top: 0%;
         left: 0;
-        width: 52%;
-        height: 40%;
+        width: 48%;
+        height: 75%;
         z-index: 100;
     }
+
+    /* ============================================positioning the container-fluid div ================================================================== */
+      .first {
+        top: 150% !important;
+        position: absolute !important;
+      }
+      .second {
+        top: 300% !important;
+        position: absolute !important;
+      }
+
+      .third {
+        top: 450% !important;
+        position: absolute !important;
+      }
+
+      .fourth {
+        top: 600% !important;
+        position: absolute !important;
+      }
+      .myImg {
+        padding-block-start: 1%;
+        max-width: 50%;
+      }
 }
 
 
@@ -212,20 +305,38 @@
         z-index: 100;
     }
     h2{
-      font-size: 6.8rem !important;
+      font-size: 7.8rem !important;
     }
+    p{
+      font-size: 20px;
+      font-family: 'Yanone Kaffeesatz', sans-serif !important;
+    
+    }
+    .myImg {
+      padding-block-start: 1%;
+      max-width: 80%;
+    }
+
+    /* ============================================positioning the container-fluid div ================================================================== */
+      .first {
+        top: 150% !important;
+        position: absolute !important;
+      }
+      .second {
+        top: 300% !important;
+        position: absolute !important;
+      }
+
+      .third {
+        top: 450% !important;
+        position: absolute !important;
+      }
+
+      .fourth {
+        top: 600% !important;
+        position: absolute !important;
+      }
+     
+
 }
 
-@media (min-width: 576px) {
-	.content {
-		min-height: 100vh !important;
-		flex-wrap: nowrap !important;
-  }
-  .content-two {
-		min-height: 100vh !important;
-		flex-wrap: nowrap !important;
-  }
-  h2{
-    font-size: 2.8rem !important;
-  }
-}
