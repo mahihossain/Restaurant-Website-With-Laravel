@@ -25,7 +25,9 @@
          
      
      <header>
-         
+         <div id="logo_center" >
+           
+         </div>
             <nav class="navbar navbar-expand-lg navbar-light fixed-top">   <!-- "fixed-top" class for fixed in the top -->
               <!-- <a class="navbar-brand" href="#"> 
                 <img src="/docs/4.0/assets/brand/bootstrap-solid.svg" width="30" height="30" alt="">
@@ -59,7 +61,14 @@
               </div>
             </nav>
 
-
+      <div class="Div">
+        <div class="container-fluid logo_back">
+          <div id="logo_center">
+            <a href="#jump"><img src="{{ asset('image/logo/logo.png') }}" class="logo_size"></a>
+          </div>
+        </div>
+      </div>
+            
         
         <!--  <div id="">   try to put image on top of video
            <img src="{{ asset('image/logo/logo.jpg') }}">
@@ -71,7 +80,7 @@
     </header>
 
     
-    <div class="container-fluid first">
+    <div class="container-fluid first" id="jump">
       <div id="content" class="row content">
           <div class="col-md-6 align-self-center">   
               <h2 class=" text-justify text-center">Thai</h2>
