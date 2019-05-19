@@ -137,21 +137,21 @@ header .overlay {
 }
 /* ============================================positioning the container-fluid div ================================================================== */
 .first {
-	top: 120% !important;
+	top: 150% !important;
 	position: absolute !important;
 }
 .second {
-	top: 230% !important;
+	top: 300% !important;
 	position: absolute !important;
 }
 
 .third {
-	top: 330% !important;
+	top: 450% !important;
 	position: absolute !important;
 }
 
 .fourth {
-	top: 440% !important;
+	top: 600% !important;
 	position: absolute !important;
 }
 /* ============================================positioning the container-fluid div ================================================================== */
@@ -173,7 +173,7 @@ header .overlay {
 
 .overlay-right {
 	position: absolute;
-	top: 6%;
+	top: -10%;
 	right: 0;
 	z-index: 200;
 	
@@ -181,14 +181,14 @@ header .overlay {
 
 .overlay-left {
 	position: absolute;
-	top: 10%;
+	top: -10%;
 	left: 0;
 	z-index: 200;
 }
 
 .gradient-color-right {
-	position: absolute;
-	top: 0%;
+	  position: absolute;
+	  top: -15%;
     right: 0;
     width: 75%;
     height: 32.5%;
@@ -196,10 +196,17 @@ header .overlay {
 }
 
 .gradient-color-left {
-	position: absolute;
-	top: 0%;
+    position: absolute;
+    top: -15%;
     left: 0;
     width: 75%;
     height: 32.5%;
 	z-index: 100;
+}
+p{
+  font-size: 20px;
+}
+
+h2{
+  font-size: 4.1rem !important;
 }

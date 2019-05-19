@@ -70,6 +70,7 @@
     <div class="container-fluid first">
       <div id="content" class="row content">
           <div class="col-md-6 align-self-center">   
+              <h2 class=" text-justify text-center">Thai</h2>
               <p class=" text-justify text-center">
                   Croissant donut cake lemon drops cake candy pudding. Lollipop I love topping jelly beans bonbon. Tart dessert croissant lemon drops biscuit bear claw sugar plum donut I love. Cotton candy pie cake liquorice wafer powder jujubes bonbon.
               </p>
@@ -94,7 +95,8 @@
           <div class="col-md-6">
               
           </div>
-          <div class="col-md-6 align-self-center">   
+          <div class="col-md-6 align-self-center"> 
+              <h2 class=" text-justify text-center">Indian</h2>  
               <p class=" text-justify text-center">
                   Croissant donut cake lemon drops cake candy pudding. Lollipop I love topping jelly beans bonbon. Tart dessert croissant lemon drops biscuit bear claw sugar plum donut I love. Cotton candy pie cake liquorice wafer powder jujubes bonbon.
               </p>
@@ -113,7 +115,8 @@
 
   <div class="container-fluid third">
           <div id="content" class="row content">
-              <div class="col-md-6 align-self-center">   
+              <div class="col-md-6 align-self-center">  
+                  <h2 class=" text-justify text-center">Continental</h2> 
                   <p class=" text-justify text-center">
                       Croissant donut cake lemon drops cake candy pudding. Lollipop I love topping jelly beans bonbon. Tart dessert croissant lemon drops biscuit bear claw sugar plum donut I love. Cotton candy pie cake liquorice wafer powder jujubes bonbon.
                   </p>
@@ -139,6 +142,7 @@
                       
                   </div>
                   <div class="col-md-6 align-self-center">   
+                      <h2 class ="text-justify text-center">Tasty</h2>
                       <p class=" text-justify text-center">
                           Croissant donut cake lemon drops cake candy pudding. Lollipop I love topping jelly beans bonbon. Tart dessert croissant lemon drops biscuit bear claw sugar plum donut I love. Cotton candy pie cake liquorice wafer powder jujubes bonbon.
                       </p>
