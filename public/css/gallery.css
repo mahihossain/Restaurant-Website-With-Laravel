@@ -42,11 +42,11 @@ body{background-color: black;}*/
   box-shadow:-2px 0 10px 2px;
 }
 
-ul li:first-child {
+.gallery ul li:first-child {
   border:none;
 }
 
-span {
+.gallery ul li span {
   display:block;
   position:absolute;
   bottom:0;
@@ -64,17 +64,17 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', e
 
 }
 
-img {
+.gallery ul li span img {
   width:800px;
   height:450px;
 }
 
-ul:hover li {
+.gallery ul:hover li {
   width:50px;  
 }
 
 
-ul li:hover {
+.gallery ul li:hover {
   width:750px;
 }
 
