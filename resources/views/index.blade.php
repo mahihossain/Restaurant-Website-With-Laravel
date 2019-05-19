@@ -12,6 +12,7 @@
     <!-- myCss -->
         <link rel="stylesheet" href="{{ asset('css/style.css') }}">
         <link rel="stylesheet" href="{{ asset('css/responsive.css') }}">
+        <link rel="stylesheet" type="text/css" href="{{ asset('css/gallery.css') }}">
 
 
 </head>
@@ -158,7 +159,33 @@
               </div>
           </div>
           
-      
+ {{-- Gallery --}}
+
+ <div class="gallery">
+  <ul>
+  <li>
+    <span>New York</span>
+    <img src='http://i1276.photobucket.com/albums/y465/gaeowyn/new_york_city_2-wallpaper-960x540_zpsce336d7f.jpg' /></li>
+  
+  <li>
+    <span>London</span>
+    <img src='http://i1276.photobucket.com/albums/y465/gaeowyn/london_in_black_and_white-wallpaper-960x540_zpsa7fa9d45.jpg' /></li>
+  
+  <li>
+    <span>Poznań</span>
+    <img src='http://i1276.photobucket.com/albums/y465/gaeowyn/poznan_poland-wallpaper-960x540_zps6a5470ed.jpg' /></li>
+  
+  <li>
+    <span>Chicago</span>
+    <img src='http://i1276.photobucket.com/albums/y465/gaeowyn/cityscape_skyline_chicago_sculpture-wallpaper-960x540_zps19c2d09d.jpg' />
+  </li>
+  
+  <li>
+    <span>Golden Gate</span>
+    <img src='http://i1276.photobucket.com/albums/y465/gaeowyn/golden_gate_in_fog-wallpaper-960x540_zps1f6fc1af.jpg' />
+  </li>
+</ul>
+</div>
 
   
 
