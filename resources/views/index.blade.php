@@ -162,7 +162,7 @@
           
  {{-- Gallery --}}
 
- <div class="gallery">
+ {{-- <div class="gallery">
   <ul>
   <li>
     <span>New York</span>
@@ -186,7 +186,7 @@
     <img src='http://i1276.photobucket.com/albums/y465/gaeowyn/golden_gate_in_fog-wallpaper-960x540_zps1f6fc1af.jpg' />
   </li>
 </ul>
-</div>
+</div> --}}
 
   
 
