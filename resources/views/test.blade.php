@@ -7,9 +7,16 @@
 <link rel="stylesheet" href="http://blueimp.github.io/Gallery/css/blueimp-gallery.min.css">
 <link rel="stylesheet" href="https://raw.github.com/blueimp/Bootstrap-Image-Gallery/master/css/bootstrap-image-gallery.css">
 <link rel="stylesheet" href="https://raw.github.com/blueimp/Bootstrap-Image-Gallery/master/css/demo.css">
-<div class="container">
+
+<style type="text/css">
+</style>
+
+<div class="gallery">
+    <div class="container">
     <!-- The container for the list of example images -->
-    <div id="links">
+    <div class="row">
+        <div class="">
+            <div id="links">
         <a data-gallery="" title="Natalia" href="http://farm4.static.flickr.com/3812/11188050815_5e8cccf0f6_b.jpg">
             <img src="http://farm4.static.flickr.com/3812/11188050815_5e8cccf0f6_s.jpg">
         </a>
@@ -68,8 +75,12 @@
             <img src="http://farm8.static.flickr.com/7455/11187819606_c008b36106_s.jpg">
         </a>
     </div>
+        </div>
+    </div>
     <br>
 </div>
+</div>
+
 <!-- The Bootstrap Image Gallery lightbox, should be a child element of the document body -->
 <div id="blueimp-gallery" class="blueimp-gallery">
     <!-- The container for the modal slides -->
