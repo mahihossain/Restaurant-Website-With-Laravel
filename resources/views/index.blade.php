@@ -65,8 +65,9 @@
       <video poster="{{ asset('video/bg.jpg') }}" playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
         <source src="{{ asset('video/Mongolian.mp4') }}" type="video/mp4">
       </video>
-
     </header>
+
+    
     <div class="container-fluid first">
       <div id="content" class="row content">
           <div class="col-md-6 align-self-center">   
