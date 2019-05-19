@@ -288,9 +288,9 @@
 
     <!-- myJS -->
         <script src="{{ asset('js/active.js') }}"></script>
-        <script>
+        {{-- <script>
             baguetteBox.run('.compact-gallery',{animation:'slideIn'});
-        </script>
+        </script> --}}
   
 </body>
 </html>
