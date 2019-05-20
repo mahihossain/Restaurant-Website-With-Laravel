@@ -253,7 +253,7 @@ h2{
   padding-top: 60px;
 }
 
-.gallery-block .heading{
+/* .gallery-block .heading{
     margin-bottom: 50px;
     text-align: center;
 }
@@ -263,11 +263,11 @@ h2{
     font-size: 1.4rem;
     text-transform: uppercase;
 }
-
+ */
 .gallery-block.compact-gallery .item{
   overflow: hidden;
   margin-bottom: 0;
-  background: black;
+  background: rgba(0, 0, 0, 0);
   opacity: 1;
 }
 
