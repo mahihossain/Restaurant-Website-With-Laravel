@@ -227,9 +227,9 @@ header .overlay {
     left: 0;
     width: 75%;
     height: 34.5%;
-	z-index: 100;
+	  z-index: 100;
 }
-h2 p{
+div p{
   font-size: 18px;
   font-family: 'Yanone Kaffeesatz', sans-serif !important;
 
@@ -240,7 +240,13 @@ h2{
   font-family: 'Yanone Kaffeesatz', sans-serif !important;
 
 }
+.continental-h2{
+  color: #83c083;
+}
+.continental-p{
+  color: #83c983;
 
+}
 /* ........................GAllery............................................ */
 .gallery-block{
   padding-bottom: 60px;
@@ -312,7 +318,7 @@ a.animated-button:link, a.animated-button:visited {
 	position: relative;
 	display: block;
 	margin: 30px auto 0;
-	padding: 14px 15px;
+	padding: 14px 8.5px;
 	color: #2b2b2b;
 	font-size:14px;
 	font-weight: bold;
@@ -342,7 +348,7 @@ a.animated-button:link:after, a.animated-button:visited:after {
 	transition: all 0.75s ease 0s;
 }
 a.animated-button:link:hover, a.animated-button:visited:hover {
-	color: pink;               /*when box fills up the text color */
+	color: #83a6c9;               /*when box fills up the text color */
 	text-shadow: none;
 }
 a.animated-button:link:hover:after, a.animated-button:visited:hover:after {
@@ -352,8 +358,8 @@ a.animated-button:link, a.animated-button:visited {
 	position: relative;
 	display: block;
 	margin: 30px auto 0;
-	padding: 14px 15px;
-	color: #2b2b2b;       /* text color normal */
+	padding: 14px 8.5px;
+	color: #83c983;       /* text color normal */
 	font-size:14px;
 	border-radius: 0;
 	font-weight: bold;
@@ -369,10 +375,10 @@ a.animated-button:link, a.animated-button:visited {
 	transition: all 1s ease;
 }
 a.animated-button.victoria-four {
-	border: 2px solid #D24D57;
+	border: 2px solid #83c9c9;
 }
 a.animated-button.victoria-four:after {
-	background: #D24D57;
+	background: #83c9c9;
 	opacity: .5;
 	-moz-transform: translateY(-50%) translateX(-50%) rotate(90deg);
 	-ms-transform: translateY(-50%) translateX(-50%) rotate(90deg);

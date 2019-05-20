@@ -109,7 +109,7 @@
               
           </div>
           <div class="col-md-6 align-self-center"> 
-              <h2 class=" text-justify text-center">Continental</h2>  
+              <h2 class=" text-justify text-center">Indian</h2>  
               <p class=" text-justify text-center">
                   Croissant donut cake lemon drops cake candy pudding. Lollipop I love topping jelly beans bonbon. Tart dessert croissant lemon drops biscuit bear claw sugar plum donut I love. Cotton candy pie cake liquorice wafer powder jujubes bonbon.
               </p>
@@ -122,7 +122,7 @@
               <img class="gradient-color-left gradient-color" alt="Responsive image" src="{{asset('image/foodhighlite/continental-back.png')}}">
           </div>
           <div class="overlay-left">
-              <img class="img-fluid rounded float-left myImg" alt="Responsive image" src="{{asset('image/foodhighlite/continental.png')}}">
+              <img class="img-fluid rounded float-left myImg" alt="Responsive image" src="{{asset('image/foodhighlite/thai.png')}}">
           </div>
       </div>
   </div>
@@ -131,7 +131,7 @@
   <div class="container-fluid third">
           <div id="content" class="row content">
               <div class="col-md-6 align-self-center">  
-                  <h2 class=" text-justify text-center">Indian</h2> 
+                  <h2 class=" text-justify text-center continental-h2">Continental</h2> 
                   <p class=" text-justify text-center">
                       Croissant donut cake lemon drops cake candy pudding. Lollipop I love topping jelly beans bonbon. Tart dessert croissant lemon drops biscuit bear claw sugar plum donut I love. Cotton candy pie cake liquorice wafer powder jujubes bonbon.
                   </p>
@@ -146,7 +146,7 @@
                   <img  class="gradient-color-right" src="{{asset('image/foodhighlite/continental-back.png')}}">
               </div>
               <div class="overlay-right">
-                  <img class="img-fluid rounded float-right myImg" alt="Responsive image" src="{{asset('image/foodhighlite/thai.png')}}">
+                  <img class="img-fluid rounded float-right myImg" alt="Responsive image" src="{{asset('image/foodhighlite/continental.png')}}">
               </div>
           </div>
       </div>
@@ -157,9 +157,9 @@
                   <div class="col-md-6">
                       
                   </div>
-                  <div class="col-md-6 align-self-center">   
-                      <h2 class ="text-justify text-center">Tasty</h2>
-                      <p class=" text-justify text-center">
+                  <div class="col-md-6 align-self-md-center">   
+                      <h2 class ="text-justify text-center ">Tasty</h2>
+                      <p class=" text-justify text-center continental">
                           Croissant donut cake lemon drops cake candy pudding. Lollipop I love topping jelly beans bonbon. Tart dessert croissant lemon drops biscuit bear claw sugar plum donut I love. Cotton candy pie cake liquorice wafer powder jujubes bonbon.
                       </p>
                       <div class="row">
