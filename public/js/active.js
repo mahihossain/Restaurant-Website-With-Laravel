@@ -23,23 +23,3 @@ $(window).scroll(function(e){
   }
 
 });
-
-$(window).resize(function(){
-
-       if ($(window).width() <= 1920) {  
-
-			             $(window).scroll(function(e){ 
-			  var $el = $('.fixedElement'); 
-
-			    if ($(this).scrollTop() > 1050){ 
-			    $el.css({'position': 'fixed', 'top': '0px'}); 
-			  }
-			    if ($(this).scrollTop() < 1050){ 
-			    $el.css({'position': 'relative', 'top': '0px'}); 
-			  }
-
-			});
-
-       }     
-
-});
