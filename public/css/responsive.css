@@ -6,10 +6,7 @@
     .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
         font-size: 35px;
     }
-    .logo_back {
-    margin-top: 987px;
-    width: 1918px;
-}
+
     .logo_size {
     height: 94px;
     width: 114px;
@@ -65,29 +62,7 @@
 /* Extra Small Devices (Portrait Phones & Smaller Devices) */
 
 @media (max-width: 480px) {
-  .logo_back {
-    background-color: rgba(255, 255, 255, 0.1);
-    margin-top: 591px;
-    width: 416px;
-    height: 76px;
-}
 
-/*   .logo_back{
-  background-color: rgba(255, 255, 255, 0.1);
-  margin-top: 586px;
-  width: 1366px;
-  height: 100px;
-}
-
-#logo_center { 
-  display: flex; 
-  justify-content: center; }
-
-.logo_size{
-  height: 75px;
-  width: 97px;
-}
- */
 
 }
 /* Extra Small Devices (Portrait Phones & Smaller Devices) */
