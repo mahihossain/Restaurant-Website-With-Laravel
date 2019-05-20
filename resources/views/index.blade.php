@@ -86,6 +86,7 @@
               <p class=" text-justify text-center">
                   Croissant donut cake lemon drops cake candy pudding. Lollipop I love topping jelly beans bonbon. Tart dessert croissant lemon drops biscuit bear claw sugar plum donut I love. Cotton candy pie cake liquorice wafer powder jujubes bonbon.
               </p>
+              <div class="col-md-3 col-sm-3 col-xs-6 offset-button"> <a href="#" class="btn btn-sm animated-button victoria-four">MENU</a> </div>
           </div>
           <div  class="col-md-6" >
               
@@ -112,6 +113,8 @@
               <p class=" text-justify text-center">
                   Croissant donut cake lemon drops cake candy pudding. Lollipop I love topping jelly beans bonbon. Tart dessert croissant lemon drops biscuit bear claw sugar plum donut I love. Cotton candy pie cake liquorice wafer powder jujubes bonbon.
               </p>
+              <div class="col-md-3 col-sm-3 col-xs-6 offset-button"> <a href="#" class="btn btn-sm animated-button victoria-four">MENU</a> </div>
+
           </div>
       </div>
       <div>
@@ -132,6 +135,7 @@
                   <p class=" text-justify text-center">
                       Croissant donut cake lemon drops cake candy pudding. Lollipop I love topping jelly beans bonbon. Tart dessert croissant lemon drops biscuit bear claw sugar plum donut I love. Cotton candy pie cake liquorice wafer powder jujubes bonbon.
                   </p>
+                  <div class="col-md-3 col-sm-3 col-xs-6 offset-button"> <a href="#" class="btn btn-sm animated-button victoria-four">MENU</a> </div>
               </div>
               <div class="col-md-6">
                   
@@ -158,7 +162,9 @@
                       <p class=" text-justify text-center">
                           Croissant donut cake lemon drops cake candy pudding. Lollipop I love topping jelly beans bonbon. Tart dessert croissant lemon drops biscuit bear claw sugar plum donut I love. Cotton candy pie cake liquorice wafer powder jujubes bonbon.
                       </p>
-                      <div class="col-md-3 col-sm-3 col-xs-6 offset-md-4"> <a href="#" class="btn btn-sm animated-button victoria-four">Learn more</a> </div>
+                      <div class="row">
+                        <div class="col-md-3 col-sm-3 col-xs-6 offset-button"> <a href="#" class="btn btn-sm animated-button victoria-four ">Learn More</a> </div>
+                      </div>
                   </div>
               </div>
               <div>

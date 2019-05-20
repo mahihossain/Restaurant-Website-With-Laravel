@@ -313,7 +313,7 @@ a.animated-button:link, a.animated-button:visited {
 	display: block;
 	margin: 30px auto 0;
 	padding: 14px 15px;
-	color: #fff;
+	color: #2b2b2b;
 	font-size:14px;
 	font-weight: bold;
 	text-align: center;
@@ -342,7 +342,7 @@ a.animated-button:link:after, a.animated-button:visited:after {
 	transition: all 0.75s ease 0s;
 }
 a.animated-button:link:hover, a.animated-button:visited:hover {
-	color: #FFF;
+	color: pink;               /*when box fills up the text color */
 	text-shadow: none;
 }
 a.animated-button:link:hover:after, a.animated-button:visited:hover:after {
@@ -353,7 +353,7 @@ a.animated-button:link, a.animated-button:visited {
 	display: block;
 	margin: 30px auto 0;
 	padding: 14px 15px;
-	color: #fff;
+	color: #2b2b2b;       /* text color normal */
 	font-size:14px;
 	border-radius: 0;
 	font-weight: bold;
