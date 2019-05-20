@@ -178,8 +178,9 @@
           </div>
 <!-- 
 ............................................gallery -->
-          <div class="gallery-block compact-gallery fifth">
-            <div class="container">
+<div id="logo_center">
+  <div class="gallery-block compact-gallery fifth">
+            <div class="container-fluid">
               <div class="heading">
               </div>
               
@@ -280,6 +281,8 @@
               </div>
             </div>
           </div>
+</div>
+          
 
 
 
