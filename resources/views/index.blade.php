@@ -28,7 +28,7 @@
      <header>
 
           <div class="Div" id="logo_center">
-            <nav class="navbar navbar-expand-lg navbar-light ">   <!-- "fixed-top" class for fixed in the top -->
+            <nav class="navbar navbar-expand-lg navbar-light " id="jump">   <!-- "fixed-top" class for fixed in the top -->
               <!-- <a class="navbar-brand" href="#"> 
                 <img src="/docs/4.0/assets/brand/bootstrap-solid.svg" width="30" height="30" alt="">
               </a> --> <!-- this for logo -->
@@ -74,12 +74,12 @@
     <!--............ logo ..............-->
     <div class="container-fluid logo_back fixedElement">
       <div id="logo_center">
-        <a href="#logo_centre"><img src="{{ asset('image/logo/logo.png') }}" class="logo_size"></a>
+        <a href="#jump"><img src="{{ asset('image/logo/logo.png') }}" class="logo_size"></a>
       </div>
     </div>
 
     <!-- .........................food highlite start........................... -->
-    <div class="container-fluid first" id="jump">
+    <div class="container-fluid first" >
       <div id="content" class="row content">
           <div class="col-md-6 align-self-center">   
               <h2 class=" text-justify text-center thai-h2">Thai</h2>
