@@ -63,9 +63,16 @@
             </nav>
           </div>
 
-<!--       <div class="Div">
-
-      </div> -->
+       <!--  tst code for adding image in vdo  <div class="Div">
+            <div id="logo_center">
+              <div class="container-fluid">
+                <div class="row">
+                  <img src="{{ asset('image/logo/logo1.png') }}" class="img-fluid">
+                </div>
+              </div>
+              
+            </div>
+          </div> -->
 
       <div class="overlay"></div>
       <video poster="{{ asset('video/bg.jpg') }}" playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" >
