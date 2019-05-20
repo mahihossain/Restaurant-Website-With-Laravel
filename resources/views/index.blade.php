@@ -5,9 +5,10 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <title>Artrium</title>
       <!-- gallery -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.css" />        <!-- font -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.css" />      <!-- font -->
         <link href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz" rel="stylesheet"> 
-    <!-- bootsratp -->
+        <link href='http://fonts.googleapis.com/css?family=Just+Another+Hand' rel='stylesheet' type='text/css'>
+      <!-- bootsratp -->
         <link rel="stylesheet" href="{{asset('css/app.css')}}">
     <!-- myCss -->
         <link rel="stylesheet" href="{{ asset('css/style.css') }}">
