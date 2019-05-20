@@ -174,11 +174,29 @@
       top: 600% !important;
       position: absolute !important;
     }
+    .fifth{
+    top: 750% !important;
+    position: absolute !important;
+    }
     .myImg {
       padding-block-start: 1%;
      max-width: 81%;
     }
-}
+    /* .............gallery.......... */
+
+       .gallery-block.compact-gallery .item .description {
+      opacity: 0; 
+    }
+
+    .gallery-block.compact-gallery .item a:hover .description {
+      opacity: 1; 
+    } 
+
+    .gallery-block .zoom-on-hover:hover .image {
+      transform: scale(1.3);
+      opacity: 0.7; 
+    }
+  }
 
 
 /* // Medium devices (tablets, 768px and up) */
@@ -234,6 +252,10 @@
         top: 600% !important;
         position: absolute !important;
       }
+      .fifth{
+    top: 750% !important;
+    position: absolute !important;
+    }
       .myImg {
         padding-block-start: 1%;
         max-width: 65%;
@@ -294,6 +316,10 @@
         top: 600% !important;
         position: absolute !important;
       }
+      .fifth{
+    top: 750% !important;
+    position: absolute !important;
+    }
       .myImg {
         padding-block-start: 1%;
         max-width: 50%;
