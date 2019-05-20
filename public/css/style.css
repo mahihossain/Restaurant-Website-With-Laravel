@@ -224,7 +224,7 @@ header .overlay {
     height: 34.5%;
 	z-index: 100;
 }
-p{
+h2 p{
   font-size: 18px;
   font-family: 'Yanone Kaffeesatz', sans-serif !important;
 
