@@ -26,10 +26,9 @@
          
      
      <header>
-         <div id="logo_center" >
-           
-         </div>
-            <nav class="navbar navbar-expand-lg navbar-light fixed-top">   <!-- "fixed-top" class for fixed in the top -->
+
+          <div class="Div" id="logo_center">
+            <nav class="navbar navbar-expand-lg navbar-light ">   <!-- "fixed-top" class for fixed in the top -->
               <!-- <a class="navbar-brand" href="#"> 
                 <img src="/docs/4.0/assets/brand/bootstrap-solid.svg" width="30" height="30" alt="">
               </a> --> <!-- this for logo -->
@@ -61,6 +60,7 @@
                 
               </div>
             </nav>
+          </div>
 
 <!--       <div class="Div">
 
