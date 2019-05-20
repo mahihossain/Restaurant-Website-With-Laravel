@@ -86,7 +86,7 @@
               <p class=" text-justify text-center thai-p">
                   Croissant donut cake lemon drops cake candy pudding. Lollipop I love topping jelly beans bonbon. Tart dessert croissant lemon drops biscuit bear claw sugar plum donut I love. Cotton candy pie cake liquorice wafer powder jujubes bonbon.
                   Ice cream dragée marzipan. I love pastry cotton candy cookie powder macaroon marshmallow muffin jelly-o. I love cupcake carrot cake.
-                  Gingerbread liquorice chocolate cake ice cream cotton candy gummies. Cotton candy sesame snaps topping lollipop I love I love donut I love cotton candy. Gingerbread cookie sugar plum oat cake I love caramels bear claw bear claw. Jelly-o halvah I love soufflé gummies.
+                  
               </p>
               <div class="col-md-3 col-sm-3 col-xs-6 offset-button"> <a href="#" class="btn btn-sm animated-button-thai btn-thai">MENU</a> </div>
           </div>
@@ -115,7 +115,7 @@
               <p class=" text-justify text-center">
                 Croissant donut cake lemon drops cake candy pudding. Lollipop I love topping jelly beans bonbon. Tart dessert croissant lemon drops biscuit bear claw sugar plum donut I love. Cotton candy pie cake liquorice wafer powder jujubes bonbon.
                 Ice cream dragée marzipan. I love pastry cotton candy cookie powder macaroon marshmallow muffin jelly-o. I love cupcake carrot cake.
-                Gingerbread liquorice chocolate cake ice cream cotton candy gummies. Cotton candy sesame snaps topping lollipop I love I love donut I love cotton candy. Gingerbread cookie sugar plum oat cake I love caramels bear claw bear claw. Jelly-o halvah I love soufflé gummies.
+                
               </p>
               <div class="col-md-3 col-sm-3 col-xs-6 offset-button"> <a href="#" class="btn btn-sm animated-button-indian btn-indi">MENU</a> </div>
 
@@ -139,7 +139,7 @@
                   <p class=" text-justify text-center continental-p">
                     Croissant donut cake lemon drops cake candy pudding. Lollipop I love topping jelly beans bonbon. Tart dessert croissant lemon drops biscuit bear claw sugar plum donut I love. Cotton candy pie cake liquorice wafer powder jujubes bonbon.
                     Ice cream dragée marzipan. I love pastry cotton candy cookie powder macaroon marshmallow muffin jelly-o. I love cupcake carrot cake.
-                    Gingerbread liquorice chocolate cake ice cream cotton candy gummies. Cotton candy sesame snaps topping lollipop I love I love donut I love cotton candy. Gingerbread cookie sugar plum oat cake I love caramels bear claw bear claw. Jelly-o halvah I love soufflé gummies.
+                    
                   </p>
                   <div class="col-md-3 col-sm-3 col-xs-6 offset-button"> <a href="#" class="btn btn-sm animated-button-continental btn-con">MENU</a> </div>
               </div>
@@ -168,7 +168,6 @@
                       <p class=" text-justify text-center continental">
                         Croissant donut cake lemon drops cake candy pudding. Lollipop I love topping jelly beans bonbon. Tart dessert croissant lemon drops biscuit bear claw sugar plum donut I love. Cotton candy pie cake liquorice wafer powder jujubes bonbon.
                         Ice cream dragée marzipan. I love pastry cotton candy cookie powder macaroon marshmallow muffin jelly-o. I love cupcake carrot cake.
-                        Gingerbread liquorice chocolate cake ice cream cotton candy gummies. Cotton candy sesame snaps topping lollipop I love I love donut I love cotton candy. Gingerbread cookie sugar plum oat cake I love caramels bear claw bear claw. Jelly-o halvah I love soufflé gummies.
                       </p>
                       <div class="row">
                         <div class="col-md-3 col-sm-3 col-xs-6 offset-button"> <a href="#" class="btn btn-sm animated-button victoria-four ">Learn More</a> </div>
