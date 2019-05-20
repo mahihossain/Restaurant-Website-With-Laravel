@@ -156,32 +156,7 @@
       }
 
         /* ============================================positioning the container-fluid div ================================================================== */
-    .first {
-      top: 150% !important;
-      position: absolute !important;
-    }
-    .second {
-      top: 300% !important;
-      position: absolute !important;
-    }
-
-    .third {
-      top: 450% !important;
-      position: absolute !important;
-    }
-
-    .fourth {
-      top: 600% !important;
-      position: absolute !important;
-    }
-    .fifth{
-    top: 750% !important;
-    position: absolute !important;
-    }
-    .myImg {
-      padding-block-start: 1%;
-     max-width: 81%;
-    }
+ 
     /* .............gallery.......... */
 
        .gallery-block.compact-gallery .item .description {
@@ -234,32 +209,7 @@
     }
 
     /* ============================================positioning the container-fluid div ================================================================== */
-      .first {
-        top: 150% !important;
-        position: absolute !important;
-      }
-      .second {
-        top: 300% !important;
-        position: absolute !important;
-      }
-
-      .third {
-        top: 450% !important;
-        position: absolute !important;
-      }
-
-      .fourth {
-        top: 600% !important;
-        position: absolute !important;
-      }
-      .fifth{
-    top: 750% !important;
-    position: absolute !important;
-    }
-      .myImg {
-        padding-block-start: 1%;
-        max-width: 65%;
-      }
+    
 }
 
 
@@ -298,28 +248,7 @@
     }
 
     /* ============================================positioning the container-fluid div ================================================================== */
-      .first {
-        top: 150% !important;
-        position: absolute !important;
-      }
-      .second {
-        top: 300% !important;
-        position: absolute !important;
-      }
-
-      .third {
-        top: 450% !important;
-        position: absolute !important;
-      }
-
-      .fourth {
-        top: 600% !important;
-        position: absolute !important;
-      }
-      .fifth{
-    top: 750% !important;
-    position: absolute !important;
-    }
+     
       .myImg {
         padding-block-start: 1%;
         max-width: 50%;
