@@ -86,14 +86,20 @@ header .overlay {
   width: 100%;
    
 }
+.fixedElement {
+    
+    position:relative;
+    top:0;
+    z-index:2000;
+}
 
-.logo_back{
+/* .logo_back{
   background-color: rgba(255, 255, 255, 0.1);
   margin-top: 586px;
   width: 1366px;
   height: 100px;
 }
-
+ */
 #logo_center { 
   display: flex; 
   justify-content: center; }
