@@ -142,7 +142,7 @@ header .overlay {
 
 .myImg {
 	padding-block-start: 1%;
-	max-width: 60%;
+	max-width: 44%;
 }
 
 .genre {
@@ -208,7 +208,7 @@ header .overlay {
 
 .overlay-left {
 	position: absolute;
-	top: 8%;
+	top: 3%;
 	left: 0;
 	z-index: 200;
 }
@@ -222,6 +222,37 @@ header .overlay {
 	z-index: 100;
 }
 
+.gradient-color-right-thai {
+	position: absolute;
+	top: -15%;
+	right: 0;
+	width: 75%;
+	height: 32.5%;
+	z-index: 100;
+	background: #e1ff00;
+}
+.gradient-color-left-indian {
+	position: absolute;
+	top: -15%;
+	left: 0;
+	width: 75%;
+	height: 32.5%;
+	z-index: 100;
+	background: #c56047;
+}
+
+.gradient-color-right-continental {
+	position: absolute;
+	top: -15%;
+	right: 0;
+	width: 75%;
+	height: 32.5%;
+	z-index: 100;
+	background: #e1ff00;
+}
+
+
+
 .gradient-color-left {
     position: absolute;
      top: -3%;
@@ -231,9 +262,19 @@ header .overlay {
 	  z-index: 100;
 }
 
+.gradient-color-left-indian {
+	position: absolute;
+	top: -15%;
+	left: 0;
+	width: 75%;
+	height: 32.5%;
+	z-index: 100;
+	background: #c56047;
+}
+
 /* =================================================================sizing the paragraphs and the h2=========================================================== */
 div p{
-  font-size: 22px;
+  font-size: 12px;
   font-family: 'Yanone Kaffeesatz', sans-serif !important;
 
 }
@@ -672,6 +713,7 @@ a.animated-button-continental.btn-con:hover:after {
 	animation-duration: 4s;
 	border-color: #14acae;
 	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
 	
 }
 polygon{
@@ -682,11 +724,11 @@ polygon{
 }
 
 @keyframes triangle-svg{
-	0% {stroke: #2b2b2b; left: 0px;}
-	25% {stroke: #83a6c9; left: 100px;}
-	50% {stroke: #ae14ac; left: 150px;}
-	75% {stroke: #97aa03; left: 100px;}
-	100% {stroke: #8e1805; left: 0px;}
+	0% {stroke: #2b2b2b; }
+	25% {stroke: #83a6c9;}
+	50% {stroke: #ae14ac; }
+	75% {stroke: #97aa03; }
+	100% {stroke: #8e1805;}
 }
 
 @keyframes triangle-box{
@@ -709,6 +751,8 @@ polygon{
 	animation-duration: 4s;
 	border-color: #14acae;
 	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+
 }
 
 .wavey{

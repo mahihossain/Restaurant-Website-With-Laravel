@@ -113,6 +113,33 @@
         height: 61%;
         z-index: 100;
     }
+    .gradient-color-right-thai {
+      position: absolute;
+      top: 15%;
+      right: 0;
+      width: 48%;
+      height: 75%;
+      z-index: 100;
+      background: #e1ff00;
+    }
+    .gradient-color-right-continental {
+      position: absolute;
+      top: 15%;
+      right: 0;
+      width: 48%;
+      height: 75%;
+      z-index: 100;
+      background: #e1ff00;
+    }
+    .gradient-color-left-indian {
+      position: absolute;
+      top: 15%;
+      left: 0;
+      width: 48%;
+      height: 75%;
+      z-index: 100;
+      background: #c56047;
+    }
     
     .gradient-color-left {
         position: absolute;
@@ -143,6 +170,12 @@
         padding-block-start: 1%;
         max-width: 56%;
       }
+
+      div p{
+        font-size: 12px;
+        font-family: 'Yanone Kaffeesatz', sans-serif !important;
+      
+      }
  }
         /* ============================================positioning the container-fluid div ================================================================== */
 
@@ -172,6 +205,34 @@
         height: 69%;
         z-index: 100;
     }
+    .gradient-color-right-thai {
+      position: absolute;
+      top: 5%;
+      right: 0;
+      width: 48%;
+      height: 75%;
+      z-index: 100;
+      background: #e1ff00;
+    }
+    .gradient-color-right-continental {
+      position: absolute;
+      top: 5%;
+      right: 0;
+      width: 48%;
+      height: 75%;
+      z-index: 100;
+      background: #e1ff00;
+    }
+    .gradient-color-left-indian {
+      position: absolute;
+      top: 5%;
+      left: 0;
+      width: 48%;
+      height: 75%;
+      z-index: 100;
+      background: #c56047;
+    }
+    
     
     .gradient-color-left {
         position: absolute;
@@ -183,6 +244,11 @@
     }
     .offset-button {
       margin-left: 37%;
+    }
+    div p{
+      font-size: 16px;
+      font-family: 'Yanone Kaffeesatz', sans-serif !important;
+    
     }
     /* ============================================positioning the container-fluid div ================================================================== */
     
@@ -213,6 +279,33 @@
         height: 75%;
         z-index: 100;
     }
+    .gradient-color-right-thai {
+      position: absolute;
+      top: 5%;
+      right: 0;
+      width: 48%;
+      height: 75%;
+      z-index: 100;
+      background: #e1ff00;
+    }
+    .gradient-color-right-continental {
+      position: absolute;
+      top: 5%;
+      right: 0;
+      width: 48%;
+      height: 75%;
+      z-index: 100;
+      background: #e1ff00;
+    }
+    .gradient-color-left-indian {
+      position: absolute;
+      top: 5%;
+      left: 0;
+      width: 48%;
+      height: 75%;
+      z-index: 100;
+      background: #c56047;
+    }
     
     .gradient-color-left {
         position: absolute;
@@ -228,6 +321,11 @@
       .myImg {
         padding-block-start: 1%;
         max-width: 50%;
+      }
+      div p{
+        font-size: 16px;
+        font-family: 'Yanone Kaffeesatz', sans-serif !important;
+      
       }
 }
 
@@ -255,6 +353,33 @@
         width: 48%;
         height: 75%;
         z-index: 100;
+    }
+    .gradient-color-right-thai {
+      position: absolute;
+      top: -15%;
+      right: 0;
+      width:  48%;
+      height: 75%;
+      z-index: 100;
+      background: #e1ff00;
+    }
+    .gradient-color-right-continental {
+      position: absolute;
+      top: -15%;
+      right: 0;
+      width:  48%;
+      height: 75%;
+      z-index: 100;
+      background: #e1ff00;
+    }
+    .gradient-color-left-indian {
+      position: absolute;
+      top: -15%;
+      left: 0;
+      width:  48%;
+      height: 75%;
+      z-index: 100;
+      background: #c56047;
     }
     
     .gradient-color-left {
@@ -303,6 +428,10 @@
         top: 600% !important;
         position: absolute !important;
       }
-     
+      div p{
+        font-size: 16px;
+        font-family: 'Yanone Kaffeesatz', sans-serif !important;
+      
+      }
 
 }

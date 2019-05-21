@@ -115,8 +115,8 @@
           </div>
       </div>
       <div>
-          <div>
-              <img  class="gradient-color-right" src="{{asset('image/foodhighlite/thai-back.png')}}">
+          <div  class="gradient-color-right-thai">
+              {{-- <img  class="gradient-color-right" src="{{asset('image/foodhighlite/thai-back.png')}}"> --}}
           </div>
           <div class="overlay-right">
               <img class="img-fluid rounded float-right myImg" alt="Responsive image" src="{{asset('image/foodhighlite/thai.png')}}">
@@ -142,8 +142,8 @@
           </div>
       </div>
       <div>
-          <div >
-              <img class="gradient-color-left gradient-color" alt="Responsive image" src="{{asset('image/foodhighlite/indian-back.png')}}">
+          <div class= "gradient-color-left-indian">
+              {{-- <img class="gradient-color-left gradient-color" alt="Responsive image" src="{{asset('image/foodhighlite/indian-back.png')}}"> --}}
           </div>
           <div class="overlay-left">
               <img class="img-fluid rounded float-left myImg" alt="Responsive image" src="{{asset('image/foodhighlite/indian.png')}}">
@@ -167,9 +167,9 @@
                   
               </div>
           </div>
-          <div>
+          <div class="gradient-color-right-continental">
               <div>
-                  <img  class="gradient-color-right" src="{{asset('image/foodhighlite/continental-back.png')}}">
+                  {{-- <img  src="{{asset('image/foodhighlite/continental-back.png')}}"> --}}
               </div>
               <div class="overlay-right">
                   <img class="img-fluid rounded float-right myImg" alt="Responsive image" src="{{asset('image/foodhighlite/continental.png')}}">
