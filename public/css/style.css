@@ -233,7 +233,7 @@ header .overlay {
 
 /* =================================================================sizing the paragraphs and the h2=========================================================== */
 div p{
-  font-size: 24px;
+  font-size: 22px;
   font-family: 'Yanone Kaffeesatz', sans-serif !important;
 
 }
@@ -655,4 +655,44 @@ a.animated-button-continental.btn-con:after {
 a.animated-button-continental.btn-con:hover:after {
 	opacity: 1;
 	height: 600% !important;
+}
+
+/* ====================================================================animation======================================================================== */
+
+.triangle{
+	width: 200px;
+	height: 120px;
+	top: 150%;
+	left: 5%;
+	position: absolute;
+	-webkit-transform: rotate(-10deg);
+	-ms-transform: rotate(-10deg);
+	transform: rotate(-10deg);
+	animation-name: triangle-box;
+	animation-duration: 4s;
+	border-color: #14acae;
+	animation-iteration-count: infinite;
+	
+}
+polygon{
+	stroke: #14acae;
+	animation-name: triangle-svg;
+	animation-duration: 14s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes triangle-svg{
+	0% {stroke: #2b2b2b; left: 0px;}
+	25% {stroke: #83a6c9; left: 100px;}
+	50% {stroke: #ae14ac; left: 150px;}
+	70% {stroke: #97aa03; left: 100px;}
+	100% {stroke: #8e1805; left: 0px;}
+}
+
+@keyframes triangle{
+	0% {left: 0px;}
+	25% { left: 100px;}
+	50% { left: 150px;}
+	70% { left: 100px;}
+	100% { left: 0px;}
 }

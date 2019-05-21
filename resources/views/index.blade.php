@@ -86,14 +86,21 @@
       </div>
     </div>
 
+    {{-- ======================================svg================================================================================================== --}}
+
+    <div>
+      <svg class="triangle" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="30px" height="30px" viewBox="0 0 30 30" enable-background="new 0 0 30 30" xml:space="preserve" >
+        <polygon fill="none" stroke-width="0.5px" stroke="#000000" stroke-linejoin="round" stroke-miterlimit="10" points="14.921,2.27 28.667,25.5 1.175,25.5 "></polygon>
+    </svg>
+    </div>
     <!-- .........................food highlite start........................... -->
-    <div class="container-fluid first" >
+    <div class="container-fluid first" style="height: 100vh">
       <div id="content" class="row content">
           <div class="col-md-6 align-self-center">   
               <h2 class=" text-justify text-center thai-h2">Thai</h2>
               <p class=" text-justify text-center thai-p">
                   Croissant donut cake lemon drops cake candy pudding. Lollipop I love topping jelly beans bonbon. Tart dessert croissant lemon drops biscuit bear claw sugar plum donut I love. Cotton candy pie cake liquorice wafer powder jujubes bonbon.
-                  Ice cream dragée marzipan. I love pastry cotton candy cookie powder macaroon marshmallow muffin jelly-o. I love cupcake carrot cake.
+                  Ice cream dragée marzipan. I love pastry cotton candy cookie powder.
                   
               </p>
               <div class="col-md-3 col-sm-3 col-xs-6 offset-button"> <a href="#" class="btn btn-sm animated-button-thai btn-thai">MENU</a> </div>
