@@ -138,7 +138,7 @@
       </div>
       <div>
           <div >
-              <img class="gradient-color-left gradient-color" alt="Responsive image" src="{{asset('image/foodhighlite/continental-back.png')}}">
+              <img class="gradient-color-left gradient-color" alt="Responsive image" src="{{asset('image/foodhighlite/indian-back.png')}}">
           </div>
           <div class="overlay-left">
               <img class="img-fluid rounded float-left myImg" alt="Responsive image" src="{{asset('image/foodhighlite/indian.png')}}">
