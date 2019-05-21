@@ -685,14 +685,55 @@ polygon{
 	0% {stroke: #2b2b2b; left: 0px;}
 	25% {stroke: #83a6c9; left: 100px;}
 	50% {stroke: #ae14ac; left: 150px;}
-	70% {stroke: #97aa03; left: 100px;}
+	75% {stroke: #97aa03; left: 100px;}
 	100% {stroke: #8e1805; left: 0px;}
 }
 
-@keyframes triangle{
-	0% {left: 0px;}
-	25% { left: 100px;}
-	50% { left: 150px;}
-	70% { left: 100px;}
-	100% { left: 0px;}
+@keyframes triangle-box{
+	0% {left: 120px; top: 120%;}
+	25% { left: 100px;top: 115%;}
+	50% { left: 150px; top: 110%}
+	70% { left: 100px; top: 115%}
+	100% { left: 120px; top:120%}
 }
+
+.waves{
+	position: absolute;
+	width: 60px;
+	height: 60px;
+	top: 150%;
+	left: 5%;
+	-webkit-transform: rotate(50deg);
+	transform: (50deg);
+	animation-name: waves-box;
+	animation-duration: 4s;
+	border-color: #14acae;
+	animation-iteration-count: infinite;
+}
+
+.wavey{
+	stroke: #14acae;
+	animation-name: waves-svg;
+	animation-duration: 14s;
+	animation-iteration-count: infinite;
+}
+@keyframes waves-svg{
+	0% {stroke: #2b2b2b; }
+	25% {stroke: #83a6c9; }
+	50% {stroke: #ae14ac; }
+	75% {stroke: #97aa03; }
+	100% {stroke: #8e1805; }
+
+}
+
+@keyframes waves-box{
+	0% {left: 120px; top: 160%;}
+	25% { left: 100px;top: 170%;}
+	50% { left: 150px; top: 160%}
+	70% { left: 100px; top: 170%}
+	100% { left: 120px; top:160%}
+}
+
+
+
+/* ====================================================================animation======================================================================== */
