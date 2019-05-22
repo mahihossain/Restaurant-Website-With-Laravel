@@ -88,9 +88,8 @@
 
 /* ======================================================================code by dhrubo bhai===================================================== */
 
-
 /* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {
+@media (min-width: 568px) {
 	.overlay-left {
 		position: absolute;
 		top: 25%;
@@ -176,6 +175,10 @@
         font-family: 'Yanone Kaffeesatz', sans-serif !important;
       
       }
+      .seventh{
+        top: 1686%;
+        position: absolute;
+      } 
  }
         /* ============================================positioning the container-fluid div ================================================================== */
 
