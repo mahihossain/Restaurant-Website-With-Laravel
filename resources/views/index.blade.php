@@ -314,82 +314,13 @@
 </div>
           <!--........................................... review Start .......................................................-->
 
-    <section>
-      <div class="container-fluid seventh">
-        <div class="row ">
-          <div id="reviews" class="owl-carousel owl-theme">
-            <!-- review 01 -->
-            <div class="review">
-
-              <!-- Dhrubo ur code goes inside this div replace ur design with this black squre-->
-              <div class="review-content" style="  height: 150px;width: 200px; margin-left=">
-                <p class="text-justify text-center">
-                  Lemon drops chocolate cake chocolate sweet roll chocolate. Gummies oat cake jelly chocolate bar tart soufflé cake. Carrot cake fruitcake chupa chups. Fruitcake candy canes muffin powder halvah pudding dessert candy tootsie roll.
-                </p>
-              </div>
-
-            </div>
-            <!-- review 02 -->
-            <div class="review">
-              <div class="review-content" style="  height: 150px;width: 200px;">
+            <div class="review seventh"  style="background: #555;  height: 250px;width: 300px; padding: 20px;">
+              <div class="review-content" >
                 <p class="text-justify text-center">
                   Lemon drops chocolate cake chocolate sweet roll chocolate. Gummies oat cake jelly chocolate bar tart soufflé cake. Carrot cake fruitcake chupa chups. Fruitcake candy canes muffin powder halvah pudding dessert candy tootsie roll.
                 </p>
               </div>
             </div>
-            <!-- review 03 -->
-            <div class="review" data-wow-dufaion="0.6s" data-wow-delay="0.6s" >
-              <div class="review-content" style="  height: 150px;width: 200px;">
-                <p class="text-justify text-center">
-                  Lemon drops chocolate cake chocolate sweet roll chocolate. Gummies oat cake jelly chocolate bar tart soufflé cake. Carrot cake fruitcake chupa chups. Fruitcake candy canes muffin powder halvah pudding dessert candy tootsie roll.
-                </p>
-              </div>
-            </div>
-            <!-- review 04 -->
-            <div class="review">
-            <div class="review-content" style="  height: 150px;width: 200px;">
-              <p class="text-justify text-center">
-                Lemon drops chocolate cake chocolate sweet roll chocolate. Gummies oat cake jelly chocolate bar tart soufflé cake. Carrot cake fruitcake chupa chups. Fruitcake candy canes muffin powder halvah pudding dessert candy tootsie roll.
-              </p>
-            </div>
-            </div>
-            <!-- review 05 -->
-            <div class="review">
-            <div class="review-content" style="  height: 150px;width: 200px;">
-              <p class="text-justify text-center">
-                Lemon drops chocolate cake chocolate sweet roll chocolate. Gummies oat cake jelly chocolate bar tart soufflé cake. Carrot cake fruitcake chupa chups. Fruitcake candy canes muffin powder halvah pudding dessert candy tootsie roll.
-              </p>
-            </div>
-            </div>
-            <!-- review 06 -->
-            <div class="review">
-            <div class="review-content" style="  height: 150px;width: 200px;">
-              <p class="text-justify text-center">
-                Lemon drops chocolate cake chocolate sweet roll chocolate. Gummies oat cake jelly chocolate bar tart soufflé cake. Carrot cake fruitcake chupa chups. Fruitcake candy canes muffin powder halvah pudding dessert candy tootsie roll.
-              </p>
-            </div>
-            </div>
-            <!-- review 07 -->
-            <div class="review">
-            <div class="review-content" style="  height: 150px;width: 200px;">
-              <p class="text-justify text-center">
-                Lemon drops chocolate cake chocolate sweet roll chocolate. Gummies oat cake jelly chocolate bar tart soufflé cake. Carrot cake fruitcake chupa chups. Fruitcake candy canes muffin powder halvah pudding dessert candy tootsie roll.
-              </p>
-            </div>
-            </div>
-            <!-- review 08 -->
-            <div class="review">
-            <div class="review-content" style="  height: 150px;width: 200px;">
-              <p class="text-justify text-center">
-                Lemon drops chocolate cake chocolate sweet roll chocolate. Gummies oat cake jelly chocolate bar tart soufflé cake. Carrot cake fruitcake chupa chups. Fruitcake candy canes muffin powder halvah pudding dessert candy tootsie roll.
-              </p>
-            </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    </section>  
 
               <!--........................................... review End .......................................................-->      
 

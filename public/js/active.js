@@ -30,7 +30,11 @@ $(window).scroll(function(e){
 $(function () {  
   $("#reviews").owlCarousel({
       items:7,
-      autoplay: true,
+          margin:30,
+    
+    autoWidth:true,
+   
+      autoplay: false,
       smartSpeed: 900,
       loop: true,
       autoplayHoverPause: true,
