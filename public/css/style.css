@@ -279,7 +279,7 @@ header .overlay {
 
 /* =================================================================sizing the paragraphs and the h2=========================================================== */
 div p{
-  font-size: 12px;
+  font-size: 18px;
   font-family: 'Yanone Kaffeesatz', sans-serif !important;
 
 }
@@ -738,7 +738,7 @@ polygon{
 	100% {stroke: #8e1805;}
 }
 
-@keyframes triangle-box{
+/* @keyframes triangle-box{
 	0% {
 		left: 120px; 
 		top: 20%;
@@ -768,6 +768,18 @@ polygon{
 		 top:20%;
 		 transform: rotate(0deg);
 	}
+} */
+
+@keyframes triangle-box
+{
+  0%, 100% {
+		transform:translateY(0);
+		
+  }
+  50% {
+		transform:translateY(50px);
+  }
+	
 }
 
 
@@ -804,9 +816,9 @@ polygon{
 
 @keyframes waves-box{
 	0% {left: 120px; top: 30%;}
-	25% { left: 100px;top: 35%;}
-	50% { left: 150px; top: 30%;}
-	70% { left: 100px; top: 35%;}
+	25% { left: 100px;top: 32.5%;}
+	50% { left: 150px; top: 35%;}
+	70% { left: 100px; top: 32.5%;}
 	100% { left: 120px; top:30%;}
 }
 
