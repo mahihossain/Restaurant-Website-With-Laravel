@@ -4,13 +4,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <title>Artrium</title>
+      <!-- owl-carousel jquery slide  -->
+        <link rel="stylesheet" href="{{ asset('css/owl-carousel/owl.carousel.min.css') }}">
+        <link rel="stylesheet" href="{{ asset('css/owl-carousel/owl.theme.default.min.css') }}">
       <!-- gallery -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.css" />      <!-- font -->
         <link href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz" rel="stylesheet"> 
         <link href='http://fonts.googleapis.com/css?family=Just+Another+Hand' rel='stylesheet' type='text/css'>
       <!-- bootsratp -->
         <link rel="stylesheet" href="{{asset('css/app.css')}}">
-    <!-- myCss -->
+      <!-- myCss -->
         <link rel="stylesheet" href="{{ asset('css/style.css') }}">
         <link rel="stylesheet" href="{{ asset('css/responsive.css') }}">
         <link rel="stylesheet" type="text/css" href="{{ asset('css/gallery.css') }}">
@@ -311,81 +314,44 @@
 </div>
           <!--........................................... review Start .......................................................-->
 
-          <section>
+    <section>
       <div class="container-fluid">
         <div class="row ">
-          <div id="albums" class="owl-carousel owl-theme">
-            <!-- Album 01 -->
-            <div class="album wow fadeinUp" data-wow-duration="0.6s" data-wow-delay="0.2s">
-              <img src="{{ asset('image/album/a1.jpg') }}" alt="album Album" class="img-responsive">
-              <div class="album-overlay">
-                <div class="album-info text-center">
-                  <a href="">Tumi ar Ami</a>
-                </div>
-              </div>
+          <div id="reviews" class="owl-carousel owl-theme">
+            <!-- review 01 -->
+            <div class="review">
+
+              <!-- Dhrubo ur code goes inside this div replace ur design with this black squre-->
+              <div class="" style="  height: 150px;width: 200px;background-color: #555;"></div>
+
             </div>
-            <!-- Album 02 -->
-            <div class="album wow fadeinUp" data-wow-duration="0.6s" data-wow-delay="0.3s">
-              <img src="{{ asset('image/album/a2.jpg') }}" alt="team Album" class="img-responsive">
-              <div class="album-overlay">
-                <div class="album-info text-center">
-                  <a href="" class="text">GONTOBBOHIN</a>
-                </div>
-              </div>
+            <!-- review 02 -->
+            <div class="review">
+              <div class="" style="  height: 150px;width: 200px;background-color: #555;"></div>
             </div>
-            <!-- Album 03 -->
-            <div class="album wow fadeinUp" data-wow-dufaion="0.6s" data-wow-delay="0.6s" >
-              <img src="{{ asset('image/album/a3.jpg') }}" alt="team Album" class="img-responsive">
-              <div class="album-overlay">
-                <div class="album-info text-center">
-                  <a href="">Boishakh</a>
-                </div>
-              </div>
+            <!-- review 03 -->
+            <div class="review" data-wow-dufaion="0.6s" data-wow-delay="0.6s" >
+              <div class="" style="  height: 150px;width: 200px;background-color: #555;"></div>
             </div>
-            <!-- Album 04 -->
-            <div class="album wow fadeinUp" data-wow-duration="0.6s" data-wow-delay="0.5s">
-              <img src="{{ asset('image/album/a4.jpg') }}" alt="team Album" class="img-responsive">
-              <div class="album-overlay">
-                <div class="album-info text-center">
-                  <a href="">Dana</a>
-                </div>
-              </div>
+            <!-- review 04 -->
+            <div class="review">
+            <div class="" style="  height: 150px;width: 200px;background-color: #555;"></div>
             </div>
-            <!-- Album 05 -->
-            <div class="album wow fadeinUp" data-wow-duration="0.6s" data-wow-delay="0.6s">
-              <img src="{{ asset('image/album/a5.jpg') }}" alt="team Album" class="img-responsive">
-              <div class="album-overlay">
-                <div class="album-info text-center">
-                  <a href="">Meghboron</a>
-                </div>
-              </div>
+            <!-- review 05 -->
+            <div class="review">
+            <div class="" style="  height: 150px;width: 200px;background-color: #555;"></div>
             </div>
-            <!-- Album 06 -->
-            <div class="album wow fadeinUp" data-wow-duration="0.6s" data-wow-delay="0.7s">
-              <img src="{{ asset('image/album/a6.jpg') }}" alt="team Album" class="img-responsive">
-              <div class="album-overlay">
-                <div class="album-info text-center">
-                  <a href="">Se Eka</a>
-                </div>
-              </div>
+            <!-- review 06 -->
+            <div class="review">
+            <div class="" style="  height: 150px;width: 200px;background-color: #555;"></div>
             </div>
-            <!-- Album 07 -->
-            <div class="album wow fadeinUp" data-wow-duration="0.6s" data-wow-delay="0.8s">
-              <img src="{{ asset('image/album/a7.jpg') }}" alt="team Album" class="img-responsive">
-              <div class="album-overlay">
-                <div class="album-info text-center">
-                  <a href="">Bristy</a>
-                </div>
-              </div>
+            <!-- review 07 -->
+            <div class="review">
+            <div class="" style="  height: 150px;width: 200px;background-color: #555;"></div>
             </div>
-            <!-- Album 08 -->
-            <div class="album wow fadeinUp" data-wow-duration="0.6s" data-wow-delay="0.9s">
-              <img src="{{ asset('image/album/a8.jpg') }}" alt="team Album" class="img-responsive">
-              <div class="album-overlay">
-                <div class="album-info text-center">
-                  <a href="">Nodoi</a>
-                </div>
-              </div>
+            <!-- review 08 -->
+            <div class="review">
+            <div class="" style="  height: 150px;width: 200px;background-color: #555;"></div>
             </div>
           </div>
         </div>
@@ -393,7 +359,7 @@
     </div>
     </section>  
 
-          
+              <!--........................................... review End .......................................................-->      
 
 
 
@@ -414,12 +380,17 @@
         <script>
             baguetteBox.run('.compact-gallery',{animation:'slideIn'});
         </script>
+          <!-- owl-carousel jquery slide  -->
+        <script src="{{ asset('js/owl-carousel/owl.carousel.min.js') }}"></script>
 
     <!-- myJS -->
         <script src="{{ asset('js/active.js') }}"></script>
+        
+        
         <script>
             baguetteBox.run('.compact-gallery',{animation:'slideIn'});
         </script>
+
   
 </body>
 </html>
