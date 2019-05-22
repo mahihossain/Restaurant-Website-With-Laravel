@@ -183,7 +183,7 @@ header .overlay {
 		}
 		
 .seventh{
-	top: 1035%;
+	top: 1035%; 
 	position: absolute;
 } 
 /* ============================================positioning the container-fluid div ================================================================== */
@@ -309,7 +309,7 @@ h2{
 }
 /* ........................GAllery............................................ */
 .gallery-block{
-  padding-bottom: 60px;
+  /*padding-bottom: 60px;*/
   padding-top: 60px;
 }
 
