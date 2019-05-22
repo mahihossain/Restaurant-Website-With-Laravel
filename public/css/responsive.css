@@ -250,6 +250,11 @@
       font-family: 'Yanone Kaffeesatz', sans-serif !important;
     
     }
+
+    .seventh{
+      top: 1075%;
+      position: absolute;
+    } 
     /* ============================================positioning the container-fluid div ================================================================== */
     
 }
@@ -410,24 +415,33 @@
     }
 
     /* ============================================positioning the container-fluid div ================================================================== */
-      .first {
-        top: 150% !important;
+    .first {
+      top: 150% !important;
+      position: absolute !important;
+    }
+    .second {
+      top: 300% !important;
+      position: absolute !important;
+    }
+    
+    .third {
+      top: 450% !important;
+      position: absolute !important;
+    }
+    
+    .fourth {
+      top: 600% !important;
+      position: absolute !important;
+    }
+     .fifth{
+        top: 750% !important;
         position: absolute !important;
-      }
-      .second {
-        top: 300% !important;
-        position: absolute !important;
-      }
-
-      .third {
-        top: 450% !important;
-        position: absolute !important;
-      }
-
-      .fourth {
-        top: 600% !important;
-        position: absolute !important;
-      }
+        }
+        
+     .seventh{
+      top: 920%;
+      position: absolute;
+    } 
       div p{
         font-size: 16px;
         font-family: 'Yanone Kaffeesatz', sans-serif !important;

@@ -315,7 +315,7 @@
           <!--........................................... review Start .......................................................-->
 
     <section>
-      <div class="container-fluid">
+      <div class="container-fluid seventh">
         <div class="row ">
           <div id="reviews" class="owl-carousel owl-theme">
             <!-- review 01 -->

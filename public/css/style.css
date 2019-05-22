@@ -159,7 +159,7 @@ header .overlay {
 	flex-wrap: wrap !important;
 }
 /* ============================================positioning the container-fluid div ================================================================== */
-.first {
+ .first {
 	top: 150% !important;
 	position: absolute !important;
 }
@@ -178,9 +178,14 @@ header .overlay {
 	position: absolute !important;
 }
  .fifth{
-    top: 750% !important;
+    top: 750% ;
     position: absolute !important;
-    }
+		}
+		
+.seventh{
+	top: 990%;
+	position: absolute;
+} 
 /* ============================================positioning the container-fluid div ================================================================== */
 
 #footer {
@@ -781,8 +786,3 @@ polygon{
 
 
 /* ====================================================================animation======================================================================== */
-
-/* =========================================
-                Review section added
-============================================ */
-/* write css from here */
