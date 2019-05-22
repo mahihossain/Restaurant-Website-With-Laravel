@@ -739,12 +739,37 @@ polygon{
 }
 
 @keyframes triangle-box{
-	0% {left: 120px; top: 20%;}
-	25% { left: 100px;top: 25%;}
-	50% { left: 150px; top: 20%}
-	70% { left: 100px; top: 25%}
-	100% { left: 120px; top:20%}
+	0% {
+		left: 120px; 
+		top: 20%;
+		transform: rotate(0deg);
+
+	}
+	25% {
+		 left: 100px;
+		 top: 25%;
+		 transform: rotate(65deg);
+
+		}
+	50% { 
+		left: 150px; 
+		top: 20%;
+		transform: rotate(0deg);
+
+	}
+	70% { 
+		left: 100px; 
+		top: 25%;
+		transform: rotate(-65deg);
+
+	}
+	100% {
+		 left: 120px; 
+		 top:20%;
+		 transform: rotate(0deg);
+	}
 }
+
 
 .waves{
 	position: absolute;

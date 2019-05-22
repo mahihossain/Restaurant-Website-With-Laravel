@@ -104,7 +104,7 @@
     <!-- .........................food highlite start........................... -->
     <div class="container-fluid first" style="height: 100vh">
       <div id="content" class="row content">
-          <div class="col-md-6 align-self-center">   
+          <div class="col-md-6 align-self-start">   
               <h2 class=" text-justify text-center thai-h2">Thai</h2>
               <p class=" text-justify text-center thai-p">
                   Croissant donut cake lemon drops cake candy pudding. Lollipop I love topping jelly beans bonbon. Tart dessert croissant lemon drops biscuit bear claw sugar plum donut I love. Cotton candy pie cake liquorice wafer powder jujubes bonbon.
@@ -133,7 +133,7 @@
           <div class="col-md-6">
               
           </div>
-          <div class="col-md-6 align-self-center"> 
+          <div class="col-md-6 align-self-start"> 
               <h2 class=" text-justify text-center">Indian</h2>  
               <p class=" text-justify text-center">
                 Croissant donut cake lemon drops cake candy pudding. Lollipop I love topping jelly beans bonbon. Tart dessert croissant lemon drops biscuit bear claw sugar plum donut I love. Cotton candy pie cake liquorice wafer powder jujubes bonbon.
@@ -157,7 +157,7 @@
 
   <div class="container-fluid third">
           <div id="content" class="row content">
-              <div class="col-md-6 align-self-center">  
+              <div class="col-md-6 align-self-start">  
                   <h2 class=" text-justify text-center continental-h2">Continental</h2> 
                   <p class=" text-justify text-center continental-p">
                     Croissant donut cake lemon drops cake candy pudding. Lollipop I love topping jelly beans bonbon. Tart dessert croissant lemon drops biscuit bear claw sugar plum donut I love. Cotton candy pie cake liquorice wafer powder jujubes bonbon.
@@ -186,7 +186,7 @@
                   <div class="col-md-6">
                       
                   </div>
-                  <div class="col-md-6 align-self-md-center">   
+                  <div class="col-md-6 align-self-md-start">   
                       <h2 class ="text-justify text-center ">Tasty</h2>
                       <p class=" text-justify text-center continental">
                         Croissant donut cake lemon drops cake candy pudding. Lollipop I love topping jelly beans bonbon. Tart dessert croissant lemon drops biscuit bear claw sugar plum donut I love. Cotton candy pie cake liquorice wafer powder jujubes bonbon.
