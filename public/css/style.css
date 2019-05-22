@@ -715,10 +715,11 @@ a.animated-button-continental.btn-con:hover:after {
 	-ms-transform: rotate(-10deg);
 	transform: rotate(-10deg);
 	animation-name: triangle-box;
-	animation-duration: 4s;
+	animation-duration: 20s;
 	border-color: #14acae;
 	animation-iteration-count: infinite;
 	animation-timing-function: ease-in-out;
+	animation-fill-mode: forwards;
 	
 }
 polygon{
@@ -773,11 +774,11 @@ polygon{
 @keyframes triangle-box
 {
   0%, 100% {
-		transform:translateY(0);
+		transform:translateY(0) rotate(445deg);
 		
   }
   50% {
-		transform:translateY(50px);
+		transform:translateY(100px) rotate(0deg);
   }
 	
 }
@@ -792,7 +793,7 @@ polygon{
 	-webkit-transform: rotate(50deg);
 	transform: (50deg);
 	animation-name: waves-box;
-	animation-duration: 4s;
+	animation-duration: 20s;
 	border-color: #14acae;
 	animation-iteration-count: infinite;
 	animation-timing-function: ease-in-out;
@@ -815,11 +816,13 @@ polygon{
 }
 
 @keyframes waves-box{
-	0% {left: 120px; top: 30%;}
-	25% { left: 100px;top: 32.5%;}
-	50% { left: 150px; top: 35%;}
-	70% { left: 100px; top: 32.5%;}
-	100% { left: 120px; top:30%;}
+	0%, 100% {
+		transform:translateY(0) rotate(445deg);
+		
+  }
+  50% {
+		transform:translateY(100px) rotate(0deg);
+  }
 }
 
 .shapes{
@@ -836,4 +839,7 @@ polygon{
 /* ====================================================================review======================================================================== */
 .review-content{
 	
+}
+html {
+  scroll-behavior: smooth;
 }
