@@ -309,6 +309,90 @@
             </div>
           </div>
 </div>
+          <!--........................................... review Start .......................................................-->
+
+          <section>
+      <div class="container-fluid">
+        <div class="row ">
+          <div id="albums" class="owl-carousel owl-theme">
+            <!-- Album 01 -->
+            <div class="album wow fadeinUp" data-wow-duration="0.6s" data-wow-delay="0.2s">
+              <img src="{{ asset('image/album/a1.jpg') }}" alt="album Album" class="img-responsive">
+              <div class="album-overlay">
+                <div class="album-info text-center">
+                  <a href="">Tumi ar Ami</a>
+                </div>
+              </div>
+            </div>
+            <!-- Album 02 -->
+            <div class="album wow fadeinUp" data-wow-duration="0.6s" data-wow-delay="0.3s">
+              <img src="{{ asset('image/album/a2.jpg') }}" alt="team Album" class="img-responsive">
+              <div class="album-overlay">
+                <div class="album-info text-center">
+                  <a href="" class="text">GONTOBBOHIN</a>
+                </div>
+              </div>
+            </div>
+            <!-- Album 03 -->
+            <div class="album wow fadeinUp" data-wow-dufaion="0.6s" data-wow-delay="0.6s" >
+              <img src="{{ asset('image/album/a3.jpg') }}" alt="team Album" class="img-responsive">
+              <div class="album-overlay">
+                <div class="album-info text-center">
+                  <a href="">Boishakh</a>
+                </div>
+              </div>
+            </div>
+            <!-- Album 04 -->
+            <div class="album wow fadeinUp" data-wow-duration="0.6s" data-wow-delay="0.5s">
+              <img src="{{ asset('image/album/a4.jpg') }}" alt="team Album" class="img-responsive">
+              <div class="album-overlay">
+                <div class="album-info text-center">
+                  <a href="">Dana</a>
+                </div>
+              </div>
+            </div>
+            <!-- Album 05 -->
+            <div class="album wow fadeinUp" data-wow-duration="0.6s" data-wow-delay="0.6s">
+              <img src="{{ asset('image/album/a5.jpg') }}" alt="team Album" class="img-responsive">
+              <div class="album-overlay">
+                <div class="album-info text-center">
+                  <a href="">Meghboron</a>
+                </div>
+              </div>
+            </div>
+            <!-- Album 06 -->
+            <div class="album wow fadeinUp" data-wow-duration="0.6s" data-wow-delay="0.7s">
+              <img src="{{ asset('image/album/a6.jpg') }}" alt="team Album" class="img-responsive">
+              <div class="album-overlay">
+                <div class="album-info text-center">
+                  <a href="">Se Eka</a>
+                </div>
+              </div>
+            </div>
+            <!-- Album 07 -->
+            <div class="album wow fadeinUp" data-wow-duration="0.6s" data-wow-delay="0.8s">
+              <img src="{{ asset('image/album/a7.jpg') }}" alt="team Album" class="img-responsive">
+              <div class="album-overlay">
+                <div class="album-info text-center">
+                  <a href="">Bristy</a>
+                </div>
+              </div>
+            </div>
+            <!-- Album 08 -->
+            <div class="album wow fadeinUp" data-wow-duration="0.6s" data-wow-delay="0.9s">
+              <img src="{{ asset('image/album/a8.jpg') }}" alt="team Album" class="img-responsive">
+              <div class="album-overlay">
+                <div class="album-info text-center">
+                  <a href="">Nodoi</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </section>  
+
           
 
 
