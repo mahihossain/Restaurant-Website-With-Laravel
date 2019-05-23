@@ -3,9 +3,6 @@ section {
     background: #fff;
     overflow: hidden;
 }
-html {
-  scroll-behavior: smooth;
-}
 
 
 /* =========================================
@@ -237,8 +234,7 @@ header .overlay {
 	width: 75%;
 	height: 32.5%;
 	z-index: 100;
-	background: rgb(214,217,45);
-    background: linear-gradient(126deg, rgba(214,217,45,1) 5%, rgba(188,188,28,1) 38%, rgba(214,217,45,1) 98%);
+	background: #e1ff00;
 }
 .gradient-color-left-indian {
 	position: absolute;
@@ -247,8 +243,7 @@ header .overlay {
 	width: 75%;
 	height: 32.5%;
 	z-index: 100;
-	background: rgb(68,137,148);
-    background: linear-gradient(40deg, rgba(68,137,148,1) 33%, rgba(99,156,166,1) 78%);
+	background: #c56047;
 }
 
 .gradient-color-right-continental {
@@ -258,8 +253,7 @@ header .overlay {
 	width: 75%;
 	height: 32.5%;
 	z-index: 100;
-	background: rgb(188,112,204);
-    background: linear-gradient(40deg, rgba(188,112,204,1) 32%, rgba(184,67,184,1) 73%);
+	background: #e1ff00;
 }
 
 
@@ -285,7 +279,7 @@ header .overlay {
 
 /* =================================================================sizing the paragraphs and the h2=========================================================== */
 div p{
-  font-size: 18px;
+  font-size: 12px;
   font-family: 'Yanone Kaffeesatz', sans-serif !important;
 
 }
@@ -302,30 +296,21 @@ h2{
   color: #83c083;
 }
 .continental-p{
-  color: #C0C0C0;
-
-}
-
-.indian-h2{
-  color: #639ca6;
-}
-.indian-p{
-  color: #C0C0C0;
+  color: #83c9c9;
 
 }
 
 .thai-h2{
-  color:#D6D92D;
+  color:#ACAE14;
 }
 
 .thai-p{
-  color:#C0C0C0;
+  color:#BCBC1C;
 }
 /* ........................GAllery............................................ */
 .gallery-block{
   /*padding-bottom: 60px;*/
- /* padding-top: 60px;*/
- padding :3%;
+  padding-top: 60px;
 }
 
 /* .gallery-block .heading{
@@ -532,7 +517,7 @@ a.animated-button-thai:link, a.animated-button-thai:visited {
 	display: block;
 	margin: 30px auto 0;
 	padding: 14px 8.5px;
-	color: #D92D80;       /* text color normal */
+	color: #ae14ac;       /* text color normal */
 	font-size:14px;
 	border-radius: 0;
 	font-weight: bold;
@@ -548,10 +533,10 @@ a.animated-button-thai:link, a.animated-button-thai:visited {
 	transition: all 1s ease;
 }
 a.animated-button-thai.btn-thai {
-	border: 2px solid #D6D92D;
+	border: 2px solid #14acae;
 }
 a.animated-button-thai.btn-thai:after {
-	background: #D6D92D;
+	background: #14acae;
 	opacity: .5;
 	-moz-transform: translateY(-50%) translateX(-50%) rotate(90deg);
 	-ms-transform: translateY(-50%) translateX(-50%) rotate(90deg);
@@ -610,7 +595,7 @@ a.animated-button-indian:link, a.animated-button-indian:visited {
 	display: block;
 	margin: 30px auto 0;
 	padding: 14px 8.5px;
-	color: #944F44;       /* text color normal */
+	color: #83c983;       /* text color normal */
 	font-size:14px;
 	border-radius: 0;
 	font-weight: bold;
@@ -676,7 +661,7 @@ a.animated-button-continental:link:after, a.animated-button-continental:visited:
 	transition: all 0.75s ease 0s;
 }
 a.animated-button-continental:link:hover, a.animated-button-continental:visited:hover {
-	color: #83c083;               /*when box fills up the text color */
+	color: #83a6c9;               /*when box fills up the text color */
 	text-shadow: none;
 }
 a.animated-button-continental:link:hover:after, a.animated-button-continental:visited:hover:after {
@@ -687,7 +672,7 @@ a.animated-button-continental:link, a.animated-button-continental:visited {
 	display: block;
 	margin: 30px auto 0;
 	padding: 14px 8.5px;
-	color: #C083C0;       /* text color normal */
+	color: #83c983;       /* text color normal */
 	font-size:14px;
 	border-radius: 0;
 	font-weight: bold;
@@ -730,11 +715,10 @@ a.animated-button-continental.btn-con:hover:after {
 	-ms-transform: rotate(-10deg);
 	transform: rotate(-10deg);
 	animation-name: triangle-box;
-	animation-duration: 20s;
+	animation-duration: 4s;
 	border-color: #14acae;
 	animation-iteration-count: infinite;
 	animation-timing-function: ease-in-out;
-	animation-fill-mode: forwards;
 	
 }
 polygon{
@@ -754,50 +738,13 @@ polygon{
 	100% {stroke: #8e1805;}
 }
 
-/* @keyframes triangle-box{
-	0% {
-		left: 120px; 
-		top: 20%;
-		transform: rotate(0deg);
-
-	}
-	25% {
-		 left: 100px;
-		 top: 25%;
-		 transform: rotate(65deg);
-
-		}
-	50% { 
-		left: 150px; 
-		top: 20%;
-		transform: rotate(0deg);
-
-	}
-	70% { 
-		left: 100px; 
-		top: 25%;
-		transform: rotate(-65deg);
-
-	}
-	100% {
-		 left: 120px; 
-		 top:20%;
-		 transform: rotate(0deg);
-	}
-} */
-
-@keyframes triangle-box
-{
-  0%, 100% {
-		transform:translateY(0) rotate(445deg);
-		
-  }
-  50% {
-		transform:translateY(100px) rotate(0deg);
-  }
-	
+@keyframes triangle-box{
+	0% {left: 120px; top: 20%;}
+	25% { left: 100px;top: 25%;}
+	50% { left: 150px; top: 20%}
+	70% { left: 100px; top: 25%}
+	100% { left: 120px; top:20%}
 }
-
 
 .waves{
 	position: absolute;
@@ -808,7 +755,7 @@ polygon{
 	-webkit-transform: rotate(50deg);
 	transform: (50deg);
 	animation-name: waves-box;
-	animation-duration: 20s;
+	animation-duration: 4s;
 	border-color: #14acae;
 	animation-iteration-count: infinite;
 	animation-timing-function: ease-in-out;
@@ -831,13 +778,11 @@ polygon{
 }
 
 @keyframes waves-box{
-	0%, 100% {
-		transform:translateY(0) rotate(445deg);
-		
-  }
-  50% {
-		transform:translateY(100px) rotate(0deg);
-  }
+	0% {left: 120px; top: 30%;}
+	25% { left: 100px;top: 35%;}
+	50% { left: 150px; top: 30%;}
+	70% { left: 100px; top: 35%;}
+	100% { left: 120px; top:30%;}
 }
 
 .shapes{
@@ -852,23 +797,6 @@ polygon{
 /* ====================================================================animation======================================================================== */
 
 /* ====================================================================review======================================================================== */
-.review_content{
-    
-}
-
-.review{
+.review-content{
 	
-	background: linear-gradient(90deg, rgba(238,238,238,1) 60%, rgba(240,242,222,1) 100%);
-	width: 20vw;
-	height: auto;
-	border-radius: 10px;
-
-
-
-
-}
-.effect1{
-    -webkit-box-shadow: 0 10px 6px -6px #777;
-       -moz-box-shadow: 0 10px 6px -6px #777;
-            box-shadow: 0 10px 6px -6px #777;
 }
