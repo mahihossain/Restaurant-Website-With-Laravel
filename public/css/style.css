@@ -708,6 +708,22 @@ a.animated-button-continental.btn-con:hover:after {
 }
 
 /* ====================================================================animation======================================================================== */
+polygon{
+	stroke: #14acae;
+	animation-name: color-svg;
+	animation-duration: 14s;
+	animation-iteration-count: infinite;
+	z-index: -999;
+
+}
+
+@keyframes color-svg{
+	0% {stroke: #8e1805; }
+	25% {stroke: #83a6c9;}
+	50% {stroke: #ae14ac; }
+	75% {stroke: #97aa03; }
+	100% {stroke: #8e1805;}
+}
 
 .triangle{
 	width: 200px;
@@ -726,63 +742,45 @@ a.animated-button-continental.btn-con:hover:after {
 	animation-fill-mode: forwards;
 	
 }
-polygon{
-	stroke: #14acae;
-	animation-name: triangle-svg;
-	animation-duration: 14s;
+
+.small-triangle{
+	width: 60px;
+	height: 60px;
+	top: 65%;
+	left: 25%;
+	position: absolute;
+	-webkit-transform: rotate(25deg);
+	-ms-transform: rotate(25deg);
+	transform: rotate(25deg);
+	animation-name: triangle-small;
+	animation-duration: 20s;
+	border-color: #14acae;
 	animation-iteration-count: infinite;
-	z-index: -999;
-
+	animation-timing-function: ease-in-out;
+	animation-fill-mode: forwards;
 }
-
-@keyframes triangle-svg{
-	0% {stroke: #2b2b2b; }
-	25% {stroke: #83a6c9;}
-	50% {stroke: #ae14ac; }
-	75% {stroke: #97aa03; }
-	100% {stroke: #8e1805;}
-}
-
-/* @keyframes triangle-box{
-	0% {
-		left: 120px; 
-		top: 20%;
-		transform: rotate(0deg);
-
-	}
-	25% {
-		 left: 100px;
-		 top: 25%;
-		 transform: rotate(65deg);
-
-		}
-	50% { 
-		left: 150px; 
-		top: 20%;
-		transform: rotate(0deg);
-
-	}
-	70% { 
-		left: 100px; 
-		top: 25%;
-		transform: rotate(-65deg);
-
-	}
-	100% {
-		 left: 120px; 
-		 top:20%;
-		 transform: rotate(0deg);
-	}
-} */
 
 @keyframes triangle-box
 {
   0%, 100% {
-		transform:translateY(0) rotate(445deg);
+		transform: rotate(445deg);
 		
   }
   50% {
-		transform:translateY(100px) rotate(0deg);
+		transform: rotate(0deg);
+  }
+	
+}
+
+
+@keyframes triangle-small
+{
+  0%, 100% {
+		transform: rotate(445deg);
+		
+  }
+  50% {
+		transform: rotate(0deg);
   }
 	
 }
@@ -792,8 +790,24 @@ polygon{
 	position: absolute;
 	width: 60px;
 	height: 60px;
-	top: 10%;
+	top: 45%;
 	left: 5%;
+	-webkit-transform: rotate(50deg);
+	transform: (50deg);
+	animation-name: waves-box;
+	animation-duration: 20s;
+	border-color: #14acae;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+
+}
+
+.waves-small{
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	top: 20%;
+	left: 92%;
 	-webkit-transform: rotate(50deg);
 	transform: (50deg);
 	animation-name: waves-box;
@@ -811,7 +825,7 @@ polygon{
 	animation-iteration-count: infinite;
 }
 @keyframes waves-svg{
-	0% {stroke: #2b2b2b; }
+	0% {stroke: #8e1805; }
 	25% {stroke: #83a6c9; }
 	50% {stroke: #ae14ac; }
 	75% {stroke: #97aa03; }
@@ -829,13 +843,136 @@ polygon{
   }
 }
 
+.circle{
+	position: absolute;
+	width: 90px;
+	height: 90px;
+	border-radius: 100%;
+	border: 1px solid #3bbda7;
+	top: 75%;
+	left: 90%;
+	-webkit-transition: border color .4s ease;
+	transition: border color .4s ease;
+	animation-name: circle-color;
+	animation-duration: 20s;
+}
+
+.circle-small{
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	border-radius: 100%;
+	border: 1px solid #3bbda7;
+	top: 25%;
+	left: 40%;
+	-webkit-transform: rotate(25deg);
+	-ms-transform: rotate(25deg);
+	transform: rotate(25deg);
+	animation-name: circle-color;
+	animation-duration: 20s;
+}
+
+.diamond{
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	border: 1px solid #3bbda7;
+	top: 18%;
+	left: 60%;
+	-webkit-transform: rotate(50deg);
+	-ms-transform: rotate(50deg);
+	transform: rotate(50deg);
+	-webkit-transition: border color .4s ease;
+	transition: border color .4s ease;
+	animation-name: diamond;
+	animation-duration: 20s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+	animation-fill-mode: forwards;
+
+}
+
+@keyframes diamond{
+	0% {
+		border-color: #8e1805;
+		transform: rotate(450deg);
+
+	}
+	25% {border-color: #83a6c9; }
+	50% {border-color: #ae14ac; }
+	75% {border-color: #97aa03; }
+	100% {
+		border-color: #8e1805;
+		border-color: #8e1805;
+		transform: rotate(-450deg);
+	 }
+
+}
+
+
+
+.hexa{
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	top: 55%;
+	left: 75%;
+	-webkit-transform: rotate(50deg);
+	-ms-transform: rotate(50deg);
+	transform: rotate(50deg);
+	animation-name: hexa-rotate;
+	animation-duration: 20s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+	animation-fill-mode: forwards;
+
+}
+
+@keyframes hexa-rotate
+{
+  0%, 100% {
+		transform: rotate(-440deg);
+		
+  }
+  50% {
+		transform: rotate(0deg);
+  }
+	
+}
+
+
+@keyframes circle-color{
+	0% {border-color: #8e1805; }
+	25% {border-color: #83a6c9; }
+	50% {border-color: #ae14ac; }
+	75% {border-color: #97aa03; }
+	100% {border-color: #8e1805; }
+
+}
+
+
+
+
 .shapes{
 	position: fixed;
 	width: 100%;
 	height: 120%;
 	left: 0;
 	top: 0%;
+	animation-name: shapes;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
 
+}
+
+@keyframes shapes{
+	0%, 100% {
+		transform:translateY(0) ;
+		
+  }
+  50% {
+		transform:translateY(100px);
+  }
 }
 
 /* ====================================================================animation======================================================================== */
