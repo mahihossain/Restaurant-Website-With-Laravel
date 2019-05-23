@@ -19,8 +19,6 @@
         <link rel="stylesheet" href="{{ asset('css/style.css') }}">
         <link rel="stylesheet" href="{{ asset('css/responsive.css') }}">
 
-
-
 </head>
 <body>
         <!-- Preloader Start -->
@@ -92,9 +90,9 @@
 
     <!-- ======================================svg================================================================================================== ---->
     
-    @section('svg')
+    {{-- @section('svg')
         
-    @endsection
+    @endsection --}}
     
     <!-- .........................food highlite start........................... -->
     <div class="container-fluid first" style="height: 100vh">
@@ -396,34 +394,228 @@
   </section>   --}}
               <!--........................................... review End .......................................................-->      
 
-              <section class="seventh">
-                <div class='reviews'>
-                  <!-- Panel one -->
-                  <div class='panel'>
-                    <img src='http://www.designbolts.com/wp-content/uploads/2014/01/Superman-Flat-Design.png'>
-                    <p>
-                      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                    </p>
-                    <h7>Superman</h7>
+              {{-- <section class="seventh offset-3"> --}}
+                {{-- <div class="row">
+                  <div class='reviews'>
+                    <!-- Panel one -->
+                    <div class='panel'>
+                      <img src='http://www.designbolts.com/wp-content/uploads/2014/01/Superman-Flat-Design.png'>
+                      <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                      </p>
+                      <h7>Superman</h7>
+                    </div>
+                    <!-- Panel Two -->
+                    <div class='panel'>
+                      <img src='http://www.designbolts.com/wp-content/uploads/2014/01/Batman-Flat-Design.png'>
+                      <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                      </p>
+                      <h7>Batman</h7>
+                    </div>
+                    <!-- Panel Three -->
+                    <div class='panel'>
+                      <img src='http://www.designbolts.com/wp-content/uploads/2014/01/Liz-Sherman-Flat-Design.png'>
+                      <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                      </p>
+                      <h7>Liz Sherman</h7>
+                    </div>
                   </div>
-                  <!-- Panel Two -->
-                  <div class='panel'>
-                    <img src='http://www.designbolts.com/wp-content/uploads/2014/01/Batman-Flat-Design.png'>
-                    <p>
-                      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                    </p>
-                    <h7>Batman</h7>
+                </div> --}}
+
+                <div class="container seventh">
+                    <div class="row align-self-center">
+                      <div class="col-sm-12">
+                        <h3>See What <b>Our Customers</b> Say About Us</h3>
+                        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                          <!-- Carousel indicators -->
+                          <ol class="carousel-indicators">
+                            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#myCarousel" data-slide-to="1"></li>
+                            <li data-target="#myCarousel" data-slide-to="2"></li>
+                          </ol>   
+                          <!-- Wrapper for carousel items -->
+                          <div class="carousel-inner">
+                            <div class="item carousel-item active">
+                              <div class="row">
+                                <div class="col-sm-6">
+                                  <div class="testimonial-wrapper">
+                                    <div class="testimonial">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam at, luctus dui. Mauris magna metus, dapibus nec turpis vel, semper malesuada ante, commodo iacul viverra.</div>
+                                    <div class="media">
+                                      <div class="media-left d-flex mr-3">
+                                        <img src="" alt="">										
+                                      </div>
+                                      <div class="media-body">
+                                        <div class="overview">
+                                          <div class="name"><b>Paula Wilson</b></div>
+                                          <div class="details">Media Analyst / SkyNet</div>
+                                          <div class="star-rating">
+                                            <ul class="list-inline">
+                                              <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                              <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                              <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                              <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                              <li class="list-inline-item"><i class="fa fa-star-half-o"></i></li>
+                                            </ul>
+                                          </div>
+                                        </div>										
+                                      </div>
+                                    </div>
+                                  </div>								
+                                </div>
+                                <div class="col-sm-6">
+                                  <div class="testimonial-wrapper">
+                                    <div class="testimonial">Vestibulum quis quam ut magna consequat faucibus. Pellentesque eget mi suscipit tincidunt. Utmtc tempus dictum. Pellentesque virra. Quis quam ut magna consequat faucibus, metus id mi gravida.</div>
+                                    <div class="media">
+                                      <div class="media-left d-flex mr-3">
+                                        <img src="" alt="">										
+                                      </div>
+                                      <div class="media-body">
+                                        <div class="overview">
+                                          <div class="name"><b>Antonio Moreno</b></div>
+                                          <div class="details">Web Developer / SoftBee</div>
+                                          <div class="star-rating">
+                                            <ul class="list-inline">
+                                              <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                              <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                              <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                              <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                              <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                            </ul>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>								
+                                </div>
+                              </div>			
+                            </div>
+                            <div class="item carousel-item">
+                              <div class="row">
+                                <div class="col-sm-6">
+                                  <div class="testimonial-wrapper">
+                                    <div class="testimonial">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam at, luctus dui. Mauris magna metus, dapibus nec turpis vel, semper malesuada ante, commodo iacul viverra.</div>
+                                    <div class="media">
+                                      <div class="media-left d-flex mr-3">
+                                        <img src="" alt="">										
+                                      </div>
+                                      <div class="media-body">
+                                        <div class="overview">
+                                          <div class="name"><b>Michael Holz</b></div>
+                                          <div class="details">Web Developer / DevCorp</div>											
+                                          <div class="star-rating">
+                                            <ul class="list-inline">
+                                              <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                              <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                              <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                              <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                              <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                            </ul>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>								
+                                </div>
+                                <div class="col-sm-6">
+                                  <div class="testimonial-wrapper">
+                                    <div class="testimonial">Vestibulum quis quam ut magna consequat faucibus. Pellentesque eget mi suscipit tincidunt. Utmtc tempus dictum. Pellentesque virra. Quis quam ut magna consequat faucibus, metus id mi gravida.</div>
+                                    <div class="media">
+                                      <div class="media-left d-flex mr-3">
+                                        <img src="" alt="">										
+                                      </div>
+                                      <div class="media-body">
+                                        <div class="overview">
+                                          <div class="name"><b>Mary Saveley</b></div>
+                                          <div class="details">Graphic Designer / MarsMedia</div>
+                                          <div class="star-rating">
+                                            <ul class="list-inline">
+                                              <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                              <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                              <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                              <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                              <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                            </ul>
+                                          </div>
+                                        </div>										
+                                      </div>
+                                    </div>
+                                  </div>								
+                                </div>
+                              </div>			
+                            </div>
+                            <div class="item carousel-item">
+                              <div class="row">
+                                <div class="col-sm-6">
+                                  <div class="testimonial-wrapper">
+                                    <div class="testimonial">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam at, luctus dui. Mauris magna metus, dapibus nec turpis vel, semper malesuada ante, commodo iacul viverra.</div>
+                                    <div class="media">
+                                      <div class="media-left d-flex mr-3">
+                                        <img src="" alt="">										
+                                      </div>
+                                      <div class="media-body">
+                                        <div class="overview">
+                                          <div class="name"><b>Martin Sommer</b></div>
+                                          <div class="details">SEO Analyst / RealSearch</div>
+                                          <div class="star-rating">
+                                            <ul class="list-inline">
+                                              <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                              <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                              <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                              <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                              <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                            </ul>
+                                          </div>
+                                        </div>										
+                                      </div>
+                                    </div>
+                                  </div>								
+                                </div>
+                                <div class="col-sm-6">
+                                  <div class="testimonial-wrapper">
+                                    <div class="testimonial">Vestibulum quis quam ut magna consequat faucibus. Pellentesque eget mi suscipit tincidunt. Utmtc tempus dictum. Pellentesque virra. Quis quam ut magna consequat faucibus, metus id mi gravida.</div>
+                                    <div class="media">
+                                      <div class="media-left d-flex mr-3">
+                                        <img src="" alt="">										
+                                      </div>
+                                      <div class="media-body">
+                                        <div class="overview">
+                                          <div class="name"><b>John Williams</b></div>
+                                          <div class="details">Web Designer / UniqueDesign</div>
+                                          <div class="star-rating">
+                                            <ul class="list-inline">
+                                              <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                              <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                              <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                              <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                              <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                            </ul>
+                                          </div>
+                                        </div>										
+                                      </div>
+                                    </div>
+                                  </div>								
+                                </div>
+                              </div>			
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                   </div>
-                  <!-- Panel Three -->
-                  <div class='panel'>
-                    <img src='http://www.designbolts.com/wp-content/uploads/2014/01/Liz-Sherman-Flat-Design.png'>
-                    <p>
-                      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                    </p>
-                    <h7>Liz Sherman</h7>
-                  </div>
+             
+
+            <section class="eighth">
+              <div class="row">
+                <div class="col">
+                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium, rerum, eaque doloribus ducimus aliquam omnis eligendi expedita animi consequatur quibusdam, fuga natus dolorum nisi adipisci minus tempore sequi aspernatur ad.</p>
                 </div>
-            </section>  
+                <div class="col">
+                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium cupiditate quia, laborum vero praesentium debitis itaque blanditiis mollitia! Dolore laboriosam minima, eius esse itaque delectus ipsa porro debitis sed aliquam.</p>
+                </div>
+              </div>
+            </section>
 
 
     <!-- jquery -->
@@ -432,7 +624,9 @@
 
     <!-- bootstrap -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+ 
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     {{-- library for gallery --}}
         <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
          <!-- lattering -->
