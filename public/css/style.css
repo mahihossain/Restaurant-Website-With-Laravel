@@ -310,7 +310,8 @@ h2{
 /* ........................GAllery............................................ */
 .gallery-block{
   /*padding-bottom: 60px;*/
-  padding-top: 60px;
+ /* padding-top: 60px;*/
+ padding :3%;
 }
 
 /* .gallery-block .heading{
