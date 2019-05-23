@@ -3,6 +3,9 @@ section {
     background: #fff;
     overflow: hidden;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 
 /* =========================================
@@ -838,9 +841,23 @@ polygon{
 /* ====================================================================animation======================================================================== */
 
 /* ====================================================================review======================================================================== */
-.review-content{
-	
+.review_content{
+    
 }
-html {
-  scroll-behavior: smooth;
+
+.review{
+	
+	background: linear-gradient(90deg, rgba(238,238,238,1) 60%, rgba(240,242,222,1) 100%);
+	width: 20vw;
+	height: auto;
+	border-radius: 10px;
+
+
+
+
+}
+.effect1{
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+       -moz-box-shadow: 0 10px 6px -6px #777;
+            box-shadow: 0 10px 6px -6px #777;
 }
