@@ -482,7 +482,7 @@ a.animated-button-continental.btn-con:after {
 	transform: translateY(-50%) translateX(-50%) rotate(90deg);
 }
 a.animated-button-continental.btn-con:hover:after {
-	opacity: 1;
+	opacity: .5;
 	height: 600% !important;
 }
 
@@ -521,8 +521,8 @@ a.animated-button-thai:link:after, a.animated-button-thai:visited:after {
 	transition: all 0.75s ease 0s;
 }
 a.animated-button-thai:link:hover, a.animated-button-thai:visited:hover {
-	color: #ae14ac;               /*text color when box fills up*/
-	text-shadow: none;
+	color: #D92D80;               /*text color when box fills up*/
+	text-shadow: 2px 2px red;
 }
 a.animated-button-thai:link:hover:after, a.animated-button-thai:visited:hover:after {
 	height: 450%;
@@ -559,7 +559,7 @@ a.animated-button-thai.btn-thai:after {
 	transform: translateY(-50%) translateX(-50%) rotate(90deg);
 }
 a.animated-button-thai.btn-thai:hover:after {
-	opacity: 1;
+	opacity: .5;
 	height: 600% !important;
 }
 
@@ -600,7 +600,7 @@ a.animated-button-indian:link:after, a.animated-button-indian:visited:after {
 }
 a.animated-button-indian:link:hover, a.animated-button-indian:visited:hover {
 	color: #83a6c9;               /*when box fills up the text color */
-	text-shadow: none;
+	text-shadow: 2px 2px grey;
 }
 a.animated-button-indian:link:hover:after, a.animated-button-indian:visited:hover:after {
 	height: 450%;
@@ -637,11 +637,11 @@ a.animated-button-indian.btn-indi:after {
 	transform: translateY(-50%) translateX(-50%) rotate(90deg);
 }
 a.animated-button-indian.btn-indi:hover:after {
-	opacity: 1; 
+	opacity: .5; 
 	height: 600% !important;
 }
 
-/* ==========================================================================Indian Button=================================================================== */
+/* ==========================================================================Continental=================================================================== */
 a.animated-button-continental:link, a.animated-button-continental:visited {
 	position: relative;
 	display: block;
@@ -677,7 +677,7 @@ a.animated-button-continental:link:after, a.animated-button-continental:visited:
 }
 a.animated-button-continental:link:hover, a.animated-button-continental:visited:hover {
 	color: #83c083;               /*when box fills up the text color */
-	text-shadow: none;
+	text-shadow: 2px 2px grey;
 }
 a.animated-button-continental:link:hover:after, a.animated-button-continental:visited:hover:after {
 	height: 450%;
@@ -714,7 +714,7 @@ a.animated-button-continental.btn-con:after {
 	transform: translateY(-50%) translateX(-50%) rotate(90deg);
 }
 a.animated-button-continental.btn-con:hover:after {
-	opacity: 1;
+	opacity: .5;
 	height: 600% !important;
 }
 
@@ -997,8 +997,8 @@ polygon{
 
 .review{
 	
-	background: linear-gradient(90deg, rgba(238,238,238,1) 60%, rgba(240,242,222,1) 100%);
-	width: 20vw;
+	background: linear-gradient(90deg, rgb(221, 189, 255) 60%, rgb(221, 189, 255) 100%);
+	width: 21vw;
 	height: auto;
 	border-radius: 10px;
 
