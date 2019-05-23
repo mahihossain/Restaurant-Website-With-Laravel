@@ -278,7 +278,7 @@ header .overlay {
 }
 
 /* =================================================================sizing the paragraphs and the h2=========================================================== */
-div p{
+.food{
   font-size: 18px;
   font-family: 'Yanone Kaffeesatz', sans-serif !important;
 

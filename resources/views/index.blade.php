@@ -120,7 +120,7 @@
       <div id="content" class="row content">
           <div class="col-md-6 align-self-start">   
               <h2 class=" text-justify text-center thai-h2">Thai</h2>
-              <p class=" text-justify text-center thai-p">
+              <p class=" text-justify text-center food thai-p">
                   Croissant donut cake lemon drops cake candy pudding. Lollipop I love topping jelly beans bonbon. Tart dessert croissant lemon drops biscuit bear claw sugar plum donut I love. Cotton candy pie cake liquorice wafer powder jujubes bonbon.
                   Ice cream dragée marzipan. I love pastry cotton candy cookie powder.
                   
@@ -149,7 +149,7 @@
           </div>
           <div class="col-md-6 align-self-start"> 
               <h2 class=" text-justify text-center">Indian</h2>  
-              <p class=" text-justify text-center">
+              <p class=" text-justify text-center food">
                 Croissant donut cake lemon drops cake candy pudding. Lollipop I love topping jelly beans bonbon. Tart dessert croissant lemon drops biscuit bear claw sugar plum donut I love. Cotton candy pie cake liquorice wafer powder jujubes bonbon.
                 Ice cream dragée marzipan. I love pastry cotton candy cookie powder macaroon marshmallow muffin jelly-o. I love cupcake carrot cake.
                 
@@ -173,7 +173,7 @@
           <div id="content" class="row content">
               <div class="col-md-6 align-self-start">  
                   <h2 class=" text-justify text-center continental-h2">Continental</h2> 
-                  <p class=" text-justify text-center continental-p">
+                  <p class=" text-justify text-center food continental-p">
                     Croissant donut cake lemon drops cake candy pudding. Lollipop I love topping jelly beans bonbon. Tart dessert croissant lemon drops biscuit bear claw sugar plum donut I love. Cotton candy pie cake liquorice wafer powder jujubes bonbon.
                     Ice cream dragée marzipan. I love pastry cotton candy cookie powder macaroon marshmallow muffin jelly-o. I love cupcake carrot cake.
                     

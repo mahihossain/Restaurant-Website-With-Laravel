@@ -171,7 +171,7 @@
         max-width: 56%;
       }
 
-      div p{
+       .food{
         font-size: 12px;
         font-family: 'Yanone Kaffeesatz', sans-serif !important;
       
@@ -250,7 +250,7 @@
     .offset-button {
       margin-left: 37%;
     }
-    div p{
+     .food{
       font-size: 16px;
       font-family: 'Yanone Kaffeesatz', sans-serif !important;
     
@@ -333,7 +333,7 @@
         padding-block-start: 1%;
         max-width: 50%;
       }
-      div p{
+       .food{
         font-size: 16px;
         font-family: 'Yanone Kaffeesatz', sans-serif !important;
       
@@ -449,7 +449,7 @@
       top: 920%;
       position: absolute;
     } 
-      div p{
+       .food{
         font-size: 31px;
         font-family: 'Yanone Kaffeesatz', sans-serif !important;
       
