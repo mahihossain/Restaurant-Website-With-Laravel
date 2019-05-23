@@ -150,8 +150,8 @@
               
           </div>
           <div class="col-md-6 align-self-start"> 
-              <h2 class=" text-justify text-center">Indian</h2>  
-              <p class=" text-justify text-center food">
+              <h2 class=" text-justify text-center indian-h2">Indian</h2>  
+              <p class=" text-justify text-center indian-p">
                 Croissant donut cake lemon drops cake candy pudding. Lollipop I love topping jelly beans bonbon. Tart dessert croissant lemon drops biscuit bear claw sugar plum donut I love. Cotton candy pie cake liquorice wafer powder jujubes bonbon.
                 Ice cream dragée marzipan. I love pastry cotton candy cookie powder macaroon marshmallow muffin jelly-o. I love cupcake carrot cake.
                 
