@@ -180,8 +180,9 @@
       
       }
       .seventh{
-        top: 1686%;
-        position: absolute;
+        /* top: 1686%; */
+        position: relative;
+        margin-top: 11%;
       } 
  }
         /* ============================================positioning the container-fluid div ================================================================== */
@@ -263,8 +264,9 @@
     }
 
     .seventh{
-      top: 1075%;
-      position: absolute;
+      /* top: 1075%; */
+      position: relative;
+      margin-top: 11%;
     } 
     /* ============================================positioning the container-fluid div ================================================================== */
     
@@ -468,7 +470,7 @@
      .seventh{
       /* top: 920%; */
       position: relative;
-      margin-top: 30%;
+      margin-top: 11%;
 
     } 
 
