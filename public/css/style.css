@@ -997,8 +997,8 @@ polygon{
 
 .review{
 	
-	background: linear-gradient(90deg, rgba(238,238,238,1) 60%, rgba(240,242,222,1) 100%);
-	width: 20vw;
+	background: linear-gradient(90deg, rgb(221, 189, 255) 60%, rgb(221, 189, 255) 100%);
+	width: 21vw;
 	height: auto;
 	border-radius: 10px;
 
