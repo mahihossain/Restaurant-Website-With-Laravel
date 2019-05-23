@@ -973,6 +973,8 @@ polygon{
 	animation-name: shapes;
 	animation-duration: 10s;
 	animation-iteration-count: infinite;
+	animation-fill-mode: forwards;
+
 
 }
 
