@@ -345,15 +345,24 @@
         <div class="row ">
           <div id="reviews" class="owl-carousel owl-theme">
             <!-- review 01 -->
-            <div class="review">
+            <div class="review effect1">
+                <div class="review_content">
+                  <div class="container-fluid">
+                    <div class="row">
+                      <div class="col-sm-6">
+                        
+                      </div>
+                      <div class="col-sm-6">
+                        
+                      </div>
+                    </div>
+                  </div>
 
+                </div>
 
             </div>
             <!-- review 02 -->
             <div class="review effect1">
-              <p style="padding: 20px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-              quis nostrud exercitation ullamco .</p>
 
             </div>
             <!-- review 03 -->
