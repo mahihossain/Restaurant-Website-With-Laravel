@@ -434,36 +434,48 @@
 
     /* ============================================positioning the container-fluid div ================================================================== */
     .first {
-      top: 150% !important;
-      position: absolute !important;
+      /* top: 150% !important; */
+      position: relative !important;
+      margin-top: 30%;
     }
     .second {
-      top: 300% !important;
-      position: absolute !important;
+      /* top: 300% !important; */
+      position: relative !important;
+      margin-top: 30%;
+
     }
     
     .third {
-      top: 450% !important;
-      position: absolute !important;
+      /* top: 450% !important; */
+      position: relative !important;
+      margin-top: 30%;
+
     }
     
     .fourth {
-      top: 600% !important;
-      position: absolute !important;
+      /* top: 600% !important; */
+      position: relative !important;
+      margin-top: 30%;
+
     }
      .fifth{
-        top: 750% !important;
-        position: absolute !important;
+        /* top: 750% !important; */
+        position: relative !important;
+        margin-top: 30%;
+
         }
         
      .seventh{
-      top: 920%;
-      position: absolute;
+      /* top: 920%; */
+      position: relative;
+      margin-top: 30%;
+
     } 
 
     .eighth{
-      top:1070%;
-      position: absolute;
+      /* top:1070%; */
+      position: relative;
+      margin-top: 30%;
       z-index: 200;
     }
        .food{
