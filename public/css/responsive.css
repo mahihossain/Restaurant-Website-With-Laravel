@@ -179,11 +179,50 @@
         font-family: 'Yanone Kaffeesatz', sans-serif !important;
       
       }
+
+
+      .first {
+        /* top: 150% !important; */
+        position: relative !important;
+        margin-top: 35%;
+      
+      }
+      .second {
+        top: 300% !important;
+        position: relative !important;
+        margin-top: 35%;
+      
+      }
+      
+      .third {
+        top: 450% !important;
+        position: relative !important;
+        margin-top: 35%;
+      
+      }
+      
+      .fourth {
+        top: 600% !important;
+        position: relative !important;
+        margin-top: 35%;
+      
+      }
+       .fifth{
+          top: 750% ;
+          position: relative !important;
+          margin-top: 35%;
+      
+          }
+          
       .seventh{
         /* top: 1686%; */
         position: relative;
         margin-top: 11%;
       } 
+
+      .offset-button{
+        max-width: 100% !important;
+      }
  }
         /* ============================================positioning the container-fluid div ================================================================== */
 
@@ -255,19 +294,57 @@
         z-index: 100;
     }
     .offset-button {
-      margin-left: 37%;
+      margin-left: 0%;
     }
      .food{
       font-size: 16px;
       font-family: 'Yanone Kaffeesatz', sans-serif !important;
     
     }
-
+    
+    .first {
+      /* top: 150% !important; */
+      position: relative !important;
+      margin-top: 35%;
+    
+    }
+    .second {
+      top: 300% !important;
+      position: relative !important;
+      margin-top: 35%;
+    
+    }
+    
+    .third {
+      top: 450% !important;
+      position: relative !important;
+      margin-top: 35%;
+    
+    }
+    
+    .fourth {
+      top: 600% !important;
+      position: relative !important;
+      margin-top: 35%;
+    
+    }
+     .fifth{
+        top: 750% ;
+        position: relative !important;
+        margin-top: 35%;
+    
+        }
+        
     .seventh{
-      /* top: 1075%; */
+      /* top: 1686%; */
       position: relative;
       margin-top: 11%;
     } 
+
+    .offset-button{
+      max-width: 100% !important;
+    }
+
     /* ============================================positioning the container-fluid div ================================================================== */
     
 }
@@ -349,6 +426,50 @@
         font-family: 'Yanone Kaffeesatz', sans-serif !important;
       
       }
+
+      
+    .first {
+      /* top: 150% !important; */
+      position: relative !important;
+      margin-top: 30%;
+    
+    }
+    .second {
+      top: 300% !important;
+      position: relative !important;
+      margin-top: 114%;
+    
+    }
+    
+    .third {
+      top: 450% !important;
+      position: relative !important;
+      margin-top: 30%;
+    
+    }
+    
+    .fourth {
+      top: 600% !important;
+      position: relative !important;
+      margin-top: 30%;
+    
+    }
+     .fifth{
+        top: 750% ;
+        position: relative !important;
+        margin-top: 30%;
+    
+        }
+        
+    .seventh{
+      /* top: 1686%; */
+      position: relative;
+      margin-top: 11%;
+    } 
+
+    .offset-button{
+      max-width: 100% !important;
+    }
 }
 
 
@@ -484,6 +605,11 @@
         font-size: 31px;
         font-family: 'Yanone Kaffeesatz', sans-serif !important;
       
+      }
+
+      .offset-button{
+        max-width: 35% !important;
+        margin-left: 32%;
       }
 
 }
