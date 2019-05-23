@@ -482,7 +482,7 @@ a.animated-button-continental.btn-con:after {
 	transform: translateY(-50%) translateX(-50%) rotate(90deg);
 }
 a.animated-button-continental.btn-con:hover:after {
-	opacity: 1;
+	opacity: .5;
 	height: 600% !important;
 }
 
@@ -521,7 +521,7 @@ a.animated-button-thai:link:after, a.animated-button-thai:visited:after {
 	transition: all 0.75s ease 0s;
 }
 a.animated-button-thai:link:hover, a.animated-button-thai:visited:hover {
-	color: #ae14ac;               /*text color when box fills up*/
+	color: #D92D80;               /*text color when box fills up*/
 	text-shadow: none;
 }
 a.animated-button-thai:link:hover:after, a.animated-button-thai:visited:hover:after {
@@ -559,7 +559,7 @@ a.animated-button-thai.btn-thai:after {
 	transform: translateY(-50%) translateX(-50%) rotate(90deg);
 }
 a.animated-button-thai.btn-thai:hover:after {
-	opacity: 1;
+	opacity: .5;
 	height: 600% !important;
 }
 
@@ -637,11 +637,11 @@ a.animated-button-indian.btn-indi:after {
 	transform: translateY(-50%) translateX(-50%) rotate(90deg);
 }
 a.animated-button-indian.btn-indi:hover:after {
-	opacity: 1; 
+	opacity: .5; 
 	height: 600% !important;
 }
 
-/* ==========================================================================Indian Button=================================================================== */
+/* ==========================================================================Continental=================================================================== */
 a.animated-button-continental:link, a.animated-button-continental:visited {
 	position: relative;
 	display: block;
@@ -714,7 +714,7 @@ a.animated-button-continental.btn-con:after {
 	transform: translateY(-50%) translateX(-50%) rotate(90deg);
 }
 a.animated-button-continental.btn-con:hover:after {
-	opacity: 1;
+	opacity: .5;
 	height: 600% !important;
 }
 
