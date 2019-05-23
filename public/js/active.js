@@ -30,7 +30,7 @@ $(window).scroll(function(e){
 $(function () {  
   $("#reviews").owlCarousel({
       items:7,
-          margin:30,
+          margin:340,
     
     // autoWidth:true,
    
