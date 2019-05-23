@@ -974,6 +974,7 @@ polygon{
 	animation-duration: 10s;
 	animation-iteration-count: infinite;
 	animation-fill-mode: forwards;
+	z-index: -100;
 
 
 }
@@ -1094,4 +1095,3 @@ png images background
 .ContActive {
   background-color : #bbb !important ;
 }
-

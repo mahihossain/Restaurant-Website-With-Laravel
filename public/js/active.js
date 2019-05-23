@@ -30,7 +30,7 @@ $(window).scroll(function(e){
 $(function () {  
   $("#reviews").owlCarousel({
       items:7,
-          margin:30,
+          margin:340,
     
     // autoWidth:true,
    
@@ -62,7 +62,7 @@ $(document).ready(function(){
   $(".reviews").each(function(){
     var This = $(this) ;
     console.log(This);
-    var Nums = This.find(".panel").length;
+    var Nums = This.find(".panel").length; 
      console.log(Nums);
     This.find(".panel:first").addClass("PanelAct");
     This.append("<div class='control'></div>") ;
