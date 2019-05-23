@@ -319,26 +319,36 @@
               </div>
             </div> -->
 
-
+{{-- 
     <section>
       <div class="container-fluid seventh">
         <div class="row ">
           <div id="reviews" class="owl-carousel owl-theme">
             <!-- review 01 -->
+  
+            <!-- review 02 -->
+            
+            <!-- review 03 -->
+            <div class="review">
+
+
+            </div>
+            <!-- review 04 -->
             <div class="review effect1">
+              <div class="review">
                 <div class="review_content">
                   <div class="container-fluid">
                     <div class="row">
-                      <div class="col-sm-6">
-                        <img class="img-fluid image" src="{{asset('image/review/r.png')}}">
+                      <div class="col-sm-6 align-self-center">
+                        <img class="img-fluid owl-image" src="{{asset('image/review/r.png')}}">
                       </div>
-                      <div class="col-sm-6">
+                      <div class="col-sm-6 align-self-center">
                         <h3>Bhuban</h3>
                         <p>Bhubanbbnn</p>
                       </div>
                     </div>
                     <div class="row">
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                      <p class="owl-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                       quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
                       consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
@@ -346,27 +356,13 @@
                       proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                     </div>
                   </div>
-
                 </div>
-
-            </div>
-            <!-- review 02 -->
-            <div class="review effect1">
-
-            </div>
-            <!-- review 03 -->
-            <div class="review">
-
-
-            </div>
-            <!-- review 04 -->
-            <div class="review">
-
-
+  
+              </div>
             </div>
             <!-- review 05 -->
             <div class="review">
-
+                
 
             </div>
             <!-- review 06 -->
@@ -391,17 +387,44 @@
             </div>
                         <!-- review 10 -->
             <div class="review">
-
+              
 
             </div>
           </div>
         </div>
       </div>
     </div>
-  </section>  
+  </section>   --}}
               <!--........................................... review End .......................................................-->      
 
-
+              <section class="seventh">
+                <div class='reviews'>
+                  <!-- Panel one -->
+                  <div class='panel'>
+                    <img src='http://www.designbolts.com/wp-content/uploads/2014/01/Superman-Flat-Design.png'>
+                    <p>
+                      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                    </p>
+                    <h7>Superman</h7>
+                  </div>
+                  <!-- Panel Two -->
+                  <div class='panel'>
+                    <img src='http://www.designbolts.com/wp-content/uploads/2014/01/Batman-Flat-Design.png'>
+                    <p>
+                      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                    </p>
+                    <h7>Batman</h7>
+                  </div>
+                  <!-- Panel Three -->
+                  <div class='panel'>
+                    <img src='http://www.designbolts.com/wp-content/uploads/2014/01/Liz-Sherman-Flat-Design.png'>
+                    <p>
+                      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                    </p>
+                    <h7>Liz Sherman</h7>
+                  </div>
+                </div>
+            </section>  
 
 
     <!-- jquery -->
@@ -430,7 +453,9 @@
         <script>
             baguetteBox.run('.compact-gallery',{animation:'slideIn'});
         </script>
-
+        <script>
+          speed = 600
+        </script>
   
 </body>
 </html>
