@@ -522,7 +522,7 @@ a.animated-button-thai:link:after, a.animated-button-thai:visited:after {
 }
 a.animated-button-thai:link:hover, a.animated-button-thai:visited:hover {
 	color: #D92D80;               /*text color when box fills up*/
-	text-shadow: none;
+	text-shadow: 2px 2px red;
 }
 a.animated-button-thai:link:hover:after, a.animated-button-thai:visited:hover:after {
 	height: 450%;
@@ -600,7 +600,7 @@ a.animated-button-indian:link:after, a.animated-button-indian:visited:after {
 }
 a.animated-button-indian:link:hover, a.animated-button-indian:visited:hover {
 	color: #83a6c9;               /*when box fills up the text color */
-	text-shadow: none;
+	text-shadow: 2px 2px grey;
 }
 a.animated-button-indian:link:hover:after, a.animated-button-indian:visited:hover:after {
 	height: 450%;
@@ -677,7 +677,7 @@ a.animated-button-continental:link:after, a.animated-button-continental:visited:
 }
 a.animated-button-continental:link:hover, a.animated-button-continental:visited:hover {
 	color: #83c083;               /*when box fills up the text color */
-	text-shadow: none;
+	text-shadow: 2px 2px grey;
 }
 a.animated-button-continental:link:hover:after, a.animated-button-continental:visited:hover:after {
 	height: 450%;
