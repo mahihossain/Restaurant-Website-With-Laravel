@@ -32,7 +32,7 @@ $(function () {
       items:7,
           margin:30,
     
-    autoWidth:true,
+    // autoWidth:true,
    
       autoplay: false,
       smartSpeed: 900,
