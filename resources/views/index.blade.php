@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <title>Artrium</title>
       <!-- owl-carousel jquery slide  -->
@@ -11,6 +11,7 @@
         <link rel="stylesheet" href="{{ asset('css/owl-carousel/owl.theme.default.min.css') }}">
       <!-- gallery -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.css" />      <!-- font -->
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
         <link href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz" rel="stylesheet"> 
         <link href='http://fonts.googleapis.com/css?family=Just+Another+Hand' rel='stylesheet' type='text/css'>
       <!-- bootsratp -->
@@ -491,13 +492,48 @@
           </div>
              
 
+
             <section class="eighth">
-              <div class="row">
-                <div class="col">
-                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium, rerum, eaque doloribus ducimus aliquam omnis eligendi expedita animi consequatur quibusdam, fuga natus dolorum nisi adipisci minus tempore sequi aspernatur ad.</p>
-                </div>
-                <div class="col">
-                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium cupiditate quia, laborum vero praesentium debitis itaque blanditiis mollitia! Dolore laboriosam minima, eius esse itaque delectus ipsa porro debitis sed aliquam.</p>
+              <div class="container-fluid">
+
+                <div class="row parallax total-review">
+                  <div class="col-sm-4 left-footer">
+                    <div class="mapouter"><div class="gmap_canvas embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item"  id="gmap_canvas" src="https://maps.google.com/maps?q=artrium&t=&z=15&ie=UTF8&iwloc=&output=embed" scrolling="yes" marginheight="0" marginwidth="0"></iframe>Google Maps Generator by <a href="https://www.embedgooglemap.net">embedgooglemap.net</a></div><style>.mapouter{position:relative;text-align:right;height:97%;width:97%;}.gmap_canvas {overflow:hidden;background:none!important;height:97%;width:97%;border-radius: 2%;}</style></div>
+                  </div>
+                   <div class="col-sm-4 footer-center ">
+                    
+                      <div>
+                        <i class="fa fa-map-marker"></i>
+                        <p><span>C Block, Baridhara</span> Dhaka, Bangladesh/p>
+                      </div>
+
+                      <div>
+                        <i class="fa fa-phone"></i>
+                        <p>+01 771881718</p>
+                      </div>
+
+                      <div>
+                        <i class="fa fa-envelope"></i>
+                        <p><a href="mailto:support@company.com">support@company.com</a></p>
+                      </div>
+                  </div>
+                  <div class="col-sm-4 right-footer">
+                    <p class="footer-company-about">
+                      <span>Atrium</span>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                    <div class="footer-icons">
+                      <a href="#"><i class="fa fa-facebook"></i></a>
+                      <a href="#"><i class="fa fa-twitter"></i></a>
+                      <a href="#"><i class="fa fa-linkedin"></i></a>
+                      <a href="#"><i class="fa fa-github"></i></a>
+                    </div>
+                  </div>
                 </div>
               </div>
             </section>
