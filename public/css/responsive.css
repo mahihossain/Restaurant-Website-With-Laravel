@@ -188,34 +188,29 @@
       
       }
       .second {
-        top: 300% !important;
         position: relative !important;
         margin-top: 35%;
       
       }
       
       .third {
-        top: 450% !important;
         position: relative !important;
         margin-top: 35%;
       
       }
       
       .fourth {
-        top: 600% !important;
         position: relative !important;
         margin-top: 35%;
       
       }
        .fifth{
-          top: 750% ;
           position: relative !important;
           margin-top: 35%;
       
           }
           
       .seventh{
-        /* top: 1686%; */
         position: relative;
         margin-top: 11%;
       } 
@@ -303,40 +298,34 @@
     }
     
     .first {
-      /* top: 150% !important; */
       position: relative !important;
       margin-top: 35%;
     
     }
     .second {
-      top: 300% !important;
       position: relative !important;
       margin-top: 35%;
     
     }
     
     .third {
-      top: 450% !important;
       position: relative !important;
       margin-top: 35%;
     
     }
     
     .fourth {
-      top: 600% !important;
       position: relative !important;
       margin-top: 35%;
     
     }
      .fifth{
-        top: 750% ;
         position: relative !important;
         margin-top: 35%;
     
         }
         
     .seventh{
-      /* top: 1686%; */
       position: relative;
       margin-top: 11%;
     } 
@@ -429,40 +418,34 @@
 
       
     .first {
-      /* top: 150% !important; */
       position: relative !important;
       margin-top: 30%;
     
     }
     .second {
-      top: 300% !important;
       position: relative !important;
       margin-top: 114%;
     
     }
     
     .third {
-      top: 450% !important;
       position: relative !important;
       margin-top: 30%;
     
     }
     
     .fourth {
-      top: 600% !important;
       position: relative !important;
       margin-top: 30%;
     
     }
      .fifth{
-        top: 750% ;
         position: relative !important;
         margin-top: 30%;
     
         }
         
     .seventh{
-      /* top: 1686%; */
       position: relative;
       margin-top: 11%;
     } 
@@ -557,46 +540,39 @@
 
     /* ============================================positioning the container-fluid div ================================================================== */
     .first {
-      /* top: 150% !important; */
       position: relative !important;
       margin-top: 30%;
     }
     .second {
-      /* top: 300% !important; */
       position: relative !important;
       margin-top: 30%;
 
     }
     
     .third {
-      /* top: 450% !important; */
       position: relative !important;
       margin-top: 30%;
 
     }
     
     .fourth {
-      /* top: 600% !important; */
       position: relative !important;
       margin-top: 30%;
 
     }
      .fifth{
-        /* top: 750% !important; */
         position: relative !important;
         margin-top: 30%;
 
         }
         
      .seventh{
-      /* top: 920%; */
       position: relative;
       margin-top: 11%;
 
     } 
 
     .eighth{
-      /* top:1070%; */
       position: relative;
       margin-top: 30%;
       z-index: 200;
