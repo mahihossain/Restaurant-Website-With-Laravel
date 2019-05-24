@@ -56,50 +56,30 @@ $(function () {
   });
 });
 
-////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-$(document).ready(function(){
-  $(".reviews").each(function(){
-    var This = $(this) ;
-    console.log(This);
-    var Nums = This.find(".panel").length; 
-     console.log(Nums);
-    This.find(".panel:first").addClass("PanelAct");
-    This.append("<div class='control'></div>") ;
-    This.find(".panel").not(".PanelAct")
-      .css("left","100%")
-    for ( i=0 ; i<Nums ; i++) {
-      This.find(".control").append("<span></span>") ;
-    }
-    This.find(".control span:eq(0)").addClass("ContActive");
-    
-    This.find(".control span").click(Reviews);
-    
-    function Reviews(){
-      var loc = $(this).index();
-      var ActivLoc = This.find(".ContActive").index();
 
-      $(this).addClass("ContActive")
-        .siblings().removeAttr("class");
-      
-      if ( loc > ActivLoc ) {
-        var Dire = '100%'
-        var IDire = '-100%'
-      }
-      if ( loc < ActivLoc ) {
-        var Dire = '-100%'
-        var IDire = '100%'
-      }
+function parallax(){
+  var para = document.querySelector(".shapes");
+  para.style.top = -(window.pageYOffset / 20) + 'px';
+}
+window.addEventListener("scroll",parallax,false)
 
-      This.find(".panel").not(".PanelAct")
-      .css("left",Dire) ;
-      This.find(".panel:eq("+loc+")")
-      .animate({'left':'0'},speed)
-      .addClass("PanelAct")
-      .siblings(".PanelAct")
-      .removeClass("PanelAct")
-      .animate({'left':IDire},speed);
-    }
-  });
-});
-  
+function parallaxtwo(){
+  var para = document.querySelector("#move");
+  para.style.top = -(window.pageYOffset/20) + 'px';
+}
+window.addEventListener("scroll",parallaxtwo,false)
+
+// function parallax_right(){
+//   var para = document.querySelector(".overlay-right");
+//   para.style.top = (window.pageYOffset/10) + 'px';
+// }
+// window.addEventListener("scroll",parallax_right,false)
+
+// function parallax_left(){
+//   var para = document.querySelector(".overlay-left");
+//   para.style.top = (window.pageYOffset/500) + 'px';
+// }
+// window.addEventListener("scroll",parallax_left,false)
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////

@@ -973,107 +973,50 @@ polygon{
 	left: 0;
 	top: 0%;
 	animation-name: shapes;
-	animation-duration: 10s;
+	animation-duration: 8s;
 	animation-iteration-count: infinite;
 	animation-fill-mode: forwards;
 	z-index: -100;
+	animation-timing-function: ease-in-out;
+}
+.two{
+	top: 90%;
+}
 
-
+.rotate-area{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	-webkit-transform: rotateY(180deg);
+	-ms-transform: rotateY(180deg);
+	transform: rotateY(180deg);;
 }
 
 @keyframes shapes{
 	0%, 100% {
-		transform:translateY(0) ;
+		transform:translateY(-6%) ;
 		
   }
   50% {
-		transform:translateY(100px);
+		transform:translateY(6%);
   }
 }
+
+
+/* ========================================================parallax================================================================================================ */
+
+
+
 
 /* ====================================================================animation======================================================================== */
 
 /* ====================================================================review======================================================================== */
 
-/* ========================================================================================The Superman one=========================================================================================== */
 
-.reviews {
-  width : 600px; 
-  height : 350px;
-  overflow : hidden ;
-  border-radius : 5px;
-  margin : 50px auto ;
-  position : relative ;
-	box-shadow : 0 0 10px -2px #ddd ;
-	z-index: 1000;
-}
-.panel {
-  width : 100%;
-  max-height: 100%;
-  position : absolute ; 
-}
-.PanelAct {
-  left : 0 ;
-}
-.panel img { 
-  width : 100px;
-  height : 100px; 
-  text-align : center ;
-  float : left ; 
-  margin : 25px; 
-}
-/*== Removal Start
-png images background
-==*/
-.panel:nth-of-type(1) img {
-    background : #12aedb ;
-}
-.panel:nth-of-type(2) img {
-    background : #db4646 ;
-}
-.panel:nth-of-type(3) img {
-    background : #96c465 ;
-}
-/*== Removal End==*/
-
-.panel p {
-  float : left ; 
-  width : 420px;
-  clear : right ;
-  text-align : justify ;
-  margin : 25px 0 10px 0;
-  font-size : 14px ; 
-  color : #aaa ;
-  line-height : 1.2em
-}
-.panel h7 { 
-  float : left ; 
-  width: 200px; 
-  font-size : 14px ; 
-  color : #999 ;
-  font-weight : bold ;
-  font-style : italic ;
-}
-.control { 
-  position : absolute ; 
-  bottom : 20px; 
-  right : 30px;
-}
-.control span {
-  background-color : rgba(0,0,0,0.1) ; 
-  padding : 5px; 
-  display : inline-block ;
-  vertical-align : top ;
-  margin-left : 5px ;
-  border-radius : 50%;
-  cursor : pointer ;
-  transition : 0.3s ease-in
-}
-.ContActive {
-  background-color : #bbb !important ;
-}
 /* ===================================================================================THe quote one================================================================= */
-h3 {
+.review-header {
 	color: #000;
 	font-size: 26px;
 	font-weight: 300;
@@ -1081,7 +1024,7 @@ h3 {
 	position: relative;
 	margin: 30px 0 60px;
 }
-h3::after {
+.review-header::after {
 	content: "";
 	width: 100px;
 	position: absolute;
@@ -1095,7 +1038,7 @@ h3::after {
 }
 .carousel {
 	margin: 0 auto;
-	padding: 0 70px;
+	padding: 0 30px;
 }
 .carousel .item {
 	color: #999;
@@ -1156,7 +1099,7 @@ h3::after {
 	color: #1abc9c;
 }
 .carousel .carousel-indicators {
-	bottom: -17px;
+	bottom: -70px;
 }
 .carousel-indicators li, .carousel-indicators li.active {
 	width: 18px;
