@@ -96,6 +96,7 @@
     @endsection --}}
     
     <!-- .........................food highlite start........................... -->
+    <div id="scroll-container" class="scroll-container">
     <div class="container-fluid first" style="height: 100vh">
       <div id="content" class="row content">
           <div class="col-md-6 align-self-start">   
@@ -489,6 +490,7 @@
               </div>
             </div>
           </div>
+        </div>
              
 
             <section class="eighth">
@@ -523,6 +525,10 @@
         </script>
           <!-- owl-carousel jquery slide  -->
         <script src="{{ asset('js/owl-carousel/owl.carousel.min.js') }}"></script>
+
+        {{------------------- Scroll Magic------------> --}}
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenLite.min.js"></script>
+
 
     <!-- myJS -->
         <script src="{{ asset('js/active.js') }}"></script>
