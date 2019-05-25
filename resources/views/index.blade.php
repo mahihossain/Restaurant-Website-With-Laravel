@@ -481,7 +481,7 @@
                     
                       <div>
                         <i class="fa fa-map-marker"></i>
-                        <p><span>C Block, Baridhara</span> Dhaka, Bangladesh/p>
+                        <p><span>C Block, Baridhara</span> Dhaka, Bangladesh</p>
                       </div>
 
                       <div>
