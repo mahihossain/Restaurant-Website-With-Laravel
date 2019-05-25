@@ -24,7 +24,7 @@ html {
 }
 
 #status {
-    background-image: url("../image/preloader/Wedges-3s-200px.gif");
+    background-image: url("../image/preloader/loading.gif");
      background-repeat: no-repeat;
     width: 200px;
     height: 200px;
@@ -1141,10 +1141,10 @@ padding: 40px
 }
 .parallax {
   /* The image used */
-  background-image: url("../image/contact/contactt.jpg");  
+  background-image: url("../image/galleryimg/F8.jpg");  
 
   /* Set a specific height */
-  height: auto;
+  height: 400px;
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
