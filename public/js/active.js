@@ -61,15 +61,16 @@ $(function () {
 
 function parallax(){
   var para = document.querySelector(".shapes");
-  para.style.top = -(window.pageYOffset / 20) + 'px';
+  para.style.top = -(window.pageYOffset / 100) + '%';
 }
 window.addEventListener("scroll",parallax,false)
 
 function parallaxtwo(){
   var para = document.querySelector("#move");
-  para.style.top = -(window.pageYOffset/20) + 'px';
+  para.style.top = (- window.pageYOffset/90 +90)  + '%';
 }
 window.addEventListener("scroll",parallaxtwo,false)
+
 
 // function parallax_right(){
 //   var para = document.querySelector(".overlay-right");
