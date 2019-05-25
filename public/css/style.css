@@ -318,7 +318,7 @@ h2{
   color: #83c083;
 }
 .continental-p{
-  color: #C0C0C0;
+  color: #908E8E;
 
 }
 
@@ -326,7 +326,7 @@ h2{
   color: #639ca6;
 }
 .indian-p{
-  color: #C0C0C0;
+  color: #908E8E;
 
 }
 
@@ -335,7 +335,7 @@ h2{
 }
 
 .thai-p{
-  color:#C0C0C0;
+  color:#908E8E;
 }
 /* ........................GAllery............................................ */
 .gallery-block{
@@ -344,17 +344,6 @@ h2{
  padding :3%;
 }
 
-/* .gallery-block .heading{
-    margin-bottom: 50px;
-    text-align: center;
-}
-
-.gallery-block .heading h2{
-    font-weight: bold;
-    font-size: 1.4rem;
-    text-transform: uppercase;
-}
- */
 .gallery-block.compact-gallery .item{
   overflow: hidden;
   margin-bottom: 0;
