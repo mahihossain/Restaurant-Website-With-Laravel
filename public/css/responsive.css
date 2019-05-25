@@ -111,12 +111,18 @@ html {
 		z-index: 100;
     }
     
-    .overlay-right {
+    .overlay-right-thai {
 		position: absolute;
 		top: 15%;
 		max-width: 55%;
 		z-index: 100;
     }
+    .overlay-right-continental {
+      position: absolute;
+      top: 15%;
+      max-width: 55%;
+      z-index: 100;
+      }
     
     .gradient-color-right {
         position: absolute;
@@ -246,12 +252,19 @@ html {
 		z-index: 100;
     }
     
-    .overlay-right {
+    .overlay-right-thai {
 		position: absolute;
 		top: 35%;
 		max-width: 60%;
 		z-index: 100;
     }
+
+    .overlay-right-continental {
+      position: absolute;
+      top: 35%;
+      max-width: 60%;
+      z-index: 100;
+      }
     
     .gradient-color-right {
         position: absolute;
@@ -362,12 +375,19 @@ html {
 		z-index: 100;
     }
     
-    .overlay-right {
+    .overlay-right-thai {
 		position: absolute;
 		top: 44%;
 		max-width: 70%;
 		z-index: 100;
     }
+
+    .overlay-right-continental {
+      position: absolute;
+      top: 44%;
+      max-width: 70%;
+      z-index: 100;
+      }
     
     .gradient-color-right {
         position: absolute;
@@ -479,12 +499,18 @@ html {
 		z-index: 100;
     }
     
-    .overlay-right {
+    .overlay-right-thai {
 		position: absolute;
 		top: 30%;
 		max-width: 50%;
 		z-index: 100;
     }
+    .overlay-right-continental {
+      position: absolute;
+      top: 30%;
+      max-width: 50%;
+      z-index: 100;
+      }
 
     .gradient-color-right {
         position: absolute;
@@ -565,7 +591,7 @@ html {
     
     .third {
       position: relative !important;
-      margin-top: 30%;
+      margin-top: 24%;
 
     }
     
@@ -576,7 +602,7 @@ html {
     }
      .fifth{
         position: relative !important;
-        margin-top: 30%;
+        margin-top: 5%;
 
         }
         
@@ -588,7 +614,7 @@ html {
 
     .eighth{
       position: relative;
-      margin-top: 30%;
+      margin-top: 15%;
       z-index: 200;
     }
        .food{

@@ -24,7 +24,7 @@ html {
 }
 
 #status {
-    background-image: url("../image/preloader/loading.gif");
+    background-image: url("../image/preloader/Wedges-3s-200px.gif");
      background-repeat: no-repeat;
     width: 200px;
     height: 200px;
@@ -224,7 +224,15 @@ header .overlay {
 
 /*============================================================FLOATING IMAGES =========================================================================*/
 
-.overlay-right {
+.overlay-right-thai {
+	position: absolute;
+	top: 10%;
+	right: 0;
+	z-index: 200;
+	
+}
+
+.overlay-right-continental {
 	position: absolute;
 	top: 10%;
 	right: 0;

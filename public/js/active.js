@@ -61,7 +61,7 @@ $(function () {
 
 function parallax(){
   var para = document.querySelector(".shapes");
-  para.style.top = -(window.pageYOffset / 100) + '%';
+  para.style.top = -(window.pageYOffset / 90) + '%';
 }
 window.addEventListener("scroll",parallax,false)
 
@@ -80,7 +80,7 @@ window.addEventListener("scroll",parallaxtwo,false)
 
 // function parallax_left(){
 //   var para = document.querySelector(".overlay-left");
-//   para.style.top = (window.pageYOffset/500) + 'px';
+//   para.style.top = (window.pageYOffset/10 - 200) + 'px' ;
 // }
 // window.addEventListener("scroll",parallax_left,false)
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
