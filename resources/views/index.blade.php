@@ -175,32 +175,6 @@
           </div>
       </div>
       
-      
-      <div class="container-fluid fourth">
-              <div id="content-two" class="row content-two">
-                  <div class="col-md-6">
-                      
-                  </div>
-                  <div class="col-md-6 align-self-md-start">   
-                      <h2 class ="text-justify text-center ">Tasty</h2>
-                      <p class=" text-justify text-center continental">
-                        Croissant donut cake lemon drops cake candy pudding. Lollipop I love topping jelly beans bonbon. Tart dessert croissant lemon drops biscuit bear claw sugar plum donut I love. Cotton candy pie cake liquorice wafer powder jujubes bonbon.
-                        Ice cream dragée marzipan. I love pastry cotton candy cookie powder macaroon marshmallow muffin jelly-o. I love cupcake carrot cake.
-                      </p>
-                      <div class="row">
-                        <div class="col-md-3 col-sm-3 col-xs-6 offset-button"> <a href="#" class="btn btn-sm animated-button victoria-four ">Learn More</a> </div>
-                      </div>
-                  </div>
-              </div>
-              <div>
-                  <div >
-                      <img class="gradient-color-left gradient-color" alt="Responsive image" src="{{asset('image/foodhighlite/continental-back.png')}}">
-                  </div>
-                  <div class="overlay-left">
-                      <img class="img-fluid rounded float-left myImg" alt="Responsive image" src="{{asset('image/foodhighlite/continental.png')}}">
-                  </div>
-              </div>
-          </div>
 <!-- 
 ............................................gallery -->
 <div id="logo_center">
