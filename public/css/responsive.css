@@ -588,4 +588,8 @@
         margin-left: 32%;
       }
 
+      .gallery-size{
+          width: 80% !important;
+      }
+
 }

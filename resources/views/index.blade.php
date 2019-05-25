@@ -206,8 +206,9 @@
 ............................................gallery -->
 <div id="logo_center">
   <div class="gallery-block compact-gallery fifth">
-            <div class="container-fluid">
-              <div class="heading">
+            <div class="container-fluid gallery-size">
+              <div class="heading  text-center">
+                <h2>Our Stories</h2>
               </div>
               
               <div class="row no-gutters">
