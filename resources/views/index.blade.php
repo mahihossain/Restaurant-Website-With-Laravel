@@ -548,6 +548,7 @@
         <script>
             baguetteBox.run('.compact-gallery',{animation:'slideIn'});
         </script>
+
       
   
 </body>
