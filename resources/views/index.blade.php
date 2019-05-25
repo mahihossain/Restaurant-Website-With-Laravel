@@ -468,7 +468,7 @@
         </div>
              
 
-
+<!-- Footer -->
             <section class="eighth">
               <div class="container-fluid">
 
