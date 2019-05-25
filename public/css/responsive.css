@@ -1,4 +1,6 @@
-
+html {
+  scroll-behavior: smooth;
+}
 /* 1920 laptop monitor*/
 @media (min-width: 1400px) and (max-width: 2300px) {
     
