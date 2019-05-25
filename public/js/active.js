@@ -27,34 +27,7 @@ $(window).scroll(function(e){
 /* =========================================
                 Review section added
 ============================================ */
-$(function () {  
-  $("#reviews").owlCarousel({
-      items:7,
-          margin:340,
-    
-    // autoWidth:true,
-   
-      autoplay: false,
-      smartSpeed: 900,
-      loop: true,
-      autoplayHoverPause: true,
-      nav: true,
-      dots: true,
-      navText: ['<i class="fas fa-angle-double-left"></i>', '<i class="fas fa-angle-double-right"></i>'],
-      responsive: {
-          // breakpoint from 0 up
-           0:{
-          items:1
-      },
-      600:{
-          items:4
-      },
-      1000:{
-          items:7
-      }
-      }
-  });
-});
+
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
