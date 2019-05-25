@@ -1,11 +1,11 @@
-
+/* body{
+	z-index: -99999;
+} */
 section {
     background: #fff;
     overflow: hidden;
 }
-html {
-  scroll-behavior: smooth;
-}
+
 
 
 /* =========================================
@@ -1232,3 +1232,19 @@ padding: 40px
 	color:  #d6f202;
 	text-decoration: none;
 }
+
+/* -----------------------------------------------------------------------------smooth scrolling-------------------------------------- */
+
+/* .viewport {
+  overflow: hidden;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+}
+
+.scroll-container {  
+  position: absolute;  
+  overflow: hidden;
+  z-index: -10;
+ 
+} */

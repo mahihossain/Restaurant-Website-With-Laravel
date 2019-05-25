@@ -30,6 +30,7 @@
          
      
      <header>
+      <div class="viewport">
 
           <div class="Div" id="logo_center">
             <nav class="navbar navbar-expand-lg navbar-light " id="jump">   <!-- "fixed-top" class for fixed in the top -->
@@ -96,6 +97,8 @@
     @endsection --}}
     
     <!-- .........................food highlite start........................... -->
+    
+    
     <div id="scroll-container" class="scroll-container">
     <div class="container-fluid first" style="height: 100vh">
       <div id="content" class="row content">
@@ -465,7 +468,7 @@
               </div>
             </div>
           </div>
-        </div>
+      
              
 
 
@@ -513,7 +516,9 @@
                 </div>
               </div>
             </section>
+          </div>
 
+          </div>
 
     <!-- jquery -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
