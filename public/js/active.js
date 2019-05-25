@@ -61,13 +61,13 @@ $(function () {
 
 function parallax(){
   var para = document.querySelector(".shapes");
-  para.style.top = -(window.pageYOffset / 90) + '%';
+  para.style.top = -(window.pageYOffset / 80) + '%';
 }
 window.addEventListener("scroll",parallax,false)
 
 function parallaxtwo(){
   var para = document.querySelector("#move");
-  para.style.top = (- window.pageYOffset/90 +90)  + '%';
+  para.style.top = (- window.pageYOffset/80 +90)  + '%';
 }
 window.addEventListener("scroll",parallaxtwo,false)
 
