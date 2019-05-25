@@ -170,7 +170,7 @@
                   {{-- <img  src="{{asset('image/foodhighlite/continental-back.png')}}"> --}}
               </div>
               <div class="overlay-right-continental">
-                  <img class="img-fluid rounded float-right myImg" alt="Responsive image" src="{{asset('image/foodhighlite/continental.png')}}">
+                  <img class="img-fluid rounded float-right myImg2" alt="Responsive image" src="{{asset('image/foodhighlite/continental.png')}}">
               </div>
           </div>
       </div>

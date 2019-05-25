@@ -148,6 +148,12 @@ header .overlay {
 	max-width: 44%;
 }
 
+.myImg2 {
+	padding-block-start: 1%;
+	max-width: 116%;
+}
+
+
 .genre {
 	margin-block-end: 5%;
 }
