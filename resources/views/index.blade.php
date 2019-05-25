@@ -117,7 +117,7 @@
           <div  class="gradient-color-right-thai">
               {{-- <img  class="gradient-color-right" src="{{asset('image/foodhighlite/thai-back.png')}}"> --}}
           </div>
-          <div class="overlay-right">
+          <div class="overlay-right-thai">
               <img class="img-fluid rounded float-right myImg" alt="Responsive image" src="{{asset('image/foodhighlite/thai.png')}}">
           </div>
       </div>
@@ -170,7 +170,7 @@
               <div>
                   {{-- <img  src="{{asset('image/foodhighlite/continental-back.png')}}"> --}}
               </div>
-              <div class="overlay-right">
+              <div class="overlay-right-continental">
                   <img class="img-fluid rounded float-right myImg" alt="Responsive image" src="{{asset('image/foodhighlite/continental.png')}}">
               </div>
           </div>
