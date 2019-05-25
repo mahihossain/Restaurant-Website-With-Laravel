@@ -29,7 +29,7 @@
       <!-- Preloader End -->
          
      
-     <header >
+     <header>
 
           <div class="Div" id="logo_center">
             <nav class="navbar navbar-expand-lg navbar-light " id="jump">   <!-- "fixed-top" class for fixed in the top -->
@@ -78,7 +78,7 @@
           </div> -->
 
       <div class="overlay"></div>
-      <video class="" poster="{{ asset('video/bg.jpg') }}" playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" >
+      <video poster="{{ asset('video/bg.jpg') }}" playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" >
         <source src="{{ asset('video/mergeFood720p.mp4') }}" type="video/mp4">
       </video>
     </header>
@@ -96,7 +96,6 @@
     @endsection --}}
     
     <!-- .........................food highlite start........................... -->
-
     <div id="scroll-container" class="scroll-container">
     <div class="container-fluid first" style="height: 100vh">
       <div id="content" class="row content">
@@ -469,7 +468,7 @@
         </div>
              
 
-<!-- Footer -->
+
             <section class="eighth">
               <div class="container-fluid">
 
@@ -481,7 +480,7 @@
                     
                       <div>
                         <i class="fa fa-map-marker"></i>
-                        <p><span>C Block, Baridhara</span> Dhaka, Bangladesh</p>
+                        <p><span>C Block, Baridhara</span> Dhaka, Bangladesh/p>
                       </div>
 
                       <div>
@@ -548,7 +547,6 @@
         <script>
             baguetteBox.run('.compact-gallery',{animation:'slideIn'});
         </script>
-
       
   
 </body>
