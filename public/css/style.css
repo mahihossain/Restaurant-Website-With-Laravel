@@ -1141,10 +1141,10 @@ padding: 40px
 }
 .parallax {
   /* The image used */
-  background-image: url("../image/galleryimg/F8.jpg");  
+  background-image: url("../image/contact/contactt.jpg");  
 
   /* Set a specific height */
-  height: 400px;
+  height: auto;
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;

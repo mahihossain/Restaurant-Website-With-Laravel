@@ -12,8 +12,16 @@ html {
     .logo_size {
     height: 94px;
     width: 114px;
-}
+    }
 
+    /* Contact */
+    .right-footer {
+    padding-top: 32px;
+    }
+    .footer-center {
+    padding-top: 5%;
+  
+    }
 
 }
 
@@ -81,6 +89,10 @@ html {
     #logo_center { 
     justify-content: right; }
 }
+/* for contact */
+/* .left-footer{
+  display: none;
+} */
 /* Extra Small Devices (Portrait Phones & Smaller Devices) */
 
 @media (max-width: 320px) {
