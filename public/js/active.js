@@ -34,26 +34,36 @@ $(window).scroll(function(e){
 
 function parallax(){
   var para = document.querySelector(".shapes");
-  para.style.top = -(window.pageYOffset / 80) + '%';
+  para.style.top = -(window.pageYOffset / 80) + '%'; ///moving the shape div parallax
 }
 window.addEventListener("scroll",parallax,false)
 
 function parallaxtwo(){
   var para = document.querySelector("#move");
-  para.style.top = (- window.pageYOffset/80 +90)  + '%';
+  para.style.top = (- window.pageYOffset/80 +90)  + '%'; ///moving the move div parallax
 }
 window.addEventListener("scroll",parallaxtwo,false)
 
 
-// function parallax_right(){
-//   var para = document.querySelector(".overlay-right");
-//   para.style.top = (window.pageYOffset/10) + 'px';
+// function parallax_right_thai(){
+//   var para = document.querySelector(".overlay-right-thai");
+//   para.style.top = 5 + '%';
+//   console.log("thai", para.style.top )
 // }
-// window.addEventListener("scroll",parallax_right,false)
+// window.addEventListener("scroll",parallax_right_thai,false)
+
+// function parallax_right_continental(){
+//   var para = document.querySelector(".overlay-right-continental");
+//   para.style.top = (window.pageYOffset/9) + 'px';
+// }
+// window.addEventListener("scroll",parallax_right_continental,false)
 
 // function parallax_left(){
 //   var para = document.querySelector(".overlay-left");
-//   para.style.top = (window.pageYOffset/10 - 200) + 'px' ;
+//   para.style.top = (window.pageYOffset/10) + 'px' ;
 // }
 // window.addEventListener("scroll",parallax_left,false)
+
+
+
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
