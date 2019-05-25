@@ -205,8 +205,9 @@
 ............................................gallery -->
 <div id="logo_center">
   <div class="gallery-block compact-gallery fifth">
-            <div class="container-fluid">
-              <div class="heading">
+            <div class="container-fluid gallery-size">
+              <div class="heading  text-center">
+                <h2>Our Stories</h2>
               </div>
               
               <div class="row no-gutters">
@@ -562,7 +563,7 @@
         <script src="{{ asset('js/owl-carousel/owl.carousel.min.js') }}"></script>
 
         {{------------------- Scroll Magic------------> --}}
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenLite.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
 
 
     <!-- myJS -->
