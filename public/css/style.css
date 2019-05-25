@@ -24,13 +24,13 @@ html {
 }
 
 #status {
-    background-image: url("../image/preloader/Wedges-3s-200px.gif");
+    background-image: url("../image/preloader/food.gif");
      background-repeat: no-repeat;
-    width: 200px;
-    height: 200px;
+    width: 400px;
+    height: 400px;
     position: absolute;
-    left:50%;
-    top: 50%;
+    left:45%;
+    top: 45%;
     margin-top: -100px;
     margin-left: -100px;
 }
