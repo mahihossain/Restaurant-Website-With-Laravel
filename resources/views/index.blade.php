@@ -207,7 +207,7 @@
   <div class="gallery-block compact-gallery fifth">
             <div class="container-fluid gallery-size">
               <div class="heading  text-center">
-                <h2>Our Stories</h2>
+                <h2>Our Memories</h2>
               </div>
               
               <div class="row no-gutters">
@@ -314,7 +314,7 @@
           <div class="container seventh">
             <div class="row align-self-center">
               <div class="col-sm-12">
-                <h2 class="review-header"ee What <b>Our Customers</b> Say About Us</h2>
+                <h2 class="review-header">Our Customers Say About Us</h2>
                 <div id="myCarousel" class="carousel slide" data-ride="carousel">
                   <!-- Carousel indicators -->
                   <ol class="carousel-indicators">
@@ -331,7 +331,7 @@
                             <div class="testimonial">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam at, luctus dui. Mauris magna metus, dapibus nec turpis vel, semper malesuada ante, commodo iacul viverra.</div>
                             <div class="media">
                               <div class="media-left d-flex mr-3">
-                                <img src="https://www.tutorialrepublic.com/examples/images/clients/5.jpg" alt="">                   
+                                <img src="https://www.tutorialrepublic.com/examples/images/clients/1.jpg" alt="">                   
                               </div>
                               <div class="media-body">
                                 <div class="overview">
@@ -356,7 +356,7 @@
                             <div class="testimonial">Vestibulum quis quam ut magna consequat faucibus. Pellentesque eget mi suscipit tincidunt. Utmtc tempus dictum. Pellentesque virra. Quis quam ut magna consequat faucibus, metus id mi gravida.</div>
                             <div class="media">
                               <div class="media-left d-flex mr-3">
-                                <img src="https://www.tutorialrepublic.com/examples/images/clients/6.jpg" alt="">                   
+                                <img src="https://www.tutorialrepublic.com/examples/images/clients/2.jpg" alt="">                   
                               </div>
                               <div class="media-body">
                                 <div class="overview">
@@ -385,7 +385,7 @@
                             <div class="testimonial">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam at, luctus dui. Mauris magna metus, dapibus nec turpis vel, semper malesuada ante, commodo iacul viverra.</div>
                             <div class="media">
                               <div class="media-left d-flex mr-3">
-                                <img src="https://www.tutorialrepublic.com/examples/images/clients/1.jpg" alt="">                   
+                                <img src="https://www.tutorialrepublic.com/examples/images/clients/3.jpg" alt="">                   
                               </div>
                               <div class="media-body">
                                 <div class="overview">
@@ -410,7 +410,7 @@
                             <div class="testimonial">Vestibulum quis quam ut magna consequat faucibus. Pellentesque eget mi suscipit tincidunt. Utmtc tempus dictum. Pellentesque virra. Quis quam ut magna consequat faucibus, metus id mi gravida.</div>
                             <div class="media">
                               <div class="media-left d-flex mr-3">
-                                <img src="https://www.tutorialrepublic.com/examples/images/clients/2.jpg" alt="">                   
+                                <img src="https://www.tutorialrepublic.com/examples/images/clients/4.jpg" alt="">                   
                               </div>
                               <div class="media-body">
                                 <div class="overview">
@@ -439,7 +439,7 @@
                             <div class="testimonial">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam at, luctus dui. Mauris magna metus, dapibus nec turpis vel, semper malesuada ante, commodo iacul viverra.</div>
                             <div class="media">
                               <div class="media-left d-flex mr-3">
-                                <img src="https://www.tutorialrepublic.com/examples/images/clients/3.jpg" alt="">                   
+                                <img src="https://www.tutorialrepublic.com/examples/images/clients/5.jpg" alt="">                   
                               </div>
                               <div class="media-body">
                                 <div class="overview">
@@ -464,7 +464,7 @@
                             <div class="testimonial">Vestibulum quis quam ut magna consequat faucibus. Pellentesque eget mi suscipit tincidunt. Utmtc tempus dictum. Pellentesque virra. Quis quam ut magna consequat faucibus, metus id mi gravida.</div>
                             <div class="media">
                               <div class="media-left d-flex mr-3">
-                                <img src="https://www.tutorialrepublic.com/examples/images/clients/4.jpg" alt="">                   
+                                <img src="https://www.tutorialrepublic.com/examples/images/clients/6.jpg" alt="">                   
                               </div>
                               <div class="media-body">
                                 <div class="overview">
