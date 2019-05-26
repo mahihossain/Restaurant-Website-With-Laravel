@@ -24,7 +24,24 @@ $(window).scroll(function(e){
 
 });
 
+/* =========================================
+                Animation
+============================================ */
+// animate on scroll
+$(function () {
+    new WOW().init();
+});
 
+// home animation on page load
+$(window).on('load', function () {
+
+    $("#home-logo").addClass("animated fadeInDown");
+    $("#home-h1").addClass("animated fadeInDown");
+    $("#home-button-parent").addClass("animated flipinX");
+    $("#home-button-child").addClass("animated pulse");
+
+
+});
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////

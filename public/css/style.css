@@ -1134,6 +1134,7 @@ padding: 40px
 }
 .left-footer{
 	/* padding-top: 6%; */
+	z-index: 1;
 }
 .footer-center{
 	padding-top: 6%;
@@ -1248,3 +1249,10 @@ padding: 40px
   z-index: -10;
  
 } */
+
+/*............................................ Animation on landing page............................................ */
+
+.logo_ani{
+  animation-delay: 3s;
+  animation-iteration-count: 4;
+} 
