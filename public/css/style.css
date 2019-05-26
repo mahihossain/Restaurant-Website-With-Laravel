@@ -351,6 +351,11 @@ h2{
  padding :3%;
 }
 
+.gallery-block h2
+{
+	color: #bad3fd;
+}
+
 .gallery-block.compact-gallery .item{
   overflow: hidden;
   margin-bottom: 0;
@@ -1026,7 +1031,7 @@ polygon{
 
 /* ===================================================================================THe quote one================================================================= */
 .review-header {
-	color: #000;
+	color: #C95196;
 	font-size: 26px;
 	font-weight: 300;
 	text-align: center;
