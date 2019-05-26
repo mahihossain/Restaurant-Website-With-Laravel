@@ -19,6 +19,8 @@
       <!-- myCss -->
         <link rel="stylesheet" href="{{ asset('css/style.css') }}">
         <link rel="stylesheet" href="{{ asset('css/responsive.css') }}">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+
 
 </head>
 <body>
@@ -103,7 +105,7 @@
     <div class="container-fluid first" style="height: 100vh">
       <div id="content" class="row content">
           <div class="col-md-6 align-self-start">   
-              <h2 class=" text-justify text-center thai-h2">Thai</h2>
+              <h2 class=" text-justify text-center thai-h2 ">Thai</h2>
               <p class=" text-justify text-center food thai-p">
                   Croissant donut cake lemon drops cake candy pudding. Lollipop I love topping jelly beans bonbon. Tart dessert croissant lemon drops biscuit bear claw sugar plum donut I love. Cotton candy pie cake liquorice wafer powder jujubes bonbon.
                   Ice cream dragée marzipan. I love pastry cotton candy cookie powder.

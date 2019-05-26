@@ -150,7 +150,8 @@ header .overlay {
 
 .myImg2 {
 	padding-block-start: 1%;
-	max-width: 116%;
+	max-width: 60%;
+	margin-top: 28%;
 }
 
 
@@ -740,11 +741,11 @@ polygon{
 }
 
 @keyframes color-svg{
-	0% {stroke: #8e1805; }
+	0% {stroke: #14acae; }
 	25% {stroke: #83a6c9;}
 	50% {stroke: #ae14ac; }
 	75% {stroke: #97aa03; }
-	100% {stroke: #8e1805;}
+	100% {stroke: #C083C0;}
 }
 
 .triangle{
@@ -847,11 +848,11 @@ polygon{
 	animation-iteration-count: infinite;
 }
 @keyframes waves-svg{
-	0% {stroke: #8e1805; }
-	25% {stroke: #83a6c9; }
+	0% {stroke: #14acae; }
+	25% {stroke: #83a6c9;}
 	50% {stroke: #ae14ac; }
 	75% {stroke: #97aa03; }
-	100% {stroke: #8e1805; }
+	100% {stroke: #C083C0;}
 
 }
 
@@ -916,7 +917,7 @@ polygon{
 
 @keyframes diamond{
 	0% {
-		border-color: #8e1805;
+		border-color: #14acae;
 		transform: rotate(450deg);
 
 	}
@@ -924,8 +925,7 @@ polygon{
 	50% {border-color: #ae14ac; }
 	75% {border-color: #97aa03; }
 	100% {
-		border-color: #8e1805;
-		border-color: #8e1805;
+		border-color: #C083C0;
 		transform: rotate(-450deg);
 	 }
 

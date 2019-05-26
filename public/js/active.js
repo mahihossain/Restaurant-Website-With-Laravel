@@ -45,20 +45,24 @@ window.addEventListener("scroll",parallaxtwo,false)
 
 // function parallax_right_thai(){
 //   var para = document.querySelector(".overlay-right-thai");
-//   para.style.top = 5 + '%';
+//   para.style.top =((window.pageYOffset)/9) + 'px';;
 //   console.log("thai", para.style.top )
+  
 // }
 // window.addEventListener("scroll",parallax_right_thai,false)
 
 // function parallax_right_continental(){
-//   var para = document.querySelector(".overlay-right-continental");
-//   para.style.top = (window.pageYOffset/9) + 'px';
+//   var para2 = document.querySelector(".overlay-right-continental");
+//   para2.style.top = ((window.pageYOffset-2800)/9) + 'px';
+//   console.log("con", para2.style.top );
 // }
 // window.addEventListener("scroll",parallax_right_continental,false)
 
 // function parallax_left(){
-//   var para = document.querySelector(".overlay-left");
-//   para.style.top = (window.pageYOffset/10) + 'px' ;
+//   var para3 = document.querySelector(".overlay-left");
+//   para3.style.top = (((window.pageYOffset))/9) + 'px' ;
+//   console.log("left", para3.style.top );
+
 // }
 // window.addEventListener("scroll",parallax_left,false)
 
@@ -70,7 +74,7 @@ window.addEventListener("scroll",parallaxtwo,false)
 // var body = document.body;
 
 // var scroller = {
-//   target:  document.getElementsByTagName("BODY")[0],
+//   target:  document.getElementsByTagName("BODY"),
 //   ease: 0.05, // <= scroll speed
 //   endY: 0,
 //   y: 0,
@@ -134,5 +138,6 @@ window.addEventListener("scroll",parallaxtwo,false)
 //     requestId = requestAnimationFrame(updateScroller);
 //   }
 // }
+
 
 //////////////////////////////////

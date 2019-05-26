@@ -196,7 +196,8 @@ html {
 
       .myImg2 {
         padding-block-start: -2%;
-        max-width: 140%;
+        max-width: 105%;
+        margin-top: -36%
       }
 
        .food{
@@ -579,7 +580,8 @@ html {
 
     .myImg2 {
       padding-block-start: 1%;
-      max-width: 116%;
+      max-width: 138%;
+      margin-top: 15%
     }
 
     div h2{
