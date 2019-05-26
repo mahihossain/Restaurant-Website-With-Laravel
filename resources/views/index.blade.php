@@ -476,7 +476,7 @@
       
              
 
-
+<!-- Footer -->
             <section class="eighth">
               <div class="container-fluid">
 
@@ -488,7 +488,7 @@
                     
                       <div class="wow flipInX" data-wow-duration="2.5s"  data-wow-delay=".2s">
                         <i class="fa fa-map-marker"></i>
-                        <p><span>C Block, Baridhara</span> Dhaka, Bangladesh/p>
+                        <p><span>C Block, Baridhara</span> Dhaka, Bangladesh</p>
                       </div>
 
                       <div class="wow flipInX" data-wow-duration="2.5s"  data-wow-delay=".5s">
