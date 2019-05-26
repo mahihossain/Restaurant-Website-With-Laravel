@@ -309,13 +309,13 @@ header .overlay {
 /* =================================================================sizing the paragraphs and the h2=========================================================== */
 .food{
   font-size: 18px;
-  font-family: 'Yanone Kaffeesatz', sans-serif !important;
+  font-family: 'Caveat', cursive !important;
 
 }
 
 h2{
   font-size: 4.1rem;
-  font-family: 'Yanone Kaffeesatz', sans-serif !important;
+  font-family: 'Great Vibes', cursive !important;
 
 }
 
@@ -349,6 +349,11 @@ h2{
   /*padding-bottom: 60px;*/
  /* padding-top: 60px;*/
  padding :3%;
+}
+
+.gallery-block h2
+{
+	color: #bad3fd;
 }
 
 .gallery-block.compact-gallery .item{
@@ -425,6 +430,7 @@ h2{
 a.animated-button-continental:link, a.animated-button-continental:visited {
 	position: relative;
 	display: block;
+	font-family: 'Courgette', cursive;
 	margin: 30px auto 0;
 	padding: 14px 8.5px;
 	color: #2b2b2b;
@@ -502,6 +508,7 @@ a.animated-button-continental.btn-con:hover:after {
 a.animated-button-thai:link, a.animated-button-thai:visited {
 	position: relative;
 	display: block;
+	font-family: 'Courgette', cursive;
 	margin: 30px auto 0;
 	padding: 14px 8.5px;
 	color: #2b2b2b;
@@ -580,6 +587,7 @@ a.animated-button-thai.btn-thai:hover:after {
 a.animated-button-indian:link, a.animated-button-indian:visited {
 	position: relative;
 	display: block;
+	font-family: 'Courgette', cursive;
 	margin: 30px auto 0;
 	padding: 14px 8.5px;
 	color: #2b2b2b;
@@ -1026,7 +1034,7 @@ polygon{
 
 /* ===================================================================================THe quote one================================================================= */
 .review-header {
-	color: #000;
+	color: #C95196;
 	font-size: 26px;
 	font-weight: 300;
 	text-align: center;
