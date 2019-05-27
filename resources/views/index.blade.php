@@ -9,8 +9,8 @@
     <!-- animate.css -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
       <!-- owl-carousel jquery slide  -->
-       <!--  <link rel="stylesheet" href="{{ asset('css/owl-carousel/owl.carousel.min.css') }}">
-        <link rel="stylesheet" href="{{ asset('css/owl-carousel/owl.theme.default.min.css') }}"> -->
+       <!--  <link rel="stylesheet" href="{{ secure_asset('css/owl-carousel/owl.carousel.min.css') }}">
+        <link rel="stylesheet" href="{{ secure_asset('css/owl-carousel/owl.theme.default.min.css') }}"> -->
       <!-- gallery -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.css" />      <!-- font -->
         <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
@@ -18,10 +18,10 @@
         <link href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz" rel="stylesheet"> 
         <link href='http://fonts.googleapis.com/css?family=Just+Another+Hand' rel='stylesheet' type='text/css'>
       <!-- bootsratp -->
-        <link rel="stylesheet" href="{{asset('css/app.css')}}">
+        <link rel="stylesheet" href="{{secure_asset('css/app.css')}}">
       <!-- myCss -->
-        <link rel="stylesheet" href="{{ asset('css/style.css') }}">
-        <link rel="stylesheet" href="{{ asset('css/responsive.css') }}">
+        <link rel="stylesheet" href="{{ secure_asset('css/style.css') }}">
+        <link rel="stylesheet" href="{{ secure_asset('css/responsive.css') }}">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
 
 
@@ -579,20 +579,20 @@
    <!--  {{-- library for gallery --}} -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
          <!-- lattering -->
-        <script src="{{ asset('js/lettering/jquery.lettering-0.6.1.min.js') }}"></script>
+        <script src="{{ secure_asset('js/lettering/jquery.lettering-0.6.1.min.js') }}"></script>
         <!-- gallery -->
          <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
         <script>
             baguetteBox.run('.compact-gallery',{animation:'slideIn'});
         </script>
             <!-- wow.js scrool animate -->
-         <script src="{{ asset('js/wow/wow.min.js') }}"></script>
+         <script src="{{ secure_asset('js/wow/wow.min.js') }}"></script>
           <!-- owl-carousel jquery slide  -->
-        <script src="{{ asset('js/owl-carousel/owl.carousel.min.js') }}"></script>
+        <script src="{{ secure_asset('js/owl-carousel/owl.carousel.min.js') }}"></script>
 
 
     <!-- myJS -->
-        <script src="{{ asset('js/active.js') }}"></script>
+        <script src="{{ secure_asset('js/active.js') }}"></script>
         
         
         <script>
