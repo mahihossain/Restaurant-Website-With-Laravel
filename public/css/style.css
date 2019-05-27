@@ -24,7 +24,7 @@ section {
 }
 
 #status {
-    background-image: url("../image/preloader/Wedges-3s-200px.gif");
+    background-image: url("../image/preloader/burger.gif");
      background-repeat: no-repeat;
     width: 200px;
     height: 200px;
@@ -1264,3 +1264,32 @@ padding: 40px
   animation-delay: 3s;
   animation-iteration-count: 4;
 } 
+
+/* svg animation */
+.st0 {
+  stroke-dasharray: 1500;
+  /* stroke-dashoffset: 0; */
+  animation: dash 7s cubic-bezier(.62,.17,1,.83);
+}
+
+@keyframes dash {
+  0% {
+  opacity: 0;
+  stroke-dashoffset: 1500;
+  fill: none;
+  }	
+  10% {
+    opacity: 10;
+  stroke-dashoffset: 1500;
+  fill: none;
+  }
+  90% {
+   
+    fill:rgba(0, 255, 0, 0);
+  }
+  100% {
+    opacity: 10;
+stroke-dashoffset: 0;
+  fill:rgba(0, 255, 0, 1);
+  }
+}

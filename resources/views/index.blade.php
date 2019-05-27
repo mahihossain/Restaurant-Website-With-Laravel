@@ -38,7 +38,7 @@
       <div class="viewport">
 
           <div class="Div" id="logo_center">
-            <nav class="navbar navbar-expand-lg navbar-light wow fadeInDown" data-wow-duration="2s"  data-wow-delay=".2s" id="jump">   <!-- "fixed-top" class for fixed in the top -->
+            <nav class="navbar navbar-expand-lg navbar-light wow fadeInDown"data-wow-duration="2s"  data-wow-delay=".1s" id="jump">   <!-- "fixed-top" class for fixed in the top -->
               <!-- <a class="navbar-brand" href="#"> 
                 <img src="/docs/4.0/assets/brand/bootstrap-solid.svg" width="30" height="30" alt="">
               </a> --> <!-- this for logo -->
@@ -72,16 +72,67 @@
             </nav>
           </div>
 
-       <!--  tst code for adding image in vdo  <div class="Div">
+       <!--  tst code for adding image in vdo  --> 
+       <div class="Div">
             <div id="logo_center">
               <div class="container-fluid">
                 <div class="row">
-                  <img src="{{ asset('image/logo/logo1.png') }}" class="img-fluid">
+      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+        viewBox="0 0 1012 360" style="enable-background:new 0 0 1012 360;" xml:space="preserve">
+        <style type="text/css">
+        .st0{fill:rgba(0, 255, 0, 1);stroke:rgba(0, 255, 0, 1);stroke-width:4.5;stroke-linejoin:round;stroke-miterlimit:10;}
+        </style>
+        <g>
+          <path class="st0" d="M473.795,152.924H361.326c-5.795,0-10.226,1.477-13.281,4.435c-3.061,2.959-4.586,6.993-4.586,12.102
+            c0,4.931,1.466,8.895,4.404,11.899c2.943,3.004,7.427,4.502,13.463,4.502h38.603v143.194c0,8.152,1.648,14.251,4.944,18.285
+            s7.566,6.051,12.81,6.051c5.158,0,9.37-1.999,12.628-5.984c3.253-3.992,4.88-10.103,4.88-18.352V185.862h38.603
+            c6.036,0,10.563-1.498,13.581-4.502c3.018-3.004,4.527-6.969,4.527-11.899c0-4.928-1.488-8.919-4.463-11.966
+            C484.459,154.449,479.911,152.924,473.795,152.924z"/>
+            <path class="st0" d="M580.784,209.93c-6.432-3.853-13.067-5.782-19.895-5.782s-12.291,1.929-16.38,5.782
+              c-4.094,3.856-8.085,9.547-11.976,17.075c-0.241-7.527-1.546-13.219-3.933-17.075c-2.381-3.853-6.271-5.782-11.676-5.782
+              c-10.563,0-15.839,8.249-15.839,24.738v102.188c0,7.349,1.504,12.905,4.527,16.667c3.018,3.768,6.865,5.652,11.553,5.652
+              c4.768,0,8.695-1.86,11.799-5.58c3.093-3.72,4.645-9.3,4.645-16.739V300.42c0-11.027,0.31-20.375,0.952-28.038
+              c0.631-7.663,1.787-14.27,3.457-19.831c1.664-5.556,4.003-9.747,7.026-12.567c3.018-2.826,6.908-4.239,11.676-4.239
+              c3.494,0,7.524,0.833,12.093,2.488c4.564,1.655,7.443,2.488,8.637,2.488c3.173,0,6.138-1.461,8.877-4.372
+              c2.74-2.911,4.11-6.606,4.11-11.09C590.437,218.894,587.216,213.785,580.784,209.93z"/>
+              <path class="st0" d="M624.272,204.147c-4.768,0-8.637,1.839-11.617,5.513c-2.975,3.678-4.463,9.143-4.463,16.404v105.008
+                c0,7.174,1.488,12.681,4.463,16.534c2.981,3.853,6.849,5.785,11.617,5.785c4.768,0,8.695-1.884,11.799-5.652
+                c3.093-3.762,4.645-9.318,4.645-16.667V224.99c0-6.543-1.552-11.652-4.645-15.329C632.967,205.986,629.04,204.147,624.272,204.147z
+                "/>
+                <path class="st0" d="M624.63,151.176c-4.366,0-8.203,1.679-11.494,5.042c-3.302,3.361-4.944,7.642-4.944,12.838
+                  c0,5.737,1.605,10.175,4.821,13.312c3.216,3.137,7.09,4.704,11.617,4.704c4.366,0,8.139-1.591,11.318-4.774
+                  c3.173-3.179,4.768-7.597,4.768-13.243c0-5.824-1.632-10.263-4.885-13.309C632.571,152.7,628.836,151.176,624.63,151.176z"/>
+                  <path class="st0" d="M773.197,204.147c-4.848,0-8.776,1.839-11.794,5.513c-3.023,3.678-4.527,9.143-4.527,16.404v44.638
+                    c0,17.567-0.92,28.956-2.745,34.149c-2.221,5.918-5.758,10.713-10.6,14.384c-4.848,3.678-10.006,5.513-15.486,5.513
+                    c-5.645,0-10.114-1.636-13.41-4.909c-3.296-3.267-5.576-7.796-6.849-13.575c-1.273-5.785-1.905-12.929-1.905-21.45v-58.751
+                    c0-7.262-1.509-12.727-4.527-16.404c-3.018-3.675-6.988-5.513-11.911-5.513c-4.848,0-8.744,1.818-11.676,5.447
+                    c-2.943,3.629-4.409,9.122-4.409,16.471v72.737c0,14.614,2.023,25.816,6.073,33.612c3.414,6.455,8.241,11.522,14.475,15.193
+                    c6.239,3.672,13.287,5.513,21.147,5.513c6.518,0,12.313-0.924,17.396-2.76c5.083-1.836,9.771-4.638,14.057-8.4
+                    c4.292-3.762,8.38-8.424,12.275-13.98v4.704c0,6.54,1.445,11.625,4.345,15.26c2.9,3.629,6.571,5.447,11.023,5.447
+                    c4.447,0,8.08-1.751,10.9-5.242c2.82-3.503,4.233-8.744,4.233-15.737V226.065c0-7.349-1.477-12.841-4.409-16.471
+                    C781.93,205.965,778.04,204.147,773.197,204.147z"/>
+                    <path class="st0" d="M1001.826,227.276c-3.178-7.349-7.984-12.998-14.416-16.942c-6.432-3.943-14.095-5.918-22.993-5.918
+                      c-7.625,0-14.576,1.818-20.853,5.447c-6.271,3.629-12.147,9.209-17.626,16.739c-3.815-7.44-8.658-12.995-14.539-16.673
+                      c-5.881-3.675-12.907-5.513-21.089-5.513c-7.861,0-15.01,1.797-21.447,5.38c-6.432,3.584-12.468,9.188-18.108,16.806v-3.496
+                      c0-5.915-1.488-10.553-4.463-13.916c-2.981-3.361-6.694-5.042-11.141-5.042c-4.613,0-8.326,1.797-11.141,5.381
+                      c-2.82,3.584-4.227,8.829-4.227,15.731v105.005c0,7.621,1.563,13.382,4.704,17.277c3.136,3.901,7.165,5.852,12.093,5.852
+                      c5.003,0,9.033-1.951,12.093-5.852c3.055-3.895,4.586-9.656,4.586-17.277v-49.614c0-15.411,1.686-27.247,5.062-35.496
+                      c3.376-8.243,10.386-12.367,21.03-12.367c5.319,0,9.214,1.637,11.676,4.91c2.462,3.273,3.97,7.458,4.527,12.567
+                      s0.835,12.283,0.835,21.516v58.485c0,7.711,1.531,13.491,4.586,17.343s7.047,5.785,11.97,5.785c5.083,0,9.177-1.932,12.275-5.785
+                      s4.645-9.632,4.645-17.343v-48.805c0-15.689,1.193-26.619,3.574-32.802c2.146-4.843,5.142-8.696,8.995-11.57
+                      c3.853-2.862,7.925-4.3,12.216-4.3c5.319,0,9.289,1.618,11.911,4.843c2.622,3.225,4.227,7.21,4.827,11.963
+                      c0.594,4.753,0.888,11.069,0.888,18.956v61.716c0,7.621,1.573,13.382,4.709,17.277c3.136,3.901,7.17,5.852,12.093,5.852
+                      c5.083,0,9.172-1.932,12.27-5.785c3.098-3.853,4.65-9.632,4.65-17.343v-71.662C1006,244.35,1004.609,233.909,1001.826,227.276z"/>
+                      <path class="st0" d="M169.314,146.062c-52.373-25.093-99.235-23.072-99.235-23.072c-21.918,12.367-5.479,37.102-5.479,37.102
+                        c28.918,0,54.902,7.899,77.95,20.489L9.805,351.786h60.274L177.64,204.847c67.105,56.647,100.66,146.938,100.66,146.938h38.356
+                        V24.051L278.299,5.5L169.314,146.062z M278.299,259.031c-19.56-42.308-45.909-71.48-73.276-91.592l73.276-100.101V259.031z"/>
+                      </g>
+                    </svg>
                 </div>
               </div>
               
             </div>
-          </div> -->
+          </div>
 
       <div class="overlay"></div>
       <video poster="{{ asset('video/bg.jpg') }}" playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" >
@@ -121,7 +172,7 @@
           </div>
       </div>
       <div>
-          <div  class="gradient-color-right-thai wow slideInLeft " data-wow-duration="2s"  data-wow-delay=".1s">
+          <div  class="gradient-color-right-thai wow slideInLeft " data-wow-duration="2s" data-wow-delay=".1s">
               <!-- {{-- <img  class="gradient-color-right" src="{{asset('image/foodhighlite/thai-back.png')}}"> --}} -->
           </div>
           <div class="overlay-right-thai wow rotateInUpLeft " data-wow-duration="1.5s"  data-wow-delay=".3s">
@@ -188,7 +239,7 @@
 <div id="logo_center">
   <div class="gallery-block compact-gallery fifth">
             <div class="container-fluid gallery-size">
-              <div class="heading  text-center wow zoomIn " data-wow-duration="1.5s"  data-wow-delay=".1s">
+              <div class="heading  text-center wow zoomIn " data-wow-offset="10" data-wow-duration="1.5s"  data-wow-delay=".1s">
                 <h2>Our Memories</h2>
               </div>
               
@@ -296,7 +347,7 @@
           <div class="container seventh">
             <div class="row align-self-center">
               <div class="col-sm-12">
-                <h2 class="review-header wow zoomIn " data-wow-duration="1.5s"  data-wow-delay=".1s">What Our Customers Say About Us</h2>
+                <h2 class="review-header wow zoomIn " data-wow-offset="12" data-wow-duration="1.5s"  data-wow-delay=".1s">Our Customers Say About Us</h2>
                 <div id="myCarousel" class="carousel slide" data-ride="carousel">
                   <!-- Carousel indicators -->
                   <ol class="carousel-indicators">
@@ -476,7 +527,7 @@
       
              
 
-
+<!-- Footer -->
             <section class="eighth">
               <div class="container-fluid">
 
@@ -488,7 +539,7 @@
                     
                       <div class="wow flipInX" data-wow-duration="2.5s"  data-wow-delay=".2s">
                         <i class="fa fa-map-marker"></i>
-                        <p><span>C Block, Baridhara</span> Dhaka, Bangladesh/p>
+                        <p><span>C Block, Baridhara</span> Dhaka, Bangladesh</p>
                       </div>
 
                       <div class="wow flipInX" data-wow-duration="2.5s"  data-wow-delay=".5s">
@@ -534,7 +585,7 @@
         {{-- <script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script> --}}
  
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    {{-- library for gallery --}}
+   <!--  {{-- library for gallery --}} -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
          <!-- lattering -->
         <script src="{{ asset('js/lettering/jquery.lettering-0.6.1.min.js') }}"></script>
@@ -547,9 +598,6 @@
          <script src="{{ asset('js/wow/wow.min.js') }}"></script>
           <!-- owl-carousel jquery slide  -->
         <script src="{{ asset('js/owl-carousel/owl.carousel.min.js') }}"></script>
-
-        <!-- {{------------------- Scroll Magic------------> --}} -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
 
 
     <!-- myJS -->
