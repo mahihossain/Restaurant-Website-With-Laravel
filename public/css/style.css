@@ -221,6 +221,10 @@ header .overlay {
 	margin-top: 30%;
 
 } 
+
+.align{
+	margin-bottom: 0%; 
+}
 /* ============================================positioning the container-fluid div ============================================s====================== */
 
 #footer {

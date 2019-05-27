@@ -106,7 +106,7 @@ html {
 @media (min-width: 568px) {
 
   .align{
-    margin-top: 0%; 
+    margin-bottom: 0%; 
   }
 	.overlay-left {
 		position: absolute;
@@ -260,9 +260,11 @@ html {
 
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+  
+  .align{
+    margin-bottom: 0%; 
+  }
 
-  
-  
 	.overlay-left {
 		position: absolute;
 		top: 35%;
@@ -405,6 +407,10 @@ html {
 
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+
+  .align{
+    margin-bottom: 0%; 
+  }
 	.overlay-left {
 		position: absolute;
 		top: 44%;
@@ -537,6 +543,10 @@ html {
 
 /* // Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
+
+  .align{
+    margin-bottom: 24%; 
+  }
 	.overlay-left {
 		position: absolute;
 		top: 14%;
