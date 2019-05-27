@@ -13,7 +13,7 @@
         <link rel="stylesheet" href="{{ asset('css/owl-carousel/owl.theme.default.min.css') }}"> -->
       <!-- gallery -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.css" />      <!-- font -->
-        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
         <link href="https://fonts.googleapis.com/css?family=Caveat|Courgette|Great+Vibes&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz" rel="stylesheet"> 
         <link href='http://fonts.googleapis.com/css?family=Just+Another+Hand' rel='stylesheet' type='text/css'>
@@ -38,7 +38,7 @@
       <div class="viewport">
 
           <div class="Div" id="logo_center">
-            <nav class="navbar navbar-expand-lg navbar-light wow fadeInDown"data-wow-duration="2s"  data-wow-delay=".1s" id="jump">   <!-- "fixed-top" class for fixed in the top -->
+            <nav class="navbar navbar-expand-lg navbar-light wow fadeInDown" data-wow-duration="2s"  data-wow-delay=".2s" id="jump">   <!-- "fixed-top" class for fixed in the top -->
               <!-- <a class="navbar-brand" href="#"> 
                 <img src="/docs/4.0/assets/brand/bootstrap-solid.svg" width="30" height="30" alt="">
               </a> --> <!-- this for logo -->
@@ -121,7 +121,7 @@
           </div>
       </div>
       <div>
-          <div  class="gradient-color-right-thai wow slideInLeft " data-wow-duration="2s" data-wow-delay=".1s">
+          <div  class="gradient-color-right-thai wow slideInLeft " data-wow-duration="2s"  data-wow-delay=".1s">
               <!-- {{-- <img  class="gradient-color-right" src="{{asset('image/foodhighlite/thai-back.png')}}"> --}} -->
           </div>
           <div class="overlay-right-thai wow rotateInUpLeft " data-wow-duration="1.5s"  data-wow-delay=".3s">
@@ -188,7 +188,7 @@
 <div id="logo_center">
   <div class="gallery-block compact-gallery fifth">
             <div class="container-fluid gallery-size">
-              <div class="heading  text-center wow zoomIn " data-wow-offset="10" data-wow-duration="1.5s"  data-wow-delay=".1s">
+              <div class="heading  text-center wow zoomIn " data-wow-duration="1.5s"  data-wow-delay=".1s">
                 <h2>Our Memories</h2>
               </div>
               
@@ -296,7 +296,7 @@
           <div class="container seventh">
             <div class="row align-self-center">
               <div class="col-sm-12">
-                <h2 class="review-header wow zoomIn " data-wow-offset="12" data-wow-duration="1.5s"  data-wow-delay=".1s">Our Customers Say About Us</h2>
+                <h2 class="review-header wow zoomIn " data-wow-duration="1.5s"  data-wow-delay=".1s">Our Customers Say About Us</h2>
                 <div id="myCarousel" class="carousel slide" data-ride="carousel">
                   <!-- Carousel indicators -->
                   <ol class="carousel-indicators">
@@ -313,19 +313,19 @@
                             <div class="testimonial">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam at, luctus dui. Mauris magna metus, dapibus nec turpis vel, semper malesuada ante, commodo iacul viverra.</div>
                             <div class="media">
                               <div class="media-left d-flex mr-3">
-                                <img src="https://www.tutorialrepublic.com/examples/images/clients/1.jpg" alt="">                   
+                                <img src="http://www.indianlink.com.au/wp-content/uploads/2018/05/Rosie-150x150.jpg" alt="">                   
                               </div>
                               <div class="media-body">
                                 <div class="overview">
-                                  <div class="name"><b>Paula Wilson</b></div>
-                                  <div class="details">Media Analyst / SkyNet</div>
+                                  <div class="name"><b>Arfatun Nabila</b></div>
+                                  <div class="details">Media Analyst / SknkNet</div>
                                   <div class="star-rating">
                                     <ul class="list-inline">
-                                      <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                      <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                      <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                      <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                      <li class="list-inline-item"><i class="fa fa-star-half-o"></i></li>
+                                      <li class="list-inline-item"><i class="fas fa-star"></i></li>
+                                      <li class="list-inline-item"><i class="fas fa-star"></i></li>
+                                      <li class="list-inline-item"><i class="fas fa-star"></i></li>
+                                      <li class="list-inline-item"><i class="fas fa-star"></i></li>
+                                      <li class="list-inline-item"><i class="fas fa-star-half-alt"></i></li>
                                     </ul>
                                   </div>
                                 </div>                    
@@ -338,19 +338,19 @@
                             <div class="testimonial">Vestibulum quis quam ut magna consequat faucibus. Pellentesque eget mi suscipit tincidunt. Utmtc tempus dictum. Pellentesque virra. Quis quam ut magna consequat faucibus, metus id mi gravida.</div>
                             <div class="media">
                               <div class="media-left d-flex mr-3">
-                                <img src="https://www.tutorialrepublic.com/examples/images/clients/2.jpg" alt="">                   
+                                <img src="https://ccs.in/sites/default/files/people/amit-varma.jpg" alt="">                   
                               </div>
                               <div class="media-body">
                                 <div class="overview">
-                                  <div class="name"><b>Antonio Moreno</b></div>
-                                  <div class="details">Web Developer / SoftBee</div>
+                                  <div class="name"><b>Tawsif Samiul</b></div>
+                                  <div class="details">Marketing Manager / SoftBee</div>
                                   <div class="star-rating">
                                     <ul class="list-inline">
-                                      <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                      <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                      <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                      <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                      <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                      <li class="list-inline-item"><i class="fas fa-star"></i></li>
+                                      <li class="list-inline-item"><i class="fas fa-star"></i></li>
+                                      <li class="list-inline-item"><i class="fas fa-star"></i></li>
+                                      <li class="list-inline-item"><i class="fas fa-star"></i></li>
+                                      <li class="list-inline-item"><i class="far fa-star"></i></li>
                                     </ul>
                                   </div>
                                 </div>
@@ -367,19 +367,19 @@
                             <div class="testimonial">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam at, luctus dui. Mauris magna metus, dapibus nec turpis vel, semper malesuada ante, commodo iacul viverra.</div>
                             <div class="media">
                               <div class="media-left d-flex mr-3">
-                                <img src="https://www.tutorialrepublic.com/examples/images/clients/3.jpg" alt="">                   
+                                <img src="https://www.americanbazaaronline.com/wp-content/uploads/2017/06/Raajeev-profile-150x150.jpg" alt="">                   
                               </div>
                               <div class="media-body">
                                 <div class="overview">
-                                  <div class="name"><b>Michael Holz</b></div>
-                                  <div class="details">Web Developer / DevCorp</div>                      
+                                  <div class="name"><b>Tamzid Alam</b></div>
+                                  <div class="details">HR Manager / FgCorp</div>                      
                                   <div class="star-rating">
                                     <ul class="list-inline">
-                                      <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                      <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                      <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                      <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                      <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                      <li class="list-inline-item"><i class="fas fa-star"></i></li>
+                                      <li class="list-inline-item"><i class="fas fa-star"></i></li>
+                                      <li class="list-inline-item"><i class="fas fa-star"></i></li>
+                                      <li class="list-inline-item"><i class="fas fa-star"></i></li>
+                                      <li class="list-inline-item"><i class="far fa-star"></i></li>
                                     </ul>
                                   </div>
                                 </div>
@@ -392,19 +392,19 @@
                             <div class="testimonial">Vestibulum quis quam ut magna consequat faucibus. Pellentesque eget mi suscipit tincidunt. Utmtc tempus dictum. Pellentesque virra. Quis quam ut magna consequat faucibus, metus id mi gravida.</div>
                             <div class="media">
                               <div class="media-left d-flex mr-3">
-                                <img src="https://www.tutorialrepublic.com/examples/images/clients/4.jpg" alt="">                   
+                                <img src="https://www.healthfasiondesk.com/wp-content/uploads/2018/11/c713de08-361b-11e6-893c-b4f6f4b06aa3-150x150.jpeg" alt="">                   
                               </div>
                               <div class="media-body">
                                 <div class="overview">
-                                  <div class="name"><b>Mary Saveley</b></div>
-                                  <div class="details">Graphic Designer / MarsMedia</div>
+                                  <div class="name"><b>Ayesha Siddaque</b></div>
+                                  <div class="details">Interior Designer / SknkMedia</div>
                                   <div class="star-rating">
                                     <ul class="list-inline">
-                                      <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                      <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                      <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                      <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                      <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                      <li class="list-inline-item"><i class="fas fa-star"></i></li>
+                                      <li class="list-inline-item"><i class="fas fa-star"></i></li>
+                                      <li class="list-inline-item"><i class="fas fa-star"></i></li>
+                                      <li class="list-inline-item"><i class="fas fa-star"></i></li>
+                                      <li class="list-inline-item"><i class="far fa-star"></i></li>
                                     </ul>
                                   </div>
                                 </div>                    
@@ -421,19 +421,19 @@
                             <div class="testimonial">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam at, luctus dui. Mauris magna metus, dapibus nec turpis vel, semper malesuada ante, commodo iacul viverra.</div>
                             <div class="media">
                               <div class="media-left d-flex mr-3">
-                                <img src="https://www.tutorialrepublic.com/examples/images/clients/5.jpg" alt="">                   
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsxYafjRxatU4RKZ21oPJsAl0vP0iq6Lzb15uxz18Pj-HPONgBqg" alt="">                   
                               </div>
                               <div class="media-body">
                                 <div class="overview">
-                                  <div class="name"><b>Martin Sommer</b></div>
-                                  <div class="details">SEO Analyst / RealSearch</div>
+                                  <div class="name"><b>Shihab Monir</b></div>
+                                  <div class="details">Marketing Analyst / RealSearch</div>
                                   <div class="star-rating">
                                     <ul class="list-inline">
-                                      <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                      <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                      <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                      <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                      <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                      <li class="list-inline-item"><i class="fas fa-star"></i></li>
+                                      <li class="list-inline-item"><i class="fas fa-star"></i></li>
+                                      <li class="list-inline-item"><i class="fas fa-star"></i></li>
+                                      <li class="list-inline-item"><i class="fas fa-star"></i></li>
+                                      <li class="list-inline-item"><i class="far fa-star"></i></li>
                                     </ul>
                                   </div>
                                 </div>                    
@@ -446,19 +446,19 @@
                             <div class="testimonial">Vestibulum quis quam ut magna consequat faucibus. Pellentesque eget mi suscipit tincidunt. Utmtc tempus dictum. Pellentesque virra. Quis quam ut magna consequat faucibus, metus id mi gravida.</div>
                             <div class="media">
                               <div class="media-left d-flex mr-3">
-                                <img src="https://www.tutorialrepublic.com/examples/images/clients/6.jpg" alt="">                   
+                                <img src="https://www.mingtiandi.com/wp-content/uploads/2018/08/mayank-sakasena-150x150.jpg" alt="">                   
                               </div>
                               <div class="media-body">
                                 <div class="overview">
-                                  <div class="name"><b>John Williams</b></div>
-                                  <div class="details">Web Designer / UniqueDesign</div>
+                                  <div class="name"><b>Imtiaz Ali</b></div>
+                                  <div class="details">Media Consultant / UniqueDesign</div>
                                   <div class="star-rating">
                                     <ul class="list-inline">
-                                      <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                      <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                      <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                      <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                      <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                      <li class="list-inline-item"><i class="fas fa-star"></i></li>
+                                      <li class="list-inline-item"><i class="fas fa-star"></i></li>
+                                      <li class="list-inline-item"><i class="fas fa-star"></i></li>
+                                      <li class="list-inline-item"><i class="fas fa-star"></i></li>
+                                      <li class="list-inline-item"><i class="far fa-star-o"></i></li>
                                     </ul>
                                   </div>
                                 </div>                    
@@ -487,17 +487,17 @@
                    <div class="col-sm-4 footer-center ">
                     
                       <div class="wow flipInX" data-wow-duration="2.5s"  data-wow-delay=".2s">
-                        <i class="fa fa-map-marker"></i>
+                        <i class="fas fa-map-marker-alt"></i>
                         <p><span>C Block, Baridhara</span> Dhaka, Bangladesh</p>
                       </div>
 
                       <div class="wow flipInX" data-wow-duration="2.5s"  data-wow-delay=".5s">
-                        <i class="fa fa-phone"></i>
+                        <i class="fas fa-phone"></i>
                         <p>+01 771881718</p>
                       </div>
 
                       <div class="wow flipInX" data-wow-duration="2.5s"  data-wow-delay=".8s">
-                        <i class="fa fa-envelope"></i>
+                        <i class="fas fa-envelope"></i>
                         <p><a href="mailto:support@company.com">support@company.com</a></p>
                       </div>
                   </div>
@@ -512,10 +512,10 @@
                       proident, sunt in .
                     </p>
                     <div class="footer-icons">
-                      <a href="#" class="wow bounceIn" data-wow-duration="2s"  data-wow-delay="2.1s"><i class="fa fa-facebook"></i></a>
-                      <a href="#" class="wow bounceIn" data-wow-duration="2s"  data-wow-delay="2.4s"><i class="fa fa-twitter"></i></a>
-                      <a href="#" class="wow bounceIn" data-wow-duration="2s"  data-wow-delay="2.7s"><i class="fa fa-linkedin"></i></a>
-                      <a href="#" class="wow bounceIn" data-wow-duration="2s"  data-wow-delay="3s"><i class="fa fa-github"></i></a>
+                      <a href="https://www.facebook.com/atriumbangladesh/" class="wow bounceIn" data-wow-duration="2s"  data-wow-delay="2.1s"><i class="fab fa-facebook-f"></i></a>
+                      <a href="https://m.me/atriumbangladesh" class="wow bounceIn" data-wow-duration="2s"  data-wow-delay="2.4s"><i class="fab fa-facebook-messenger"></i></a>
+                      <a href="https://www.tripadvisor.com/Restaurant_Review-g293936-d1460212-Reviews-The_Atrium_Restaurant-Dhaka_City_Dhaka_Division.html?m=19905" class="wow bounceIn" data-wow-duration="2s"  data-wow-delay="2.7s"><i class="fab fa-tripadvisor"></i></a>
+                      <a href="#" class="wow bounceIn" data-wow-duration="2s"  data-wow-delay="3s"><i class="fab fa-linkedin-in"></i></a>
                     </div>
                   </div>
                 </div>
@@ -534,7 +534,7 @@
         {{-- <script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script> --}}
  
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-   <!--  {{-- library for gallery --}} -->
+    {{-- library for gallery --}}
         <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
          <!-- lattering -->
         <script src="{{ asset('js/lettering/jquery.lettering-0.6.1.min.js') }}"></script>
@@ -547,6 +547,9 @@
          <script src="{{ asset('js/wow/wow.min.js') }}"></script>
           <!-- owl-carousel jquery slide  -->
         <script src="{{ asset('js/owl-carousel/owl.carousel.min.js') }}"></script>
+
+        <!-- {{------------------- Scroll Magic------------> --}} -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
 
 
     <!-- myJS -->
