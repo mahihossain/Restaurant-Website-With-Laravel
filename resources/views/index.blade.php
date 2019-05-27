@@ -161,8 +161,8 @@
           <div class="col-md-6 align-self-center align">   
               <h2 class=" text-justify text-center thai-h2 wow fadeIn " data-wow-duration="3s"  data-wow-delay=".2s">Thai</h2>
               <p class=" text-justify text-center food thai-p wow fadeIn " data-wow-duration="1.5s"  data-wow-delay=".5s">
-                  Croissant donut cake lemon drops cake candy pudding. Lollipop I love topping jelly beans bonbon. Tart dessert croissant lemon drops biscuit bear claw sugar plum donut I love. Cotton candy pie cake liquorice wafer powder jujubes bonbon.
-                  Ice cream 
+                Croissant donut cake lemon drops cake candy pudding. Lollipop I love topping jelly beans bonbon. Tart dessert croissant lemon drops biscuit bear claw sugar plum donut I love. Cotton candy pie cake liquorice wafer powder jujubes bonbon.
+                Bear claw candy wafer I love pie tart. Lollipop bear claw oat cake dragée oat cake muffin. Pie soufflé cupcake jelly-o.
                   
               </p>
               <div class="col-md-3 col-sm-3 col-xs-6 offset-button wow fadeInUp " data-wow-duration="1.2s"  data-wow-delay=".6s"> <a href="#" class="btn btn-sm animated-button-thai btn-thai ">MENU</a> </div>
@@ -171,10 +171,7 @@
               
           </div>
       </div>
-      <div>
-          <div  class="gradient-color-right-thai wow slideInLeft " data-wow-duration="2s" data-wow-delay=".1s">
-              <!-- {{-- <img  class="gradient-color-right" src="{{asset('image/foodhighlite/thai-back.png')}}"> --}} -->
-          </div>
+      <div class="gradient-color-right-thai wow slideInLeft " data-wow-duration="2s" data-wow-delay=".1s">
           <div class="overlay-right-thai wow rotateInUpLeft " data-wow-duration="1.5s"  data-wow-delay=".3s">
               <img class="img-fluid rounded float-right myImgThai" alt="Responsive image" src="{{asset('image/foodhighlite/thai.png')}}">
           </div>
@@ -191,17 +188,14 @@
               <h2 class=" text-justify text-center indian-h2 wow fadeIn " data-wow-duration="3s"  data-wow-delay=".2s">Indian</h2>  
               <p class=" text-justify text-center food indian-p wow fadeIn " data-wow-duration="1.5s"  data-wow-delay=".5s">
                 Croissant donut cake lemon drops cake candy pudding. Lollipop I love topping jelly beans bonbon. Tart dessert croissant lemon drops biscuit bear claw sugar plum donut I love. Cotton candy pie cake liquorice wafer powder jujubes bonbon.
-                  Ice cream 
+                Bear claw candy wafer I love pie tart. Lollipop bear claw oat cake dragée oat cake muffin. Pie soufflé cupcake jelly-o.
                 
               </p>
               <div class="col-md-3 col-sm-3 col-xs-6 offset-button wow fadeInUp " data-wow-duration="1.2s"  data-wow-delay=".6s"> <a href="#" class="btn btn-sm animated-button-indian btn-indi">MENU</a> </div>
 
           </div>
       </div>
-      <div>
-          <div class= "gradient-color-left-indian wow slideInRight" data-wow-duration="2s"  data-wow-delay=".1s">
-              <!-- {{-- <img class="gradient-color-left gradient-color wow slideInLeft " data-wow-duration="2s"  data-wow-delay=".1s" alt="Responsive image" src="{{asset('image/foodhighlite/indian-back.png')}}"> --}} -->
-          </div>
+      <div class= "gradient-color-left-indian wow slideInRight" data-wow-duration="2s"  data-wow-delay=".1s">
           <div class="overlay-left">
               <img class="img-fluid rounded float-left myImgIndian wow rotateInUpRight" data-wow-duration="1.5s"  data-wow-delay=".3s" alt="Responsive image" src="{{asset('image/foodhighlite/indian.png')}}">
           </div>
@@ -215,7 +209,7 @@
                   <h2 class=" text-justify text-center continental-h2 wow fadeIn " data-wow-duration="3s"  data-wow-delay=".2s">Continental</h2> 
                   <p class=" text-justify text-center food continental-p wow fadeIn " data-wow-duration="1.5s"  data-wow-delay=".5s">
                     Croissant donut cake lemon drops cake candy pudding. Lollipop I love topping jelly beans bonbon. Tart dessert croissant lemon drops biscuit bear claw sugar plum donut I love. Cotton candy pie cake liquorice wafer powder jujubes bonbon.
-                    Ice cream
+                    Bear claw candy wafer I love pie tart. Lollipop bear claw oat cake dragée oat cake muffin. Pie soufflé cupcake jelly-o.
                     
                   </p>
                   <div class="col-md-3 col-sm-3 col-xs-6 offset-button wow fadeInUp " data-wow-duration="1.2s"  data-wow-delay=".6s"> <a href="#" class="btn btn-sm animated-button-continental btn-con">MENU</a> </div>
@@ -225,9 +219,6 @@
               </div>
           </div>
           <div class="gradient-color-right-continental wow slideInLeft " data-wow-duration="2s"  data-wow-delay=".1s">
-              <div>
-                  <!-- {{-- <img  src="{{asset('image/foodhighlite/continental-back.png')}}"> --}} -->
-              </div>
               <div class="overlay-right-continental" >
                   <img class="img-fluid rounded float-right myImgContinental wow rotateInUpLeft " data-wow-duration="1.5s"  data-wow-delay=".3s" alt="Responsive image" src="{{asset('image/foodhighlite/continental.png')}}">
               </div>
