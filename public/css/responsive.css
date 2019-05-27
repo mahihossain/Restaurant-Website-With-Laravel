@@ -87,8 +87,11 @@ html {
     /* flex-direction: row; */ /* for horizontal nav */
 }
     #logo_center { 
-    justify-content: right; }
+    /* justify-content: right; */ }
 }
+
+/* for big logo */
+
 /* for contact */
 /* .left-footer{
   display: none;

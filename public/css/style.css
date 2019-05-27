@@ -1280,7 +1280,7 @@ padding: 40px
 .st0 {
   stroke-dasharray: 1500;
   /* stroke-dashoffset: 0; */
-  animation: dash 7s cubic-bezier(.62,.17,1,.83);
+  animation: dash 7s cubic-bezier(.33,.08,.61,.62);
 }
 
 @keyframes dash {
@@ -1290,17 +1290,26 @@ padding: 40px
   fill: none;
   }	
   10% {
-    opacity: 10;
+	opacity: 10;
   stroke-dashoffset: 1500;
   fill: none;
   }
   90% {
    
-    fill:rgba(0, 255, 0, 0);
+    fill:rgba(0, 0, 0, 0);
   }
   100% {
     opacity: 10;
-stroke-dashoffset: 0;
-  fill:rgba(0, 255, 0, 1);
+	stroke-dashoffset: 0;
+  	fill:rgba(0, 0, 0, 0.3);
   }
+}
+.big_logo{
+	width:70%; 
+	height: 70%;
+	margin-top: 9%;
+	/* transform: rotate(15deg); */
+}
+.biglogounder_nav{
+	z-index: 3;
 }
