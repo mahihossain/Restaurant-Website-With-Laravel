@@ -366,7 +366,7 @@ h2{
 
 .gallery-block h2
 {
-	color: #bad3fd;
+	color: #6fa2f9;
 }
 
 .gallery-block.compact-gallery .item{
@@ -1180,7 +1180,7 @@ padding: 40px
 
 .footer-company-about{
     display: block;
-    color: #d6f202;
+    color: #b1b781;
     font-size: 18px;
     font-family:'Yanone Kaffeesatz', Helvetica, sans-serif;
 	margin: 0;
@@ -1201,7 +1201,7 @@ padding: 40px
 .footer-icons a{
 	display: inline-block;
 	width: 37px;
-	height: 37px;
+	height: 35px;
 	cursor: pointer;
 	background-color:  #d6f202;
 	border-radius: 3px;
@@ -1235,7 +1235,7 @@ padding: 40px
 
  .footer-center p{
 	display: inline-block;
-	color: #d6f202;
+	color: #b1b781;
     font-size: 24px;
     font-family:'Yanone Kaffeesatz', Helvetica, sans-serif;
 	vertical-align: middle;
@@ -1244,14 +1244,14 @@ padding: 40px
 
  .footer-center p span{
 	display:block;
-	color: #d6f202;
+	color: #b1b781;
     font-size: 23px;
     font-family:'Yanone Kaffeesatz', Helvetica, sans-serif;
 	line-height:1;
 }
 
  .footer-center p a{
-	color:  #d6f202;
+	color:  #b1b781;
 	text-decoration: none;
 }
 
