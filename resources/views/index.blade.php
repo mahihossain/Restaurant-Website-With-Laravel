@@ -170,10 +170,11 @@
           </div>
       </div>
       <div class="gradient-color-right-thai wow slideInLeft " data-wow-duration="2s" data-wow-delay=".1s">
-          <div class="overlay-right-thai wow rotateInUpLeft " data-wow-duration="1.5s"  data-wow-delay=".3s">
-              <img class="img-fluid rounded float-right myImgThai" alt="Responsive image" src="{{asset('image/foodhighlite/thai.png')}}">
-          </div>
+          
       </div>
+      <div class="overlay-right-thai wow rotateInUpLeft " data-wow-duration="1.5s"  data-wow-delay=".3s">
+        <img class="img-fluid rounded float-right myImgThai" alt="Responsive image" src="{{asset('image/foodhighlite/thai.png')}}">
+    </div>
   </div>
   
 
@@ -194,10 +195,11 @@
           </div>
       </div>
       <div class= "gradient-color-left-indian wow slideInRight" data-wow-duration="2s"  data-wow-delay=".1s">
-          <div class="overlay-left">
-              <img class="img-fluid rounded float-left myImgIndian wow rotateInUpRight" data-wow-duration="1.5s"  data-wow-delay=".3s" alt="Responsive image" src="{{asset('image/foodhighlite/indian.png')}}">
-          </div>
+          
       </div>
+      <div class="overlay-left">
+        <img class="img-fluid rounded float-left myImgIndian wow rotateInUpRight" data-wow-duration="1.5s"  data-wow-delay=".3s" alt="Responsive image" src="{{asset('image/foodhighlite/indian.png')}}">
+    </div>
   </div>
   
 
@@ -217,10 +219,11 @@
               </div>
           </div>
           <div class="gradient-color-right-continental wow slideInLeft " data-wow-duration="2s"  data-wow-delay=".1s">
-              <div class="overlay-right-continental" >
-                  <img class="img-fluid rounded float-right myImgContinental wow rotateInUpLeft " data-wow-duration="1.5s"  data-wow-delay=".3s" alt="Responsive image" src="{{asset('image/foodhighlite/continental.png')}}">
-              </div>
+              
           </div>
+          <div class="overlay-right-continental" >
+            <img class="img-fluid rounded float-right myImgContinental wow rotateInUpLeft " data-wow-duration="1.5s"  data-wow-delay=".3s" alt="Responsive image" src="{{asset('image/foodhighlite/continental.png')}}">
+        </div>
       </div>
       
 <!-- 
