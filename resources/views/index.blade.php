@@ -296,7 +296,7 @@
           <div class="container seventh">
             <div class="row align-self-center">
               <div class="col-sm-12">
-                <h2 class="review-header wow zoomIn " data-wow-duration="1.5s"  data-wow-delay=".1s">Our Customers Say About Us</h2>
+                <h2 class="review-header wow zoomIn " data-wow-duration="1.5s"  data-wow-delay=".1s">What Our Customers Say About Us</h2>
                 <div id="myCarousel" class="carousel slide" data-ride="carousel">
                   <!-- Carousel indicators -->
                   <ol class="carousel-indicators">
