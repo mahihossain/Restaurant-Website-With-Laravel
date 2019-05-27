@@ -142,16 +142,23 @@ header .overlay {
 
 /* ======================================================================code by dhrubo bhai===================================================== */
 
-
-.myImg {
+.myImgThai {
 	padding-block-start: 1%;
 	max-width: 44%;
+	margin-top: 5%;
 }
 
-.myImg2 {
+.myImgIndian {
+	padding-block-start: 1%;
+	max-width: 44%;
+	margin-top: 0%;
+
+}
+
+.myImgContinental {
 	padding-block-start: 1%;
 	max-width: 60%;
-	margin-top: 28%;
+	margin-top: 26%;
 }
 
 
@@ -286,7 +293,7 @@ header .overlay {
 
 .gradient-color-right-continental {
 	position: absolute;
-	top: -2%;
+	top: -18%;
 	right: 0;
 	width: 75%;
 	height: 32.5%;

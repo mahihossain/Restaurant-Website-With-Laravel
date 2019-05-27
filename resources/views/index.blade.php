@@ -158,7 +158,7 @@
     <div id="scroll-container" class="scroll-container">
     <div class="container-fluid first" style="height: 100vh">
       <div id="content" class="row content ">
-          <div class="col-md-6 align-self-start">   
+          <div class="col-md-6 align-self-start align">   
               <h2 class=" text-justify text-center thai-h2 wow fadeIn " data-wow-duration="3s"  data-wow-delay=".2s">Thai</h2>
               <p class=" text-justify text-center food thai-p wow fadeIn " data-wow-duration="1.5s"  data-wow-delay=".5s">
                   Croissant donut cake lemon drops cake candy pudding. Lollipop I love topping jelly beans bonbon. Tart dessert croissant lemon drops biscuit bear claw sugar plum donut I love. Cotton candy pie cake liquorice wafer powder jujubes bonbon.
@@ -176,7 +176,7 @@
               <!-- {{-- <img  class="gradient-color-right" src="{{asset('image/foodhighlite/thai-back.png')}}"> --}} -->
           </div>
           <div class="overlay-right-thai wow rotateInUpLeft " data-wow-duration="1.5s"  data-wow-delay=".3s">
-              <img class="img-fluid rounded float-right myImg" alt="Responsive image" src="{{asset('image/foodhighlite/thai.png')}}">
+              <img class="img-fluid rounded float-right myImgThai" alt="Responsive image" src="{{asset('image/foodhighlite/thai.png')}}">
           </div>
       </div>
   </div>
@@ -187,7 +187,7 @@
           <div class="col-md-6">
               
           </div>
-          <div class="col-md-6 align-self-start"> 
+          <div class="col-md-6 align-self-start align"> 
               <h2 class=" text-justify text-center indian-h2 wow fadeIn " data-wow-duration="3s"  data-wow-delay=".2s">Indian</h2>  
               <p class=" text-justify text-center food indian-p wow fadeIn " data-wow-duration="1.5s"  data-wow-delay=".5s">
                 Croissant donut cake lemon drops cake candy pudding. Lollipop I love topping jelly beans bonbon. Tart dessert croissant lemon drops biscuit bear claw sugar plum donut I love. Cotton candy pie cake liquorice wafer powder jujubes bonbon.
@@ -203,7 +203,7 @@
               <!-- {{-- <img class="gradient-color-left gradient-color wow slideInLeft " data-wow-duration="2s"  data-wow-delay=".1s" alt="Responsive image" src="{{asset('image/foodhighlite/indian-back.png')}}"> --}} -->
           </div>
           <div class="overlay-left">
-              <img class="img-fluid rounded float-left myImg wow rotateInUpRight" data-wow-duration="1.5s"  data-wow-delay=".3s" alt="Responsive image" src="{{asset('image/foodhighlite/indian.png')}}">
+              <img class="img-fluid rounded float-left myImgIndian wow rotateInUpRight" data-wow-duration="1.5s"  data-wow-delay=".3s" alt="Responsive image" src="{{asset('image/foodhighlite/indian.png')}}">
           </div>
       </div>
   </div>
@@ -211,7 +211,7 @@
 
   <div class="container-fluid third">
           <div id="content" class="row content">
-              <div class="col-md-6 align-self-start">  
+              <div class="col-md-6 align-self-start align">  
                   <h2 class=" text-justify text-center continental-h2 wow fadeIn " data-wow-duration="3s"  data-wow-delay=".2s">Continental</h2> 
                   <p class=" text-justify text-center food continental-p wow fadeIn " data-wow-duration="1.5s"  data-wow-delay=".5s">
                     Croissant donut cake lemon drops cake candy pudding. Lollipop I love topping jelly beans bonbon. Tart dessert croissant lemon drops biscuit bear claw sugar plum donut I love. Cotton candy pie cake liquorice wafer powder jujubes bonbon.
@@ -229,7 +229,7 @@
                   <!-- {{-- <img  src="{{asset('image/foodhighlite/continental-back.png')}}"> --}} -->
               </div>
               <div class="overlay-right-continental" >
-                  <img class="img-fluid rounded float-right myImg2 wow rotateInUpLeft " data-wow-duration="1.5s"  data-wow-delay=".3s" alt="Responsive image" src="{{asset('image/foodhighlite/continental.png')}}">
+                  <img class="img-fluid rounded float-right myImgContinental wow rotateInUpLeft " data-wow-duration="1.5s"  data-wow-delay=".3s" alt="Responsive image" src="{{asset('image/foodhighlite/continental.png')}}">
               </div>
           </div>
       </div>

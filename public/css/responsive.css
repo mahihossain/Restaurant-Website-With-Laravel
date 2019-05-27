@@ -189,15 +189,20 @@ html {
     
     }
     
-      .myImg {
+      .myImgThai {
+        padding-block-start: 11%;
+        max-width: 56%;
+      }
+      .myImgIndian {
         padding-block-start: 1%;
         max-width: 56%;
       }
 
-      .myImg2 {
+
+      .myImgContinental {
         padding-block-start: -2%;
         max-width: 105%;
-        margin-top: -36%
+        margin-top: -12%
       }
 
        .food{
@@ -251,6 +256,9 @@ html {
 
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+
+  
+  
 	.overlay-left {
 		position: absolute;
 		top: 35%;
@@ -312,6 +320,25 @@ html {
       background: linear-gradient(40deg, rgba(68,137,148,1) 33%, rgba(99,156,166,1) 78%);
     }
     
+        
+    .myImgThai {
+      padding-block-start: 1%;
+      max-width: 44%;
+      margin-top: 0%;
+    }
+
+    .myImgIndian {
+      padding-block-start: 1%;
+      max-width: 44%;
+      margin-top: 0%;
+
+    }
+
+    .myImgContinental {
+      padding-block-start: 1%;
+      max-width: 83%;
+      margin-top: 4%;
+    }
     
     .gradient-color-left {
         position: absolute;
@@ -446,7 +473,15 @@ html {
 
     /* ============================================positioning the container-fluid div ================================================================== */
      
-      .myImg {
+      .myImgThai {
+        padding-block-start: 1%;
+        max-width: 50%;
+      }
+      .myImgIndian {
+        padding-block-start: 1%;
+        max-width: 50%;
+      } 
+      .myImgContinental {
         padding-block-start: 1%;
         max-width: 50%;
       }
@@ -500,20 +535,20 @@ html {
 @media (min-width: 1200px) {
 	.overlay-left {
 		position: absolute;
-		top: 12%;
+		top: 14%;
 		max-width: 50%;
 		z-index: 100;
     }
     
     .overlay-right-thai {
 		position: absolute;
-		top: 30%;
+		top: 16%;
 		max-width: 50%;
 		z-index: 100;
     }
     .overlay-right-continental {
       position: absolute;
-      top: 30%;
+      top: 22%;
       max-width: 50%;
       z-index: 100;
       }
@@ -703,14 +738,17 @@ a.animated-button-indian:link, a.animated-button-indian:visited {
       font-family: 'Yanone Kaffeesatz', sans-serif !important;
     
     }
-    .myImg {
+    .myImgThai {
       padding-block-start: 1%;
       max-width: 80%;
     }
-
-    .myImg2 {
+    .myImgIndian {
       padding-block-start: 1%;
-      max-width: 138%;
+      max-width: 80%;
+    }
+    .myImgContinental {
+      padding-block-start: 1%;
+      max-width: 110%;
       margin-top: 15%
     }
 
