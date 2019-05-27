@@ -38,7 +38,7 @@
       <div class="viewport">
 
           <div class="Div" id="logo_center">
-            <nav class="navbar navbar-expand-lg navbar-light wow fadeInDown" data-wow-duration="2s"  data-wow-delay=".2s" id="jump">   <!-- "fixed-top" class for fixed in the top -->
+            <nav class="navbar navbar-expand-lg navbar-light wow fadeInDown"data-wow-duration="2s"  data-wow-delay=".1s" id="jump">   <!-- "fixed-top" class for fixed in the top -->
               <!-- <a class="navbar-brand" href="#"> 
                 <img src="/docs/4.0/assets/brand/bootstrap-solid.svg" width="30" height="30" alt="">
               </a> --> <!-- this for logo -->
@@ -121,7 +121,7 @@
           </div>
       </div>
       <div>
-          <div  class="gradient-color-right-thai wow slideInLeft " data-wow-duration="2s"  data-wow-delay=".1s">
+          <div  class="gradient-color-right-thai wow slideInLeft " data-wow-duration="2s" data-wow-delay=".1s">
               <!-- {{-- <img  class="gradient-color-right" src="{{asset('image/foodhighlite/thai-back.png')}}"> --}} -->
           </div>
           <div class="overlay-right-thai wow rotateInUpLeft " data-wow-duration="1.5s"  data-wow-delay=".3s">
@@ -188,7 +188,7 @@
 <div id="logo_center">
   <div class="gallery-block compact-gallery fifth">
             <div class="container-fluid gallery-size">
-              <div class="heading  text-center wow zoomIn " data-wow-duration="1.5s"  data-wow-delay=".1s">
+              <div class="heading  text-center wow zoomIn " data-wow-offset="10" data-wow-duration="1.5s"  data-wow-delay=".1s">
                 <h2>Our Memories</h2>
               </div>
               
@@ -296,7 +296,7 @@
           <div class="container seventh">
             <div class="row align-self-center">
               <div class="col-sm-12">
-                <h2 class="review-header wow zoomIn " data-wow-duration="1.5s"  data-wow-delay=".1s">Our Customers Say About Us</h2>
+                <h2 class="review-header wow zoomIn " data-wow-offset="12" data-wow-duration="1.5s"  data-wow-delay=".1s">Our Customers Say About Us</h2>
                 <div id="myCarousel" class="carousel slide" data-ride="carousel">
                   <!-- Carousel indicators -->
                   <ol class="carousel-indicators">
@@ -534,7 +534,7 @@
         {{-- <script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script> --}}
  
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    {{-- library for gallery --}}
+   <!--  {{-- library for gallery --}} -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
          <!-- lattering -->
         <script src="{{ asset('js/lettering/jquery.lettering-0.6.1.min.js') }}"></script>
@@ -547,9 +547,6 @@
          <script src="{{ asset('js/wow/wow.min.js') }}"></script>
           <!-- owl-carousel jquery slide  -->
         <script src="{{ asset('js/owl-carousel/owl.carousel.min.js') }}"></script>
-
-        <!-- {{------------------- Scroll Magic------------> --}} -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
 
 
     <!-- myJS -->
