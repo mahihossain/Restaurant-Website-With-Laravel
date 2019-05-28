@@ -142,24 +142,7 @@ header .overlay {
 
 /* ======================================================================code by dhrubo bhai===================================================== */
 
-.myImgThai {
-	padding-block-start: 1%;
-	max-width: 61%;
-	margin-top: 5%;
-}
 
-.myImgIndian {
-	padding-block-start: 1%;
-	max-width: 61%;
-	margin-top: 0%;
-
-}
-
-.myImgContinental {
-	padding-block-start: 1%;
-	max-width: 60%;
-	margin-top: 26%;
-}
 
 
 .genre {
@@ -244,7 +227,7 @@ header .overlay {
 
 .overlay-right-thai {
 	position: absolute;
-	top: 37%;
+	top: -12%;
 	right: 0;
 	z-index: 200;
 	
@@ -252,7 +235,7 @@ header .overlay {
 
 .overlay-right-continental {
 	position: absolute;
-	top: 5%;
+	top: -21%;
 	right: 0;
 	z-index: 200;
 	
@@ -260,7 +243,7 @@ header .overlay {
 
 .overlay-left {
 	position: absolute;
-	top: 43%;
+	top: -13%;
 	left: 0;
 	z-index: 200;
 }
@@ -276,7 +259,7 @@ header .overlay {
 
 .gradient-color-right-thai {
 	position: absolute;
-	top: -16%;
+	top: -22%;
 	right: 0;
 	width: 75%;
 	height: 32.5%;
@@ -286,7 +269,7 @@ header .overlay {
 }
 .gradient-color-left-indian {
 	position: absolute;
-	top: -16%;
+	top: -23%;
 	left: 0;
 	width: 75%;
 	height: 32.5%;
@@ -297,7 +280,7 @@ header .overlay {
 
 .gradient-color-right-continental {
 	position: absolute;
-	top: -20%;
+	top: -26%;
 	right: 0;
 	width: 75%;
 	height: 32.5%;
@@ -313,8 +296,27 @@ header .overlay {
      top: -3%;
     left: 0;
     width: 75%;
-    height: 34.5%;
+    height: 34.5%;	
 	  z-index: 100;
+}
+
+.myImgThai {
+	padding-block-start: 1%;
+	max-width: 56%;
+	margin-top: 0%;
+}
+
+.myImgIndian {
+	padding-block-start: 1%;
+	max-width: 56%;
+	margin-top: 0%;
+
+}
+
+.myImgContinental {
+	padding-block-start: 1%;
+	max-width: 55%;
+	margin-top: 0%;
 }
 
 /* =================================================================sizing the paragraphs and the h2=========================================================== */
@@ -364,7 +366,7 @@ h2{
 
 .gallery-block h2
 {
-	color: #bad3fd;
+	color: #6fa2f9;
 }
 
 .gallery-block.compact-gallery .item{
@@ -1178,7 +1180,7 @@ padding: 40px
 
 .footer-company-about{
     display: block;
-    color: #d6f202;
+    color: #b1b781;
     font-size: 18px;
     font-family:'Yanone Kaffeesatz', Helvetica, sans-serif;
 	margin: 0;
@@ -1199,7 +1201,7 @@ padding: 40px
 .footer-icons a{
 	display: inline-block;
 	width: 37px;
-	height: 37px;
+	height: 35px;
 	cursor: pointer;
 	background-color:  #d6f202;
 	border-radius: 3px;
@@ -1233,7 +1235,7 @@ padding: 40px
 
  .footer-center p{
 	display: inline-block;
-	color: #d6f202;
+	color: #b1b781;
     font-size: 24px;
     font-family:'Yanone Kaffeesatz', Helvetica, sans-serif;
 	vertical-align: middle;
@@ -1242,14 +1244,14 @@ padding: 40px
 
  .footer-center p span{
 	display:block;
-	color: #d6f202;
+	color: #b1b781;
     font-size: 23px;
     font-family:'Yanone Kaffeesatz', Helvetica, sans-serif;
 	line-height:1;
 }
 
  .footer-center p a{
-	color:  #d6f202;
+	color:  #b1b781;
 	text-decoration: none;
 }
 
@@ -1280,7 +1282,7 @@ padding: 40px
 .st0 {
   stroke-dasharray: 1500;
   /* stroke-dashoffset: 0; */
-  animation: dash 7s cubic-bezier(.62,.17,1,.83);
+  animation: dash 7s cubic-bezier(.33,.08,.61,.62);
 }
 
 @keyframes dash {
@@ -1290,17 +1292,26 @@ padding: 40px
   fill: none;
   }	
   10% {
-    opacity: 10;
+	opacity: 10;
   stroke-dashoffset: 1500;
   fill: none;
   }
   90% {
    
-    fill:rgba(0, 255, 0, 0);
+    fill:rgba(0, 0, 0, 0);
   }
   100% {
     opacity: 10;
-stroke-dashoffset: 0;
-  fill:rgba(0, 255, 0, 1);
+	stroke-dashoffset: 0;
+  	fill:rgba(0, 0, 0, 0.3);
   }
+}
+.big_logo{
+	width:70%; 
+	height: 70%;
+	margin-top: 9%;
+	/* transform: rotate(15deg); */
+}
+.biglogounder_nav{
+	z-index: 3;
 }
