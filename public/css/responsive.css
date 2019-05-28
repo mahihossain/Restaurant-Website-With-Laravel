@@ -1,0 +1,844 @@
+html {
+  scroll-behavior: smooth;
+}
+/* 1920 laptop monitor*/
+@media (min-width: 1400px) and (max-width: 2300px) {
+    
+    /* home 1st part nav */
+    .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+        font-size: 35px;
+    }
+
+    .logo_size {
+    height: 94px;
+    width: 114px;
+    }
+
+    /* Contact */
+    .right-footer {
+    padding-top: 32px;
+    }
+    .footer-center {
+    padding-top: 5%;
+  
+    }
+
+}
+
+
+
+/* 1366laptop monitor*/
+
+@media (min-width: 1300px) and (max-width: 1400px) {
+
+
+       
+}
+
+
+/* In middle */
+
+@media (min-width: 1200px) and (max-width: 1299px) {
+ 
+ 
+
+}
+
+
+/* Medium Devices (Landscape Tablets & Medium Desktops) */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    
+
+}
+
+
+/* Small Devices (Portrait Tablets & Small Desktops) */
+
+@media (min-width: 768px) and (max-width: 991px) {
+     /* for NAv */
+  .navbar-expand-lg .navbar-nav{
+    flex-direction: column;
+    /* flex-direction: row; */ /* for horizontal nav */
+    }
+
+}
+
+
+/* Extra Small Devices (Landscape Phones & Portrait Tablets) */
+/* midea player button willbe half from here */
+@media (min-width: 481px) and (max-width: 767px) {
+  /* for NAv */
+  .navbar-expand-lg .navbar-nav{
+    flex-direction: column;
+    /* flex-direction: row; */ /* for horizontal nav */
+    }
+
+}
+
+
+/* Extra Small Devices (Portrait Phones & Smaller Devices) */
+
+@media (max-width: 480px) {
+  /* for NAv */
+
+  .navbar-expand-lg .navbar-nav{
+    flex-direction: column;
+    /* flex-direction: row; */ /* for horizontal nav */
+}
+    #logo_center { 
+    /* justify-content: right; */ }
+}
+
+/* for big logo */
+
+/* for contact */
+/* .left-footer{
+  display: none;
+} */
+/* Extra Small Devices (Portrait Phones & Smaller Devices) */
+
+@media (max-width: 320px) {
+
+
+}    
+
+/* ======================================================================code by dhrubo bhai===================================================== */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 568px) {
+
+  .align{
+    margin-bottom: 0%; 
+  }
+	.overlay-left {
+		position: absolute;
+		top: 25%;
+		max-width: 55%;
+		z-index: 100;
+    }
+    
+    .overlay-right-thai {
+		position: absolute;
+		top: 18%;
+		max-width: 55%;
+		z-index: 100;
+    }
+    .overlay-right-continental {
+      position: absolute;
+      top: 15%;
+      max-width: 55%;
+      z-index: 100;
+      }
+    
+    .gradient-color-right {
+        position: absolute;
+        top: 0%;
+        right: 0;
+        width: 51%;
+        height: 61%;
+        z-index: 100;
+    }
+    .gradient-color-right-thai {
+      position: absolute;
+      top: 15%;
+      right: 0;
+      width: 48%;
+      height: 75%;
+      z-index: 100;
+      background: rgb(214,217,45);
+      background: linear-gradient(126deg, rgba(214,217,45,1) 5%, rgba(188,188,28,1) 38%, rgba(214,217,45,1) 98%);
+
+    }
+    .gradient-color-right-continental {
+      position: absolute;
+      top: 15%;
+      right: 0;
+      width: 48%;
+      height: 75%;
+      z-index: 100;
+      background: rgb(188,112,204);
+      background: linear-gradient(40deg, rgba(188,112,204,1) 32%, rgba(184,67,184,1) 73%);
+    }
+    .gradient-color-left-indian {
+      position: absolute;
+      top: 15%;
+      left: 0;
+      width: 48%;
+      height: 75%;
+      z-index: 100;
+      background: rgb(68,137,148);
+      background: linear-gradient(40deg, rgba(68,137,148,1) 33%, rgba(99,156,166,1) 78%);
+    }
+    
+    .gradient-color-left {
+        position: absolute;
+        top: 19%;
+        left: 0;
+        width: 51%;
+        height: 61%;
+        z-index: 100;
+    }
+    .content {
+      min-height: 100vh !important;
+      flex-wrap: nowrap !important;
+    }
+    .content-two {
+      min-height: 100vh !important;
+      flex-wrap: nowrap !important;
+    }
+    h2{
+      font-size: 4.8rem;
+    }
+    h2 p{
+      font-size: 20px;
+      font-family: 'Yanone Kaffeesatz', sans-serif !important;
+    
+    }
+    
+      .myImgThai {
+        padding-block-start: 11%;
+        max-width: 70%;
+        margin-top: 0%;
+      }
+      .myImgIndian {
+        padding-block-start: 1%;
+        max-width: 70%;
+        margin-top: 0%;
+      }
+
+
+      .myImgContinental {
+        padding-block-start: -2%;
+        max-width: 70%;
+        margin-top: 0%;
+      }
+
+       .food{
+        font-size: 12px;
+        font-family: 'Caveat', cursive !important;
+      
+      }
+
+
+      .first {
+        /* top: 150% !important; */
+        position: relative !important;
+        margin-top: 35%;
+      
+      }
+      .second {
+        position: relative !important;
+        margin-top: 35%;
+      
+      }
+      
+      .third {
+        position: relative !important;
+        margin-top: 35%;
+      
+      }
+      
+      .fourth {
+        position: relative !important;
+        margin-top: 35%;
+      
+      }
+       .fifth{
+          position: relative !important;
+          margin-top: 35%;
+      
+          }
+          
+      .seventh{
+        position: relative;
+        margin-top: 11%;
+      } 
+
+      .offset-button{
+        max-width: 100% !important;
+      }
+ }
+        /* ============================================positioning the container-fluid div ================================================================== */
+
+     
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  
+  .align{
+    margin-bottom: 0%; 
+  }
+
+	.overlay-left {
+		position: absolute;
+		top: 16%;
+		max-width: 60%;
+		z-index: 100;
+    }
+    
+    .overlay-right-thai {
+		position: absolute;
+		top: 14%;
+		max-width: 60%;
+		z-index: 100;
+    }
+
+    .overlay-right-continental {
+      position: absolute;
+      top: 3%;
+      max-width: 60%;
+      z-index: 100;
+      }
+    
+    .gradient-color-right {
+        position: absolute;
+        top: 0%;
+        right: 0;
+        width: 50%;
+        height: 69%;
+        z-index: 100;
+    }
+    .gradient-color-right-thai {
+      position: absolute;
+      top: 5%;
+      right: 0;
+      width: 48%;
+      height: 75%;
+      z-index: 100;
+      background: rgb(214,217,45);
+      background: linear-gradient(126deg, rgba(214,217,45,1) 5%, rgba(188,188,28,1) 38%, rgba(214,217,45,1) 98%);
+
+    }
+    .gradient-color-right-continental {
+      position: absolute;
+      top: 5%;
+      right: 0;
+      width: 48%;
+      height: 75%;
+      z-index: 100;
+      background: rgb(188,112,204);
+      background: linear-gradient(40deg, rgba(188,112,204,1) 32%, rgba(184,67,184,1) 73%);
+    }
+    .gradient-color-left-indian {
+      position: absolute;
+      top: 5%;
+      left: 0;
+      width: 48%;
+      height: 75%;
+      z-index: 100;
+      background: rgb(68,137,148);
+      background: linear-gradient(40deg, rgba(68,137,148,1) 33%, rgba(99,156,166,1) 78%);
+    }
+    
+        
+    .myImgThai {
+      padding-block-start: 1%;
+      max-width: 55%;
+      margin-top: 0%;
+    }
+
+    .myImgIndian {
+      padding-block-start: 1%;
+      max-width: 55%;
+      margin-top: 0%;
+
+    }
+
+    .myImgContinental {
+      padding-block-start: 1%;
+      max-width: 55%;
+      margin-top: 0%;
+    }
+    
+    .gradient-color-left {
+        position: absolute;
+        top: 0%;
+        left: 0;
+        width: 50%;
+        height: 69%;
+        z-index: 100;
+    }
+    .offset-button {
+      margin-left: 0%;
+    }
+     .food{
+      font-size: 16px;
+      font-family: 'Caveat', cursive !important;
+    
+    }
+    
+    .first {
+      position: relative !important;
+      margin-top: 35%;
+    
+    }
+    .second {
+      position: relative !important;
+      margin-top: 35%;
+    
+    }
+    
+    .third {
+      position: relative !important;
+      margin-top: 35%;
+    
+    }
+    
+    .fourth {
+      position: relative !important;
+      margin-top: 35%;
+    
+    }
+     .fifth{
+        position: relative !important;
+        margin-top: 35%;
+    
+        }
+        
+    .seventh{
+      position: relative;
+      margin-top: 11%;
+    } 
+
+    .offset-button{
+      max-width: 100% !important;
+    }
+
+    /* ============================================positioning the container-fluid div ================================================================== */
+    
+}
+
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+  .align{
+    margin-bottom: 0%; 
+  }
+	.overlay-left {
+		position: absolute;
+		top: 22%;
+		max-width: 70%;
+		z-index: 100;
+    }
+    
+    .overlay-right-thai {
+		position: absolute;
+		top: 22%;
+		max-width: 70%;
+		z-index: 100;
+    }
+
+    .overlay-right-continental {
+      position: absolute;
+      top: 15%;
+      max-width: 70%;
+      z-index: 100;
+      }
+    
+    .gradient-color-right {
+        position: absolute;
+        top: 0%;
+        right: 0;
+        width: 48%;
+        height: 75%;
+        z-index: 100;
+    }
+    .myImgThai {
+      padding-block-start: 1%;
+      max-width: 55%;
+      margin-top: 0%;
+    }
+    .myImgIndian {
+      padding-block-start: 1%;
+      max-width: 55%;
+      margin-top: 0%;
+    } 
+    .myImgContinental {
+      padding-block-start: 1%;
+      max-width: 54.51%;
+      margin-top: 0%;
+    }
+
+    .gradient-color-right-thai {
+      position: absolute;
+      top: 5%;
+      right: 0;
+      width: 48%;
+      height: 75%;
+      z-index: 100;
+      background: rgb(214,217,45);
+      background: linear-gradient(126deg, rgba(214,217,45,1) 5%, rgba(188,188,28,1) 38%, rgba(214,217,45,1) 98%);
+
+    }
+    .gradient-color-right-continental {
+      position: absolute;
+      top: 5%;
+      right: 0;
+      width: 48%;
+      height: 75%;
+      z-index: 100;
+      background: rgb(188,112,204);
+      background: linear-gradient(40deg, rgba(188,112,204,1) 32%, rgba(184,67,184,1) 73%);
+    }
+    .gradient-color-left-indian {
+      position: absolute;
+      top: 5%;
+      left: 0;
+      width: 48%;
+      height: 75%;
+      z-index: 100;
+      background: rgb(68,137,148);
+      background: linear-gradient(40deg, rgba(68,137,148,1) 33%, rgba(99,156,166,1) 78%);
+    }
+    
+    .gradient-color-left {
+        position: absolute;
+        top: 0%;
+        left: 0;
+        width: 48%;
+        height: 75%;
+        z-index: 100;
+    }
+
+   
+    /* ============================================positioning the container-fluid div ================================================================== */
+     
+     
+       .food{
+        font-size: 16px;
+        font-family: 'Caveat', cursive !important;
+      
+      }
+
+      
+    .first {
+      position: relative !important;
+      margin-top: 30%;
+    
+    }
+    .second {
+      position: relative !important;
+      margin-top: 30%;
+    
+    }
+    
+    .third {
+      position: relative !important;
+      margin-top: 30%;
+    
+    }
+    
+    .fourth {
+      position: relative !important;
+      margin-top: 30%;
+    
+    }
+     .fifth{
+        position: relative !important;
+        margin-top: 30%;
+    
+        }
+        
+    .seventh{
+      position: relative;
+      margin-top: 11%;
+    } 
+
+    .offset-button{
+      max-width: 100% !important;
+    }
+}
+
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+  .align{
+    margin-bottom: 24%; 
+  }
+	.overlay-left {
+		position: absolute;
+		top: 18%;
+		max-width: 68%;
+		z-index: 100;
+    }
+    
+    .overlay-right-thai {
+		position: absolute;
+		top: 19%;
+		max-width: 50%;
+		z-index: 100;
+    }
+    .overlay-right-continental {
+      position: absolute;
+      top: -2%;
+      max-width: 50%;
+      z-index: 100;
+      }
+
+    .gradient-color-right {
+        position: absolute;
+        top: 0%;
+        right: 0;
+        width: 48%;
+        height: 75%;
+        z-index: 100;
+    }
+    .gradient-color-right-thai {
+      position: absolute;
+      top: -15%;
+      right: 0;
+      width:  48%;
+      height: 75%;
+      z-index: 100;
+      background: rgb(214,217,45);
+      background: linear-gradient(126deg, rgba(214,217,45,1) 5%, rgba(188,188,28,1) 38%, rgba(214,217,45,1) 98%);
+    }
+    .gradient-color-right-continental {
+      position: absolute;
+      top: -15%;
+      right: 0;
+      width:  48%;
+      height: 75%;
+      z-index: 100;
+      background: rgb(188,112,204);
+      background: linear-gradient(40deg, rgba(188,112,204,1) 32%, rgba(184,67,184,1) 73%);
+    }
+    .gradient-color-left-indian {
+      position: absolute;
+      top: -15%;
+      left: 0;
+      width:  48%;
+      height: 75%;
+      z-index: 100;
+      background: rgb(68,137,148);
+      background: linear-gradient(40deg, rgba(68,137,148,1) 33%, rgba(99,156,166,1) 78%);
+    }
+    
+    .gradient-color-left {
+        position: absolute;
+        top: 0%;
+        left: 0;
+        width: 48%;
+        height: 75%;
+        z-index: 100;
+    }
+
+    .myImgThai {
+      padding-block-start: 1%;
+      max-width: 75%;
+      margin-top: 0%;
+    }
+    .myImgIndian {
+      padding-block-start: 1%;
+      max-width: 75%;
+      margin-top: 0%;
+    }
+    .myImgContinental {
+      padding-block-start: 1%;
+      max-width: 75%;
+      margin-top: 15%
+    }
+
+  a.animated-button-continental:link, a.animated-button-continental:visited {
+  position: relative;
+  display: block;
+  font-family: 'Courgette', cursive;
+  margin: 30px auto 0;
+  padding: 14px 8.5px;
+  color: #2b2b2b;
+  font-size:14px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  letter-spacing: .08em;
+  border-radius: 0;
+  text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+a.animated-button-continental:link, a.animated-button-continental:visited {
+  position: relative;
+  display: block;
+  margin: 30px auto 0;
+  padding: 14px 8.5px;
+  color: #83c983;       /* text color normal */
+  font-size:14px;
+  border-radius: 0;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  letter-spacing: .08em;
+  text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+a.animated-button-thai:link, a.animated-button-thai:visited {
+  position: relative;
+  display: block;
+  font-family: 'Courgette', cursive;
+  margin: 30px auto 0;
+  padding: 14px 8.5px;
+  color: #2b2b2b;
+  font-size:14px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  letter-spacing: .08em;
+  border-radius: 0;
+  text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+a.animated-button-thai:link, a.animated-button-thai:visited {
+  position: relative;
+  display: block;
+  margin: 30px auto 0;
+  padding: 14px 8.5px;
+  color: #D92D80;       /* text color normal */
+  font-size:14px;
+  border-radius: 0;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  letter-spacing: .08em;
+  text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+a.animated-button-indian:link, a.animated-button-indian:visited {
+  position: relative;
+  display: block;
+  font-family: 'Courgette', cursive;
+  margin: 30px auto 0;
+  padding: 14px 8.5px;
+  color: #2b2b2b;
+  font-size:14px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  letter-spacing: .08em;
+  border-radius: 0;
+  text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+a.animated-button-indian:link, a.animated-button-indian:visited {
+  position: relative;
+  display: block;
+  margin: 30px auto 0;
+  padding: 14px 8.5px;
+  color: #944F44;       /* text color normal */
+  font-size:14px;
+  border-radius: 0;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  letter-spacing: .08em;
+  text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+    h2{
+      font-size: 7.8rem !important;
+    }
+    h2 p{
+      font-size: 20px;
+      font-family: 'Yanone Kaffeesatz', sans-serif !important;
+    
+    }
+    
+
+    div h2{
+      /* margin-top: 0px;
+      margin-bottom: 88px; */
+      top: 0%;
+    }
+
+    /* ============================================positioning the container-fluid div ================================================================== */
+    .first {
+      position: relative !important;
+      margin-top: 30%;
+    }
+    .second {
+      position: relative !important;
+      margin-top: 30%;
+
+    }
+    
+    .third {
+      position: relative !important;
+      margin-top: 24%;
+
+    }
+    
+    .fourth {
+      position: relative !important;
+      margin-top: 30%;
+
+    }
+     .fifth{
+        position: relative !important;
+        margin-top: 5%;
+
+        }
+        
+     .seventh{
+      position: relative;
+      margin-top: 11%;
+
+    } 
+
+    .eighth{
+      position: relative;
+      margin-top: 15%;
+      z-index: 200;
+    }
+       .food{
+        font-size: 31px;
+        font-family: 'Caveat', cursive !important;
+      
+      }
+
+      .offset-button{
+        max-width: 35% !important;
+        margin-left: 32%;
+      }
+
+      .gallery-size{
+          width: 80% !important;
+      }
+
+}
