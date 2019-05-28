@@ -338,7 +338,7 @@ h2{
   color: #83c083;
 }
 .continental-p{
-  color: #908E8E;
+  color: #7D7C7C;
 
 }
 
@@ -346,7 +346,7 @@ h2{
   color: #639ca6;
 }
 .indian-p{
-  color: #908E8E;
+  color: #7D7C7C;
 
 }
 
@@ -355,7 +355,7 @@ h2{
 }
 
 .thai-p{
-  color:#908E8E;
+  color:#7D7C7C;
 }
 /* ........................GAllery............................................ */
 .gallery-block{
@@ -554,7 +554,7 @@ a.animated-button-thai:link:after, a.animated-button-thai:visited:after {
 }
 a.animated-button-thai:link:hover, a.animated-button-thai:visited:hover {
 	color: #D92D80;               /*text color when box fills up*/
-	text-shadow: 2px 2px red;
+	/* text-shadow: 2px 2px red; */
 }
 a.animated-button-thai:link:hover:after, a.animated-button-thai:visited:hover:after {
 	height: 450%;
@@ -633,7 +633,7 @@ a.animated-button-indian:link:after, a.animated-button-indian:visited:after {
 }
 a.animated-button-indian:link:hover, a.animated-button-indian:visited:hover {
 	color: #83a6c9;               /*when box fills up the text color */
-	text-shadow: 2px 2px grey;
+	/* text-shadow: 2px 2px grey; */
 }
 a.animated-button-indian:link:hover:after, a.animated-button-indian:visited:hover:after {
 	height: 450%;
@@ -710,7 +710,7 @@ a.animated-button-continental:link:after, a.animated-button-continental:visited:
 }
 a.animated-button-continental:link:hover, a.animated-button-continental:visited:hover {
 	color: #83c083;               /*when box fills up the text color */
-	text-shadow: 2px 2px grey;
+	/* text-shadow: 2px 2px grey; */
 }
 a.animated-button-continental:link:hover:after, a.animated-button-continental:visited:hover:after {
 	height: 450%;
@@ -1093,19 +1093,22 @@ polygon{
     color: #808080;
     position: relative;
     padding: 15px;
-    background: #e9e7e7;
-    border: 1px solid #efefef;
-    border-radius: 3px;
+    background: rgba(255, 250, 240, 1);
+    border: 1px solid #e9e7e7;
+    border-radius: 7px;
 	margin-bottom: 15px;
+	-webkit-box-shadow: 1px 1px 9px 1px rgba(0,0,0,0.19);
+	-moz-box-shadow: 1px 1px 9px 1px rgba(0,0,0,0.19);
+	box-shadow: 1px 1px 9px 1px rgba(0,0,0,0.19);
 }
 .carousel .testimonial::after {
 	content: "";
 	width: 15px;
 	height: 15px;
 	display: block;
-	background: #f1f1f1;
-	border: 1px solid #efefef;
-	border-width: 0 0 1px 1px;
+	background: #e9e7e7;
+	border: 1px solid #C95196;
+	border-width: 0 0 2px 2px;
 	position: absolute;
 	bottom: -8px;
 	left: 46px;
@@ -1126,7 +1129,7 @@ polygon{
 }
 .carousel .overview b {
 	text-transform: uppercase;
-	color: #1abc9c;
+	color: #C95196;
 }
 .carousel .carousel-indicators {
 	bottom: -70px;
@@ -1143,7 +1146,7 @@ polygon{
 }
 .carousel-indicators li.active {
 	color: #fff;
-    background: #1abc9c;
+    background: #C95196;
     border: 5px double;    
 }
 

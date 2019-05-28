@@ -38,7 +38,7 @@
       <div class="viewport">
 
           <div class="Div" id="logo_center">
-            <nav class="navbar navbar-expand-lg navbar-light wow fadeInDown"data-wow-duration="2s"  data-wow-delay=".1s" id="jump">   <!-- "fixed-top" class for fixed in the top -->
+            <nav class="navbar navbar-expand-lg navbar-light wow fadeInDown"data-wow-duration="2s"  data-wow-delay="0s" id="jump">   <!-- "fixed-top" class for fixed in the top -->
               <!-- <a class="navbar-brand" href="#"> 
                 <img src="/docs/4.0/assets/brand/bootstrap-solid.svg" width="30" height="30" alt="">
               </a> --> <!-- this for logo -->
@@ -350,7 +350,7 @@
                   <!-- Wrapper for carousel items -->
                   <div class="carousel-inner">
                     <div class="item carousel-item active">
-                      <div class="row wow slideInUp" data-wow-duration="1.5s"  data-wow-delay=".1s">
+                      <div class="row">
                         <div class="col-sm-6">
                           <div class="testimonial-wrapper">
                             <div class="testimonial">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam at, luctus dui. Mauris magna metus, dapibus nec turpis vel, semper malesuada ante, commodo iacul viverra.</div>
@@ -555,10 +555,10 @@
                       proident, sunt in .
                     </p>
                     <div class="footer-icons">
-                      <a href="#" class="wow bounceIn" data-wow-duration="2s"  data-wow-delay="2.1s"><i class="fa fa-facebook"></i></a>
-                      <a href="#" class="wow bounceIn" data-wow-duration="2s"  data-wow-delay="2.4s"><i class="fa fa-twitter"></i></a>
-                      <a href="#" class="wow bounceIn" data-wow-duration="2s"  data-wow-delay="2.7s"><i class="fa fa-linkedin"></i></a>
-                      <a href="#" class="wow bounceIn" data-wow-duration="2s"  data-wow-delay="3s"><i class="fa fa-github"></i></a>
+                      <a href="#" class="wow bounceIn" data-wow-duration="2s"  data-wow-delay="2s"><i class="fa fa-facebook"></i></a>
+                      <a href="#" class="wow bounceIn" data-wow-duration="2s"  data-wow-delay="2.3s"><i class="fa fa-twitter"></i></a>
+                      <a href="#" class="wow bounceIn" data-wow-duration="2s"  data-wow-delay="2.6s"><i class="fa fa-linkedin"></i></a>
+                      <a href="#" class="wow bounceIn" data-wow-duration="2s"  data-wow-delay="2.9s"><i class="fa fa-github"></i></a>
                     </div>
                   </div>
                 </div>
