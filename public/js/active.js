@@ -15,10 +15,10 @@ $(window).on('load', function () { // makes sure that whole site is loaded
 $(window).scroll(function(e){ 
   var $el = $('.fixedElement'); 
 
-    if ($(this).scrollTop() > 650){ 
+    if ($(this).scrollTop() > 450){ 
     $el.css({'position': 'fixed', 'top': '0px'}); 
   }
-    if ($(this).scrollTop() < 650){ 
+    if ($(this).scrollTop() < 450){ 
     $el.css({'position': 'relative', 'top': '0px'}); 
   }
 

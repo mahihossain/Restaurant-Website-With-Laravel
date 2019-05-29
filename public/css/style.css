@@ -51,6 +51,7 @@ section {
   -o-background-size: cover;
   background-size: cover;
 }
+
 /* header {
   position: relative;
  
@@ -125,7 +126,7 @@ section {
     color: #d6f202;
     font-size: 25px;
     font-family:'Just Another Hand', Helvetica, sans-serif;
-     text-shadow: 3px 3px 0px rgba(0,0,0,0.1), 7px 7px 0px rgba(0,0,0,0.05);
+     /* text-shadow: 3px 3px 0px rgba(0,0,0,0.1), 7px 7px 0px rgba(0,0,0,0.05); */
     font-weight: 390;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -1076,7 +1077,7 @@ polygon{
 }
 .carousel {
 	margin: 0 auto;
-	padding: 0 30px;
+	/* padding: 0 30px; */
 }
 .carousel .item {
 	color: #999;
@@ -1318,9 +1319,9 @@ padding: 40px
   }
 }
 .big_logo{
-	width:70%; 
-	height: 70%;
-	margin-top: 9%;
+	width:50%; 
+	height: 50%;
+	margin-top: 6%;
 	/* transform: rotate(15deg); */
 }
 .biglogounder_nav{
