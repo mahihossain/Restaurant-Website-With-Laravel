@@ -42,17 +42,25 @@ section {
 /* =========================================
                 1st part
 ============================================ */
-
-header {
+.carousel-item {
+  height: 65vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+/* header {
   position: relative;
-  /* background-color: black; */
+ 
   height: 100vh;
   min-height: 25rem;
   width: 100%;
   overflow: hidden;
-}
+} */
 
-header video {
+/* header video {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -66,13 +74,13 @@ header video {
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
 }
-
-header .container {
+ */
+/* header .container {
   position: relative;
   z-index: -2;
-}
+} */
 
-header .overlay {
+/* header .overlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -81,7 +89,7 @@ header .overlay {
   background-color: rgba(0, 0, 0, 0.9);
   opacity: 0.5;
   z-index: 1;
-}
+} */
 .Div {       /* for showing div over the video */
   position: absolute;
   z-index: 1000;
