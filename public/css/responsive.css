@@ -224,29 +224,29 @@ html {
       .first {
         /* top: 150% !important; */
         position: relative !important;
-        margin-top: 35%;
+        margin-top: 5%;
       
       }
       .second {
         position: relative !important;
-        margin-top: 35%;
+        margin-top: 5%;
       
       }
       
       .third {
         position: relative !important;
-        margin-top: 35%;
+        margin-top: 5%;
       
       }
       
       .fourth {
         position: relative !important;
-        margin-top: 35%;
+        margin-top: 5%;
       
       }
        .fifth{
           position: relative !important;
-          margin-top: 35%;
+          margin-top: 5%;
       
           }
           
@@ -370,18 +370,18 @@ html {
     
     .first {
       position: relative !important;
-      margin-top: 35%;
+      margin-top: 5%;
     
     }
     .second {
       position: relative !important;
-      margin-top: 35%;
+      margin-top: 5%;
     
     }
     
     .third {
       position: relative !important;
-      margin-top: 35%;
+      margin-top: 5%;
     
     }
     
@@ -392,13 +392,19 @@ html {
     }
      .fifth{
         position: relative !important;
-        margin-top: 35%;
+        margin-top: 10%;
     
         }
         
     .seventh{
       position: relative;
-      margin-top: 11%;
+      margin-top: 5%;
+    } 
+
+    .eighth{
+      position: relative;    
+      margin-top: 15%;
+    
     } 
 
     .offset-button{
@@ -515,29 +521,29 @@ html {
       
     .first {
       position: relative !important;
-      margin-top: 30%;
+      margin-top: 5%;
     
     }
     .second {
       position: relative !important;
-      margin-top: 30%;
+      margin-top: 5%;
     
     }
     
     .third {
       position: relative !important;
-      margin-top: 30%;
+      margin-top: 5%;
     
     }
     
     .fourth {
       position: relative !important;
-      margin-top: 30%;
+      margin-top: 5%;
     
     }
      .fifth{
         position: relative !important;
-        margin-top: 30%;
+        margin-top: 5%;
     
         }
         
@@ -790,34 +796,34 @@ a.animated-button-indian:link, a.animated-button-indian:visited {
     /* ============================================positioning the container-fluid div ================================================================== */
     .first {
       position: relative !important;
-      margin-top: 30%;
+      margin-top: 15%;
     }
     .second {
       position: relative !important;
-      margin-top: 30%;
+      margin-top: 5%;
 
     }
     
     .third {
       position: relative !important;
-      margin-top: 24%;
+      margin-top: 5%;
 
     }
     
     .fourth {
       position: relative !important;
-      margin-top: 30%;
+      margin-top: 5%;
 
     }
      .fifth{
         position: relative !important;
-        margin-top: 5%;
+        margin-top: 0%;
 
         }
         
      .seventh{
       position: relative;
-      margin-top: 11%;
+      margin-top: 5%;
 
     } 
 

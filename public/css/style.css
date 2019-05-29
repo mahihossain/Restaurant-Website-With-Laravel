@@ -162,51 +162,51 @@ header .overlay {
  .first {
 	/* top: 150% !important; */
 	position: relative !important;
-	margin-top: 50%;
+	margin-top: 60%;
 
 }
 .second {
 	position: relative !important;
-	margin-top: 65%;
+	margin-top: 20%;
 
 }
 
 .third {
 	position: relative !important;
-	margin-top: 75%;
+	margin-top: 27%;
 
 }
 
 .fourth {
 	position: relative !important;
-	margin-top: 30%;
+	margin-top: 20%;
 
 }
  .fifth{
 		position: relative !important;
-		margin-top: 30%;
+		margin-top: 20%;
 
 		}
 		
 .seventh{
 	position: relative;    
-	margin-top: 30%;
+	margin-top: 15%;
 
 } 
 
 .seventh{
 	
 	position: relative;    
-	margin-top: 30%;
+	margin-top: 15%;
 }
  .eighth{
 	position: relative;    
-	margin-top: 30%;
+	margin-top: 15%;
 
 } 
 
 .align{
-	margin-bottom: 0%; 
+	margin-bottom: 16%; 
 }
 /* ============================================positioning the container-fluid div ============================================s====================== */
 
