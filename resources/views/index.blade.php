@@ -528,28 +528,28 @@
               <div class="container-fluid">
 
                 <div class="row parallax total-review">
-                  <div class="col-sm-4 left-footer wow fadeInRightBig" data-wow-duration="1.5s"  data-wow-delay="1.3s" >
+                  <div class="col-sm-4 left-footer wow fadeIn" data-wow-duration="1s"  data-wow-delay=".1s" >
                     <div class="mapouter"><div class="gmap_canvas embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item"  id="gmap_canvas" src="https://maps.google.com/maps?q=artrium&t=&z=15&ie=UTF8&iwloc=&output=embed" scrolling="yes" marginheight="0" marginwidth="0"></iframe>Google Maps Generator by <a href="https://www.embedgooglemap.net">embedgooglemap.net</a></div><style>.mapouter{position:relative;text-align:right;height:97%;width:97%;}.gmap_canvas {overflow:hidden;background:none!important;height:97%;width:97%;border-radius: 0%;}</style></div>
                   </div>
                    <div class="col-sm-4 footer-center ">
                     
-                      <div class="wow flipInX" data-wow-duration="2.5s"  data-wow-delay=".2s">
+                      <div class="wow fadeIn" data-wow-duration="1s"  data-wow-delay=".1s">
                         <i class="fa fa-map-marker"></i>
                         <p><span>C Block, Baridhara</span> Dhaka, Bangladesh</p>
                       </div>
 
-                      <div class="wow flipInX" data-wow-duration="2.5s"  data-wow-delay=".5s">
+                      <div class="wow fadeIn" data-wow-duration="1s"  data-wow-delay=".1s">
                         <i class="fa fa-phone"></i>
                         <p>+01 771881718</p>
                       </div>
 
-                      <div class="wow flipInX" data-wow-duration="2.5s"  data-wow-delay=".8s">
+                      <div class="wow fadeIn" data-wow-duration="1s"  data-wow-delay=".1s">
                         <i class="fa fa-envelope"></i>
                         <p><a href="mailto:support@company.com">support@company.com</a></p>
                       </div>
                   </div>
                   <div class="col-sm-4 right-footer">
-                    <p class="footer-company-about wow fadeIn" data-wow-duration="2s"  data-wow-delay="1.9s" >
+                    <p class="footer-company-about wow fadeIn" data-wow-duration="1s"  data-wow-delay=".1s">
                       <span>Atrium</span>
                       Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -559,10 +559,10 @@
                       proident, sunt in .
                     </p>
                     <div class="footer-icons">
-                      <a href="#" class="wow bounceIn" data-wow-duration="2s"  data-wow-delay="2s"><i class="fa fa-facebook"></i></a>
-                      <a href="#" class="wow bounceIn" data-wow-duration="2s"  data-wow-delay="2.3s"><i class="fa fa-twitter"></i></a>
-                      <a href="#" class="wow bounceIn" data-wow-duration="2s"  data-wow-delay="2.6s"><i class="fa fa-linkedin"></i></a>
-                      <a href="#" class="wow bounceIn" data-wow-duration="2s"  data-wow-delay="2.9s"><i class="fa fa-github"></i></a>
+                      <a href="#" class="wow fadeIn" data-wow-duration="1s"  data-wow-delay=".1s"><i class="fa fa-facebook"></i></a>
+                      <a href="#" class="wow fadeIn" data-wow-duration="1s"  data-wow-delay=".1s""><i class="fa fa-twitter"></i></a>
+                      <a href="#" class="wow fadeIn" data-wow-duration="1s"  data-wow-delay=".1s""><i class="fa fa-linkedin"></i></a>
+                      <a href="#" class="wow fadeIn" data-wow-duration="1s"  data-wow-delay=".1s""><i class="fa fa-github"></i></a>
                     </div>
                   </div>
                 </div>
