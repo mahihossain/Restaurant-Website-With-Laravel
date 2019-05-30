@@ -34,12 +34,12 @@
          
      <!-- Header part satrt -->
 
-     <div id="logo_top_left" class="logo_back animated bounce logo_ani">
+     <div class="container-fluid logo_back animated bounce logo_ani">
       <div class="logo_position" id="logo_center">
         <a href="#jump"><img src="{{ secure_asset('image/logo/logo.png') }}" class="logo_size"></a>
       </div>
     </div>
-    
+
      <div class="Div " id="logo_center">
             <nav class="navbar navbar-expand-lg navbar-light fixed_top wow fadeInDown"data-wow-duration="1s"  data-wow-delay="0s" id="jump">   <!-- "fixed-top" class for fixed in the top -->
               <!-- <a class="navbar-brand" href="#"> 
