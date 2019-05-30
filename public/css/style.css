@@ -24,7 +24,7 @@ section {
 }
 
 #status {
-    background-image: url("../image/preloader/burger.gif");
+    background-image: url("../image/preloader/2.gif");
      background-repeat: no-repeat;
     width: 200px;
     height: 200px;
@@ -42,17 +42,28 @@ section {
 /* =========================================
                 1st part
 ============================================ */
-
-header {
+.carousel-item {
+  height: 65vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.slide_arrow{
+ z-index: 4;
+}
+/* header {
   position: relative;
-  /* background-color: black; */
+ 
   height: 100vh;
   min-height: 25rem;
   width: 100%;
   overflow: hidden;
-}
+} */
 
-header video {
+/* header video {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -66,13 +77,13 @@ header video {
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
 }
-
-header .container {
+ */
+/* header .container {
   position: relative;
   z-index: -2;
-}
+} */
 
-header .overlay {
+/* header .overlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -81,7 +92,7 @@ header .overlay {
   background-color: rgba(0, 0, 0, 0.9);
   opacity: 0.5;
   z-index: 1;
-}
+} */
 .Div {       /* for showing div over the video */
   position: absolute;
   z-index: 1000;
@@ -96,13 +107,7 @@ header .overlay {
     z-index:2000;
 }
 
-/* .logo_back{
-  background-color: rgba(255, 255, 255, 0.1);
-  margin-top: 586px;
-  width: 1366px;
-  height: 100px;
-}
- */
+
 #logo_center { 
   display: flex; 
   justify-content: center; }
@@ -114,10 +119,10 @@ header .overlay {
 .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link {
     /* color: #d6f202; */ /*color for brocoli */
     
-    color: #d6f202;
+    color:  #2b2b2b;
     font-size: 25px;
-    font-family:'Just Another Hand', Helvetica, sans-serif;
-     text-shadow: 3px 3px 0px rgba(0,0,0,0.1), 7px 7px 0px rgba(0,0,0,0.05);
+    font-family:'Yanone Kaffeesatz', Helvetica, sans-serif;
+     /* text-shadow: 3px 3px 0px rgba(0,0,0,0.1), 7px 7px 0px rgba(0,0,0,0.05); */
     font-weight: 390;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -126,7 +131,7 @@ header .overlay {
 }
 .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover{
     /* color: #97aa03; */ /*color for brocoli */
-     color: #97aa03; 
+     color: #515151; 
     font-size: 23px;
     -webkit-transition: font-size .3s; /* Safari */
      transition: font-size .3s;
@@ -140,6 +145,18 @@ header .overlay {
       border-color: #8e1805;
 }
 
+.fixed_top {
+    position: fixed;
+    top: 0;
+/*    right: 0;
+    left: 0;*/
+    left: 0;
+    z-index: 1030;
+}
+
+.logo_position{
+	margin-top: -65%;
+}
 /* ======================================================================code by dhrubo bhai===================================================== */
 
 
@@ -162,51 +179,51 @@ header .overlay {
  .first {
 	/* top: 150% !important; */
 	position: relative !important;
-	margin-top: 50%;
+	margin-top: 60%;
 
 }
 .second {
 	position: relative !important;
-	margin-top: 65%;
+	margin-top: 20%;
 
 }
 
 .third {
 	position: relative !important;
-	margin-top: 75%;
+	margin-top: 27%;
 
 }
 
 .fourth {
 	position: relative !important;
-	margin-top: 30%;
+	margin-top: 20%;
 
 }
  .fifth{
 		position: relative !important;
-		margin-top: 30%;
+		margin-top: 20%;
 
 		}
 		
 .seventh{
 	position: relative;    
-	margin-top: 30%;
+	margin-top: 15%;
 
 } 
 
 .seventh{
 	
 	position: relative;    
-	margin-top: 30%;
+	margin-top: 15%;
 }
  .eighth{
 	position: relative;    
-	margin-top: 30%;
+	margin-top: 15%;
 
 } 
 
 .align{
-	margin-bottom: 0%; 
+	margin-bottom: 16%; 
 }
 /* ============================================positioning the container-fluid div ============================================s====================== */
 
@@ -338,7 +355,7 @@ h2{
   color: #83c083;
 }
 .continental-p{
-  color: #908E8E;
+  color: #7D7C7C;
 
 }
 
@@ -346,7 +363,7 @@ h2{
   color: #639ca6;
 }
 .indian-p{
-  color: #908E8E;
+  color: #7D7C7C;
 
 }
 
@@ -355,7 +372,7 @@ h2{
 }
 
 .thai-p{
-  color:#908E8E;
+  color:#7D7C7C;
 }
 /* ........................GAllery............................................ */
 .gallery-block{
@@ -554,7 +571,7 @@ a.animated-button-thai:link:after, a.animated-button-thai:visited:after {
 }
 a.animated-button-thai:link:hover, a.animated-button-thai:visited:hover {
 	color: #D92D80;               /*text color when box fills up*/
-	text-shadow: 2px 2px red;
+	/* text-shadow: 2px 2px red; */
 }
 a.animated-button-thai:link:hover:after, a.animated-button-thai:visited:hover:after {
 	height: 450%;
@@ -633,7 +650,7 @@ a.animated-button-indian:link:after, a.animated-button-indian:visited:after {
 }
 a.animated-button-indian:link:hover, a.animated-button-indian:visited:hover {
 	color: #83a6c9;               /*when box fills up the text color */
-	text-shadow: 2px 2px grey;
+	/* text-shadow: 2px 2px grey; */
 }
 a.animated-button-indian:link:hover:after, a.animated-button-indian:visited:hover:after {
 	height: 450%;
@@ -710,7 +727,7 @@ a.animated-button-continental:link:after, a.animated-button-continental:visited:
 }
 a.animated-button-continental:link:hover, a.animated-button-continental:visited:hover {
 	color: #83c083;               /*when box fills up the text color */
-	text-shadow: 2px 2px grey;
+	/* text-shadow: 2px 2px grey; */
 }
 a.animated-button-continental:link:hover:after, a.animated-button-continental:visited:hover:after {
 	height: 450%;
@@ -1068,7 +1085,7 @@ polygon{
 }
 .carousel {
 	margin: 0 auto;
-	padding: 0 30px;
+	/* padding: 0 30px; */
 }
 .carousel .item {
 	color: #999;
@@ -1093,19 +1110,22 @@ polygon{
     color: #808080;
     position: relative;
     padding: 15px;
-    background: #e9e7e7;
-    border: 1px solid #efefef;
-    border-radius: 3px;
+    background: rgba(255, 250, 240, 1);
+    border: 1px solid #e9e7e7;
+    border-radius: 7px;
 	margin-bottom: 15px;
+	-webkit-box-shadow: 1px 1px 9px 1px rgba(0,0,0,0.19);
+	-moz-box-shadow: 1px 1px 9px 1px rgba(0,0,0,0.19);
+	box-shadow: 1px 1px 9px 1px rgba(0,0,0,0.19);
 }
 .carousel .testimonial::after {
 	content: "";
 	width: 15px;
 	height: 15px;
 	display: block;
-	background: #f1f1f1;
-	border: 1px solid #efefef;
-	border-width: 0 0 1px 1px;
+	background: #e9e7e7;
+	border: 1px solid #1abc9c;
+	border-width: 0 0 2px 2px;
 	position: absolute;
 	bottom: -8px;
 	left: 46px;
@@ -1129,7 +1149,7 @@ polygon{
 	color: #1abc9c;
 }
 .carousel .carousel-indicators {
-	bottom: -70px;
+	bottom: -60px;
 }
 .carousel-indicators li, .carousel-indicators li.active {
 	width: 18px;
@@ -1180,14 +1200,14 @@ padding: 40px
 
 .footer-company-about{
     display: block;
-    color: #b1b781;
+    color: #fff;
     font-size: 18px;
     font-family:'Yanone Kaffeesatz', Helvetica, sans-serif;
 	margin: 0;
 }
 .footer-company-about span{
     display: block;
-    color: #d6f202;
+    color: #e9e7e7;
     font-size: 45px;
     font-family:'Yanone Kaffeesatz', Helvetica, sans-serif;
      text-shadow: 3px 3px 0px rgba(0,0,0,0.1), 7px 7px 0px rgba(0,0,0,0.05);
@@ -1203,7 +1223,7 @@ padding: 40px
 	width: 37px;
 	height: 35px;
 	cursor: pointer;
-	background-color:  #d6f202;
+	background-color:  #e9e7e7;
 	border-radius: 3px;
 
 	font-size: 22px;
@@ -1216,7 +1236,7 @@ padding: 40px
 }
 
  .footer-center i{
-	background-color:  #d6f202;
+	background-color:  #e9e7e7;
 	color: #33383b;
 	font-size: 25px;
 	width: 38px;
@@ -1235,7 +1255,7 @@ padding: 40px
 
  .footer-center p{
 	display: inline-block;
-	color: #b1b781;
+	color: #fff;
     font-size: 24px;
     font-family:'Yanone Kaffeesatz', Helvetica, sans-serif;
 	vertical-align: middle;
@@ -1244,14 +1264,14 @@ padding: 40px
 
  .footer-center p span{
 	display:block;
-	color: #b1b781;
+	color: #fff;
     font-size: 23px;
     font-family:'Yanone Kaffeesatz', Helvetica, sans-serif;
 	line-height:1;
 }
 
  .footer-center p a{
-	color:  #b1b781;
+	color:  #fff;
 	text-decoration: none;
 }
 
@@ -1307,9 +1327,9 @@ padding: 40px
   }
 }
 .big_logo{
-	width:70%; 
-	height: 70%;
-	margin-top: 9%;
+	width:50%; 
+	height: 50%;
+	margin-top: 6%;
 	/* transform: rotate(15deg); */
 }
 .biglogounder_nav{

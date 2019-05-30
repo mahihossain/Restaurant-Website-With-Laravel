@@ -111,6 +111,12 @@ html {
   .align{
     margin-bottom: 0%; 
   }
+  .carousel .carousel-indicators {
+    bottom: -70px;
+}
+.logo_position{
+	margin-top: 0%;
+}
 	.overlay-left {
 		position: absolute;
 		top: 25%;
@@ -224,29 +230,29 @@ html {
       .first {
         /* top: 150% !important; */
         position: relative !important;
-        margin-top: 35%;
+        margin-top: 5%;
       
       }
       .second {
         position: relative !important;
-        margin-top: 35%;
+        margin-top: 5%;
       
       }
       
       .third {
         position: relative !important;
-        margin-top: 35%;
+        margin-top: 5%;
       
       }
       
       .fourth {
         position: relative !important;
-        margin-top: 35%;
+        margin-top: 5%;
       
       }
        .fifth{
           position: relative !important;
-          margin-top: 35%;
+          margin-top: 5%;
       
           }
           
@@ -269,7 +275,12 @@ html {
   .align{
     margin-bottom: 0%; 
   }
-
+  .carousel .carousel-indicators {
+    bottom: -70px;
+}
+.logo_position{
+	margin-top: 0%;
+}
 	.overlay-left {
 		position: absolute;
 		top: 16%;
@@ -370,18 +381,18 @@ html {
     
     .first {
       position: relative !important;
-      margin-top: 35%;
+      margin-top: 5%;
     
     }
     .second {
       position: relative !important;
-      margin-top: 35%;
+      margin-top: 5%;
     
     }
     
     .third {
       position: relative !important;
-      margin-top: 35%;
+      margin-top: 5%;
     
     }
     
@@ -392,13 +403,19 @@ html {
     }
      .fifth{
         position: relative !important;
-        margin-top: 35%;
+        margin-top: 10%;
     
         }
         
     .seventh{
       position: relative;
-      margin-top: 11%;
+      margin-top: 5%;
+    } 
+
+    .eighth{
+      position: relative;    
+      margin-top: 15%;
+    
     } 
 
     .offset-button{
@@ -413,9 +430,24 @@ html {
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
 
+  .fixed_top {
+    position: fixed;
+    top: 0;
+/*    right: 0;
+    left: 0;*/
+    left: 35%;
+    z-index: 1030;
+}
+
   .align{
     margin-bottom: 0%; 
   }
+  .carousel .carousel-indicators {
+    bottom: -70px;
+}
+.logo_position{
+	margin-top: 0%;
+}
 	.overlay-left {
 		position: absolute;
 		top: 22%;
@@ -515,29 +547,29 @@ html {
       
     .first {
       position: relative !important;
-      margin-top: 30%;
+      margin-top: 5%;
     
     }
     .second {
       position: relative !important;
-      margin-top: 30%;
+      margin-top: 5%;
     
     }
     
     .third {
       position: relative !important;
-      margin-top: 30%;
+      margin-top: 5%;
     
     }
     
     .fourth {
       position: relative !important;
-      margin-top: 30%;
+      margin-top: 5%;
     
     }
      .fifth{
         position: relative !important;
-        margin-top: 30%;
+        margin-top: 5%;
     
         }
         
@@ -558,6 +590,13 @@ html {
   .align{
     margin-bottom: 24%; 
   }
+  .carousel .carousel-indicators {
+    bottom: 40%;
+}
+
+.logo_position{
+	margin-top: 0%;
+}
 	.overlay-left {
 		position: absolute;
 		top: 18%;
@@ -790,40 +829,40 @@ a.animated-button-indian:link, a.animated-button-indian:visited {
     /* ============================================positioning the container-fluid div ================================================================== */
     .first {
       position: relative !important;
-      margin-top: 30%;
+      margin-top: 15%;
     }
     .second {
       position: relative !important;
-      margin-top: 30%;
+      margin-top: 5%;
 
     }
     
     .third {
       position: relative !important;
-      margin-top: 24%;
+      margin-top: 5%;
 
     }
     
     .fourth {
       position: relative !important;
-      margin-top: 30%;
+      margin-top: 5%;
 
     }
      .fifth{
         position: relative !important;
-        margin-top: 5%;
+        margin-top: 0%;
 
         }
         
      .seventh{
       position: relative;
-      margin-top: 11%;
+      margin-top: 5%;
 
     } 
 
     .eighth{
       position: relative;
-      margin-top: 15%;
+      margin-top: 0%;
       z-index: 200;
     }
        .food{
