@@ -111,6 +111,9 @@ html {
   .align{
     margin-bottom: 0%; 
   }
+  .carousel .carousel-indicators {
+    bottom: -70px;
+}
 	.overlay-left {
 		position: absolute;
 		top: 25%;
@@ -269,6 +272,9 @@ html {
   .align{
     margin-bottom: 0%; 
   }
+  .carousel .carousel-indicators {
+    bottom: -70px;
+}
 
 	.overlay-left {
 		position: absolute;
@@ -422,6 +428,9 @@ html {
   .align{
     margin-bottom: 0%; 
   }
+  .carousel .carousel-indicators {
+    bottom: -70px;
+}
 	.overlay-left {
 		position: absolute;
 		top: 22%;
@@ -564,6 +573,9 @@ html {
   .align{
     margin-bottom: 24%; 
   }
+  .carousel .carousel-indicators {
+    bottom: 30%;
+}
 	.overlay-left {
 		position: absolute;
 		top: 18%;
@@ -829,7 +841,7 @@ a.animated-button-indian:link, a.animated-button-indian:visited {
 
     .eighth{
       position: relative;
-      margin-top: 15%;
+      margin-top: 0%;
       z-index: 200;
     }
        .food{
