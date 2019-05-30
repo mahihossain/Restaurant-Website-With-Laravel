@@ -43,7 +43,7 @@
               </button>
 
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav .justify-content-center">
+                <ul class="navbar-nav justify-content-center">
                   <li class="nav-item ">
                     <a class="nav-link test" href="#">Home <span class="sr-only">(current)</span></a>
                   </li>
