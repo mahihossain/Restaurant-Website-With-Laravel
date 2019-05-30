@@ -10,7 +10,7 @@
 
     <!-- Galery -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.css" />      <!-- font -->
-        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
         <link href="https://fonts.googleapis.com/css?family=Caveat|Courgette|Great+Vibes&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz" rel="stylesheet"> 
         <link href='http://fonts.googleapis.com/css?family=Just+Another+Hand' rel='stylesheet' type='text/css'>
@@ -156,7 +156,7 @@
 
 <!-- HEader end -->
     <div class="container-fluid logo_back animated bounce logo_ani">
-      <div id="logo_center">
+      <div class="logo_position" id="logo_center">
         <a href="#jump"><img src="{{ asset('image/logo/logo.png') }}" class="logo_size"></a>
       </div>
     </div>
@@ -381,11 +381,11 @@
                                   <div class="details">Media Analyst / SkyNet</div>
                                   <div class="star-rating">
                                     <ul class="list-inline">
-                                      <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                      <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                      <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                      <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                      <li class="list-inline-item"><i class="fa fa-star-half-o"></i></li>
+                                      <li class="list-inline-item"><i class="fas fa-star"></i></li>
+                                      <li class="list-inline-item"><i class="fas fa-star"></i></li>
+                                      <li class="list-inline-item"><i class="fas fa-star"></i></li>
+                                      <li class="list-inline-item"><i class="fas fa-star"></i></li>
+                                      <li class="list-inline-item"><i class="far fa-star-half-alt"></i></li>
                                     </ul>
                                   </div>
                                 </div>                    
@@ -406,11 +406,11 @@
                                   <div class="details">Web Developer / SoftBee</div>
                                   <div class="star-rating">
                                     <ul class="list-inline">
-                                      <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                      <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                      <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                      <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                      <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                      <li class="list-inline-item"><i class="fas fa-star"></i></li>
+                                      <li class="list-inline-item"><i class="fas fa-star"></i></li>
+                                      <li class="list-inline-item"><i class="fas fa-star"></i></li>
+                                      <li class="list-inline-item"><i class="fas fa-star"></i></li>
+                                      <li class="list-inline-item"><i class="far fa-star"></i></li>
                                     </ul>
                                   </div>
                                 </div>
@@ -435,11 +435,11 @@
                                   <div class="details">Web Developer / DevCorp</div>                      
                                   <div class="star-rating">
                                     <ul class="list-inline">
-                                      <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                      <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                      <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                      <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                      <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                      <li class="list-inline-item"><i class="fas fa-star"></i></li>
+                                      <li class="list-inline-item"><i class="fas fa-star"></i></li>
+                                      <li class="list-inline-item"><i class="fas fa-star"></i></li>
+                                      <li class="list-inline-item"><i class="fas fa-star"></i></li>
+                                      <li class="list-inline-item"><i class="far fa-star"></i></li>
                                     </ul>
                                   </div>
                                 </div>
@@ -460,11 +460,11 @@
                                   <div class="details">Graphic Designer / MarsMedia</div>
                                   <div class="star-rating">
                                     <ul class="list-inline">
-                                      <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                      <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                      <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                      <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                      <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                      <li class="list-inline-item"><i class="fas fa-star"></i></li>
+                                      <li class="list-inline-item"><i class="fas fa-star"></i></li>
+                                      <li class="list-inline-item"><i class="fas fa-star"></i></li>
+                                      <li class="list-inline-item"><i class="fas fa-star"></i></li>
+                                      <li class="list-inline-item"><i class="far fa-star"></i></li>
                                     </ul>
                                   </div>
                                 </div>                    
@@ -489,11 +489,11 @@
                                   <div class="details">SEO Analyst / RealSearch</div>
                                   <div class="star-rating">
                                     <ul class="list-inline">
-                                      <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                      <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                      <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                      <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                      <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                      <li class="list-inline-item"><i class="fas fa-star"></i></li>
+                                      <li class="list-inline-item"><i class="fas fa-star"></i></li>
+                                      <li class="list-inline-item"><i class="fas fa-star"></i></li>
+                                      <li class="list-inline-item"><i class="fas fa-star"></i></li>
+                                      <li class="list-inline-item"><i class="far fa-star"></i></li>
                                     </ul>
                                   </div>
                                 </div>                    
@@ -514,11 +514,11 @@
                                   <div class="details">Web Designer / UniqueDesign</div>
                                   <div class="star-rating">
                                     <ul class="list-inline">
-                                      <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                      <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                      <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                      <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                      <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                      <li class="list-inline-item"><i class="fas fa-star"></i></li>
+                                      <li class="list-inline-item"><i class="fas fa-star"></i></li>
+                                      <li class="list-inline-item"><i class="fas fa-star"></i></li>
+                                      <li class="list-inline-item"><i class="fas fa-star"></i></li>
+                                      <li class="list-inline-item"><i class="far fa-star"></i></li>
                                     </ul>
                                   </div>
                                 </div>                    
@@ -547,17 +547,17 @@
                    <div class="col-sm-4 footer-center ">
                     
                       <div class="wow fadeIn" data-wow-duration="1s"  data-wow-delay=".1s">
-                        <i class="fa fa-map-marker"></i>
+                        <i class="fas fa-map-marker-alt"></i>
                         <p><span>C Block, Baridhara</span> Dhaka, Bangladesh</p>
                       </div>
 
                       <div class="wow fadeIn" data-wow-duration="1s"  data-wow-delay=".1s">
-                        <i class="fa fa-phone"></i>
+                        <i class="fas fa-phone"></i>
                         <p>+01 771881718</p>
                       </div>
 
                       <div class="wow fadeIn" data-wow-duration="1s"  data-wow-delay=".1s">
-                        <i class="fa fa-envelope"></i>
+                        <i class="fas fa-envelope"></i>
                         <p><a href="mailto:support@company.com">support@company.com</a></p>
                       </div>
                   </div>
@@ -572,10 +572,10 @@
                       proident, sunt in .
                     </p>
                     <div class="footer-icons">
-                      <a href="#" class="wow fadeIn" data-wow-duration="1s"  data-wow-delay=".1s"><i class="fa fa-facebook"></i></a>
-                      <a href="#" class="wow fadeIn" data-wow-duration="1s"  data-wow-delay=".1s""><i class="fa fa-twitter"></i></a>
-                      <a href="#" class="wow fadeIn" data-wow-duration="1s"  data-wow-delay=".1s""><i class="fa fa-linkedin"></i></a>
-                      <a href="#" class="wow fadeIn" data-wow-duration="1s"  data-wow-delay=".1s""><i class="fa fa-github"></i></a>
+                      <a href="https://www.facebook.com/atriumbangladesh/" class="wow fadeIn" data-wow-duration="1s"  data-wow-delay=".1s"><i class="fab fa-facebook-f"></i></a>
+                      <a href="https://m.me/atriumbangladesh" class="wow fadeIn" data-wow-duration="1s"  data-wow-delay=".1s"><i class="fab fa-facebook-messenger"></i></a>
+                      <a href="https://www.tripadvisor.com/Restaurant_Review-g293936-d1460212-Reviews-The_Atrium_Restaurant-Dhaka_City_Dhaka_Division.html?m=19905" class="wow fadeIn" data-wow-duration="1s"  data-wow-delay=".1s"><i class="fab fa-tripadvisor"></i></a>
+                      <a href="#" class="wow fadeIn" data-wow-duration="1s"  data-wow-delay=".1s"><i class="fab fa-linkedin-in"></i></a>
                     </div>
                   </div>
                 </div>
