@@ -33,13 +33,6 @@
       <!-- Preloader End -->
          
      <!-- Header part satrt -->
-
-     <div class="container-fluid logo_back animated bounce logo_ani">
-      <div class="logo_position" id="logo_center">
-        <a href="#jump"><img src="{{ secure_asset('image/logo/logo.png') }}" class="logo_size"></a>
-      </div>
-    </div>
-
      <div class="Div " id="logo_center">
             <nav class="navbar navbar-expand-lg navbar-light fixed_top wow fadeInDown"data-wow-duration="1s"  data-wow-delay="0s" id="jump">   <!-- "fixed-top" class for fixed in the top -->
               <!-- <a class="navbar-brand" href="#"> 
@@ -48,6 +41,8 @@
               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
+
+              <a class="navbar-brand"><img src="{{ secure_asset('image/logo/logo.png') }}" class="logo_size"></a>
 
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mx-auto">
