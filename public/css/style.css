@@ -1196,7 +1196,7 @@ padding: 40px
 
 .footer-company-about{
     display: block;
-    color: #b1b781;
+    color: #fff;
     font-size: 18px;
     font-family:'Yanone Kaffeesatz', Helvetica, sans-serif;
 	margin: 0;
@@ -1251,7 +1251,7 @@ padding: 40px
 
  .footer-center p{
 	display: inline-block;
-	color: #b1b781;
+	color: #fff;
     font-size: 24px;
     font-family:'Yanone Kaffeesatz', Helvetica, sans-serif;
 	vertical-align: middle;
@@ -1260,14 +1260,14 @@ padding: 40px
 
  .footer-center p span{
 	display:block;
-	color: #b1b781;
+	color: #fff;
     font-size: 23px;
     font-family:'Yanone Kaffeesatz', Helvetica, sans-serif;
 	line-height:1;
 }
 
  .footer-center p a{
-	color:  #b1b781;
+	color:  #fff;
 	text-decoration: none;
 }
 
