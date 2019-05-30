@@ -155,6 +155,17 @@ section {
     background: rgba(0, 0, 0, 0.5);
 }
 
+.bg-dark
+{
+	background: transparent !important;
+
+}
+
+.bg-dark.scrolled
+{
+	background: #10caca !important;
+}
+
 .logo_position{
 	margin-top: -65%;
 }
