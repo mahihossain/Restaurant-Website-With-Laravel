@@ -119,7 +119,7 @@ section {
 .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link {
     /* color: #d6f202; */ /*color for brocoli */
     
-    color:  #fff;
+    color:  #2b2b2b;
     font-size: 25px;
     font-family:'Yanone Kaffeesatz', Helvetica, sans-serif;
      /* text-shadow: 3px 3px 0px rgba(0,0,0,0.1), 7px 7px 0px rgba(0,0,0,0.05); */
@@ -150,14 +150,10 @@ section {
     top: 0;
 /*    right: 0;
     left: 0;*/
-		z-index: 1030;
-		width: 100%;
-    background: rgba(0, 0, 0, 0.5);
+    left: 0;
+    z-index: 1030;
 }
 
-.logo_position{
-	margin-top: -65%;
-}
 /* ======================================================================code by dhrubo bhai===================================================== */
 
 
@@ -494,7 +490,7 @@ a.animated-button-continental:link:after, a.animated-button-continental:visited:
 }
 a.animated-button-continental:link:hover, a.animated-button-continental:visited:hover {
 	color: #83a6c9;               /*when box fills up the text color */
-	text-shadow: 2px 2px red;
+	text-shadow: none;
 }
 a.animated-button-continental:link:hover:after, a.animated-button-continental:visited:hover:after {
 	height: 450%;
@@ -571,8 +567,7 @@ a.animated-button-thai:link:after, a.animated-button-thai:visited:after {
 	transition: all 0.75s ease 0s;
 }
 a.animated-button-thai:link:hover, a.animated-button-thai:visited:hover {
-	color: #D92D80; 
-	text-shadow: 2px 2px red;              /*text color when box fills up*/
+	color: #D92D80;               /*text color when box fills up*/
 	/* text-shadow: 2px 2px red; */
 }
 a.animated-button-thai:link:hover:after, a.animated-button-thai:visited:hover:after {
@@ -651,8 +646,7 @@ a.animated-button-indian:link:after, a.animated-button-indian:visited:after {
 	transition: all 0.75s ease 0s;
 }
 a.animated-button-indian:link:hover, a.animated-button-indian:visited:hover {
-	color: #83a6c9; 
-	text-shadow: 2px 2px grey;              /*when box fills up the text color */
+	color: #83a6c9;               /*when box fills up the text color */
 	/* text-shadow: 2px 2px grey; */
 }
 a.animated-button-indian:link:hover:after, a.animated-button-indian:visited:hover:after {
@@ -729,8 +723,7 @@ a.animated-button-continental:link:after, a.animated-button-continental:visited:
 	transition: all 0.75s ease 0s;
 }
 a.animated-button-continental:link:hover, a.animated-button-continental:visited:hover {
-	color: #83c083; 
-	text-shadow: 2px 2px grey;              /*when box fills up the text color */
+	color: #83c083;               /*when box fills up the text color */
 	/* text-shadow: 2px 2px grey; */
 }
 a.animated-button-continental:link:hover:after, a.animated-button-continental:visited:hover:after {
