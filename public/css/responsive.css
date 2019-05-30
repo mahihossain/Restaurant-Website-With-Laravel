@@ -436,7 +436,10 @@ html {
 /*    right: 0;
     left: 0;*/
     left: 35%;
+    
     z-index: 1030;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
 }
 
   .align{
