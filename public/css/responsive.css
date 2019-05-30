@@ -431,7 +431,7 @@ html {
 @media (min-width: 992px) {
 
   .fixed_top {
-    position: absolute;
+    position: fixed;
     top: 0;
 /*    right: 0;
     left: 0;*/
