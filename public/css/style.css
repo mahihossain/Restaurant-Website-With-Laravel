@@ -1120,7 +1120,7 @@ polygon{
 	height: 15px;
 	display: block;
 	background: #e9e7e7;
-	border: 1px solid #C95196;
+	border: 1px solid #1abc9c;
 	border-width: 0 0 2px 2px;
 	position: absolute;
 	bottom: -8px;
@@ -1142,7 +1142,7 @@ polygon{
 }
 .carousel .overview b {
 	text-transform: uppercase;
-	color: #C95196;
+	color: #1abc9c;
 }
 .carousel .carousel-indicators {
 	bottom: -60px;
@@ -1159,7 +1159,7 @@ polygon{
 }
 .carousel-indicators li.active {
 	color: #fff;
-    background: #C95196;
+    background: #1abc9c;
     border: 5px double;    
 }
 
