@@ -154,6 +154,17 @@ section {
     z-index: 1030;
 }
 
+.bg-dark
+{
+	background: transparent !important;
+
+}
+
+.bg-dark.scrolled
+{
+	background: #10caca !important;
+}
+
 .logo_position{
 	margin-top: -65%;
 }

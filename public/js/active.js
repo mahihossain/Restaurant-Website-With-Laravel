@@ -154,6 +154,13 @@ window.addEventListener("scroll",parallaxtwo,false)
 //   }
 // }
 
+/*Code for changing nav background*/
+
+$(window).scroll(function()
+  
+    {$('nav').toggleClass('scrolled', $(this).scrollTop() > 600);
+  
+  });
 
 //////////////////////////////////
 
