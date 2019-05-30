@@ -45,7 +45,7 @@
               <a class="navbar-brand navbar_brand"><img src="{{ secure_asset('image/logo/logo.png') }}" class="logo_size"></a>
 
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ml-2">
+                <ul class="navbar-nav mx-auto">
                   <li class="nav-item ">
                     <a class="nav-link test" href="#">Home <span class="sr-only">(current)</span></a>
                   </li>
