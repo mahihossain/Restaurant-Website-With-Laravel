@@ -114,6 +114,9 @@ html {
   .carousel .carousel-indicators {
     bottom: -70px;
 }
+.logo_position{
+	margin-top: 0%;
+}
 	.overlay-left {
 		position: absolute;
 		top: 25%;
@@ -275,7 +278,9 @@ html {
   .carousel .carousel-indicators {
     bottom: -70px;
 }
-
+.logo_position{
+	margin-top: 0%;
+}
 	.overlay-left {
 		position: absolute;
 		top: 16%;
@@ -431,6 +436,9 @@ html {
   .carousel .carousel-indicators {
     bottom: -70px;
 }
+.logo_position{
+	margin-top: 0%;
+}
 	.overlay-left {
 		position: absolute;
 		top: 22%;
@@ -575,6 +583,10 @@ html {
   }
   .carousel .carousel-indicators {
     bottom: 40%;
+}
+
+.logo_position{
+	margin-top: 0%;
 }
 	.overlay-left {
 		position: absolute;

@@ -156,7 +156,7 @@
 
 <!-- HEader end -->
     <div class="container-fluid logo_back animated bounce logo_ani">
-      <div id="logo_center">
+      <div class="logo_position" id="logo_center">
         <a href="#jump"><img src="{{ asset('image/logo/logo.png') }}" class="logo_size"></a>
       </div>
     </div>
