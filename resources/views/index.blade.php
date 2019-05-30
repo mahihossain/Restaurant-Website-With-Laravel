@@ -33,7 +33,7 @@
          
      <!-- Header part satrt -->
      <div class="Div " id="logo_center">
-            <nav class="navbar navbar-expand-lg navbar-light wow fadeInDown"data-wow-duration="2s"  data-wow-delay="0s" id="jump">   <!-- "fixed-top" class for fixed in the top -->
+            <nav class="navbar navbar-expand-lg navbar-light fixed_top wow fadeInDown"data-wow-duration="2s"  data-wow-delay="0s" id="jump">   <!-- "fixed-top" class for fixed in the top -->
               <!-- <a class="navbar-brand" href="#"> 
                 <img src="/docs/4.0/assets/brand/bootstrap-solid.svg" width="30" height="30" alt="">
               </a> --> <!-- this for logo -->
