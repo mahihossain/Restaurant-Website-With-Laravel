@@ -430,6 +430,15 @@ html {
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
 
+  .fixed_top {
+    position: fixed;
+    top: 0;
+/*    right: 0;
+    left: 0;*/
+    left: 35%;
+    z-index: 1030;
+}
+
   .align{
     margin-bottom: 0%; 
   }
