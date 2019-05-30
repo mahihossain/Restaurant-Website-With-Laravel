@@ -14,6 +14,7 @@
         <link href="https://fonts.googleapis.com/css?family=Caveat|Courgette|Great+Vibes&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz" rel="stylesheet"> 
         <link href='http://fonts.googleapis.com/css?family=Just+Another+Hand' rel='stylesheet' type='text/css'>
+
       <!-- bootsratp -->
         <link rel="stylesheet" href="{{asset('css/app.css')}}">
       <!-- myCss -->
@@ -33,7 +34,7 @@
          
      <!-- Header part satrt -->
      <div class="Div " id="logo_center">
-            <nav class="navbar navbar-expand-lg navbar-light fixed_top wow fadeInDown"data-wow-duration="2s"  data-wow-delay="0s" id="jump">   <!-- "fixed-top" class for fixed in the top -->
+            <nav class="navbar navbar-expand-lg navbar-light fixed_top wow fadeInDown"data-wow-duration="1s"  data-wow-delay="0s" id="jump">   <!-- "fixed-top" class for fixed in the top -->
               <!-- <a class="navbar-brand" href="#"> 
                 <img src="/docs/4.0/assets/brand/bootstrap-solid.svg" width="30" height="30" alt="">
               </a> --> <!-- this for logo -->
@@ -129,7 +130,7 @@
           <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img class="d-block w-100" src="{{asset('image/header/header.jpg')}}" alt="First slide">
+                <img class="d-block w-100 " src="{{asset('image/header/header.jpg')}}" alt="First slide">
               </div>
               <div class="carousel-item">
                 <img class="d-block w-100" src="{{asset('image/galleryimg/F9.jpg')}}" alt="Second slide">
@@ -154,7 +155,7 @@
 
 
 <!-- HEader end -->
-    <div class="container-fluid logo_back fixedElement animated bounce logo_ani">
+    <div class="container-fluid logo_back animated bounce logo_ani">
       <div id="logo_center">
         <a href="#jump"><img src="{{ asset('image/logo/logo.png') }}" class="logo_size"></a>
       </div>

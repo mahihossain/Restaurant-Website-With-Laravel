@@ -119,9 +119,9 @@ section {
 .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link {
     /* color: #d6f202; */ /*color for brocoli */
     
-    color: #d6f202;
+    color:  #2b2b2b;
     font-size: 25px;
-    font-family:'Just Another Hand', Helvetica, sans-serif;
+    font-family:'Yanone Kaffeesatz', Helvetica, sans-serif;
      /* text-shadow: 3px 3px 0px rgba(0,0,0,0.1), 7px 7px 0px rgba(0,0,0,0.05); */
     font-weight: 390;
     text-transform: uppercase;
@@ -131,7 +131,7 @@ section {
 }
 .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover{
     /* color: #97aa03; */ /*color for brocoli */
-     color: #97aa03; 
+     color: #515151; 
     font-size: 23px;
     -webkit-transition: font-size .3s; /* Safari */
      transition: font-size .3s;
@@ -1203,7 +1203,7 @@ padding: 40px
 }
 .footer-company-about span{
     display: block;
-    color: #d6f202;
+    color: #e9e7e7;
     font-size: 45px;
     font-family:'Yanone Kaffeesatz', Helvetica, sans-serif;
      text-shadow: 3px 3px 0px rgba(0,0,0,0.1), 7px 7px 0px rgba(0,0,0,0.05);
@@ -1219,7 +1219,7 @@ padding: 40px
 	width: 37px;
 	height: 35px;
 	cursor: pointer;
-	background-color:  #d6f202;
+	background-color:  #e9e7e7;
 	border-radius: 3px;
 
 	font-size: 22px;
@@ -1232,7 +1232,7 @@ padding: 40px
 }
 
  .footer-center i{
-	background-color:  #d6f202;
+	background-color:  #e9e7e7;
 	color: #33383b;
 	font-size: 25px;
 	width: 38px;
