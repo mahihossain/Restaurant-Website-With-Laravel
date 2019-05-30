@@ -113,8 +113,9 @@ section {
   justify-content: center; }
 
 .logo_size{
-  height: 75px;
-  width: 97px;
+  height: 60px;
+	width: 70px;
+	z-index: 100;
 }
 .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link {
     /* color: #d6f202; */ /*color for brocoli */
@@ -163,7 +164,8 @@ section {
 
 .bg-dark.scrolled
 {
-	background: #10caca !important;
+	background: rgba(0, 0, 0, 0.5) !important;
+
 }
 
 .logo_position{
@@ -178,6 +180,12 @@ section {
 	position: absolute !important;
 	z-index: 30000;
 } */
+
+.navbar_brand{
+		padding-top: 0;
+		padding-bottom: 0; 
+		margin-right: 0;
+}
 /* ======================================================================code by dhrubo bhai===================================================== */
 
 

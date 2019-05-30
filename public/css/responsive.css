@@ -12,6 +12,7 @@ html {
     .logo_size {
     height: 94px;
     width: 114px;
+    z-index: 100;
     }
 
     /* Contact */
