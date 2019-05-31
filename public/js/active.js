@@ -158,7 +158,7 @@ window.addEventListener("scroll",parallaxtwo,false)
 
 $(window).scroll(function()
   
-    {$('nav').toggleClass('scrolled', $(this).scrollTop() > 600);
+    {$('nav').toggleClass('scrolled', $(this).scrollTop() > 100);
   
   });
 
