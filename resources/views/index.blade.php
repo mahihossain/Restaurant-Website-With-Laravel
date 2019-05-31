@@ -43,8 +43,6 @@
                 <span class="navbar-toggler-icon"></span>
               </button>
 
-              <a class="navbar-brand navbar_brand"><img src="{{ secure_asset('image/logo/logo.png') }}" class="logo_size"></a>
-
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mx-auto">
                   <li class="nav-item ">
