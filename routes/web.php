@@ -17,4 +17,13 @@ Route::get('/', function () {
 Route::get('/test', function () {
     return view('test');
 });
+Route::get('/booking', function () {
+    return view('booking');
+});
+Route::get('/receipt', function () {
+    return view('receipt');
+});
+Route::get('/employee', function () {
+    return view('employee');
+});
 
