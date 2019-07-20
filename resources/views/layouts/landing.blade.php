@@ -1,9 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <title></title>
-</head>
-<body>
+
 
 @yield('svg')
 
@@ -55,5 +50,3 @@
       </div>
   </div>
 
-</body>
-</html>

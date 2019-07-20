@@ -27,3 +27,10 @@ Route::get('/employee', function () {
     return view('employee');
 });
 
+
+Auth::routes();
+
+Route::post('/bookingstore', 'BookingController@store');
+Route::get('/showbookings', 'BookingController@index');
+Route::post('/showbookings/search', 'BookingController@index');
+

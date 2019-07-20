@@ -16,9 +16,6 @@
    background-color: black;
    width: 75%;
 }
-body{
-    background-color: aqua;
-}
 label{
     color: white;
 }
@@ -49,3 +46,4 @@ label{
 }
 body{
     background: antiquewhite !important;
+}

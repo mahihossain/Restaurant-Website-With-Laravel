@@ -1,3 +1,5 @@
+@extends('layouts.menuFooter')
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,14 +7,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="{{ asset('css/receipt.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+      <!-- gallery -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.css" />      <!-- font -->
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Caveat|Courgette|Great+Vibes&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz" rel="stylesheet"> 
+        <link href='http://fonts.googleapis.com/css?family=Just+Another+Hand' rel='stylesheet' type='text/css'>
+      <!-- bootsratp -->
+        <link rel="stylesheet" href="{{asset('css/app.css')}}">
+      <!-- myCss -->
+        <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+        <link rel="stylesheet" href="{{ asset('css/responsive.css') }}">
+        <link rel="stylesheet" href="{{ asset('css/receipt.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
 </head>
 
 <body>
-        <h2 class="row justify-content-md-center">Bill</h2>
-                <div class="col justify-content-center form-col">
+    <div class="container-fluid justify-content-center container-receipt">
+        <h2 class="row justify-content-md-center heading">Bill</h2>
+                <div class="row middle">
+                    <div class="col  custom">
                         <form class="custom-form">
+                              @csrf
                                 <div class="form-row">
                                   <div class="form-group col-md-4">
                                     <label for="customerName">Name</label>
@@ -92,6 +109,7 @@
                                  </div>
                                 <button type="submit" class="btn btn-primary">Place Booking</button>
                               </form>
+                </div>
                 </div>
         </div>
     </body>

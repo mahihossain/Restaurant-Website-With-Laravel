@@ -53,32 +53,19 @@ h2 {
 
 .container-booking {
     background: rgb(68, 137, 148) !important;
+
 }
 
 body {
     background: rgb(68, 137, 148) !important;
 }
 
-.alert {
-    padding: 20px;
-    background-color: #f44336;
-    color: white;
-    margin-top: 5%;
+#border-color {
+    border-color: #2a2a2a;
+    border-style: solid;
+    padding: 1%;
 }
 
-.closebtn {
-    margin-left: 15px;
-    color: white;
-    font-weight: bold;
-    float: right;
-    font-size: 22px;
-    line-height: 20px;
-    cursor: pointer;
-    transition: 0.3s;
+.search {
+    margin-block-end: 1%;
 }
-
-.closebtn:hover {
-    color: black;
-}
-
-.message {}
