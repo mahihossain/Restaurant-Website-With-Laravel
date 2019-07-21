@@ -25,34 +25,7 @@
 
 <body>
     <div class="container-fluid justify-content-center container-booking">
-        <h2 class="row justify-content-md-center heading">Booking Place For Your Meal</h2>
-            <form method="POST" action="showbookings/search">
-                @csrf
-                <div class="col search">
-                    <div class="form-group col-md-3">
-                        <label for="customerName">Name</label>
-                        <input type="text" class="form-control" name="customerName" id="customerName" placeholder="Name" >
-                    </div>
-                    <div class="form-group col-md-3">
-                        <label for="example-date-input" class="col-2 col-form-label">Reserve Date</label>
-                        <input class="form-control" type="date" name="reserveDate" id="bookingDate" >
-                    </div>
-                    <div class="form-group col-md-3">
-                        <label for="inputState">Time</label>
-                        <select name="time" id="inputState" class="form-control">
-                            <option selected>Choose...</option>
-                            <option>7.00 P.M</option>
-                            <option>7.30 P.M</option>
-                            <option>8.00 P.M</option>
-                            <option>8.30 P.M</option>
-                            <option>9.00 P.M</option>
-                            <option>9.30 P.M</option>
-                        </select>
-                    </div>
-                    <button type="submit" class="btn btn-primary">Search Booking</button>
-                </div>
-            </form>
-            @foreach ($bookings as $booking)
+        <h2 class="row justify-content-md-center heading"> {{$booking->name}}'s Info</h2>
             <div id="border-color" class="col justify-content-center form-col">
                 <div class="form-row">
                     <div class="form-group col-md-3">
@@ -94,8 +67,10 @@
                             <input name="noOfPeople" id="inputState" class="form-control" value="{{$booking->noOfPeople}}" readonly></input>
                         </div>
                     </div>
+                    <form method="GET" action="/bookings/{{$booking->id}}/edit">
+                        <button type="submit" class="btn btn-primary">Cancel or Edit Booking</button>
+                    </form>
             </div>
-            @endforeach    
     </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>

@@ -5,9 +5,9 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 use App\Booking;
-use Illuminate\Support\Facades\Session;
+use App\Receipt;
 
-class BookingController extends Controller
+class ReceiptController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -16,10 +16,10 @@ class BookingController extends Controller
      */
     public function index()
     {
-        // $bookings = DB::table('bookings')->get();
-        $bookings = DB::table('bookings')->where('name', request('customerName'))->where('reserveDate',request('reserveDate'))->where('time', request('time'))->get();
-
-        return view('showbookings')->withBookings($bookings); 
+        // $bookings = DB::table('bookings')->where('id', request('customerID'))->get();
+        
+        $bookings = DB::table('bookings')->where('id', request('customerID'))->get();
+        return view('showreceipt')->withBookings($bookings);
     }
 
     /**
@@ -40,21 +40,32 @@ class BookingController extends Controller
      */
     public function store(Request $request)
     {
-        // return request()->all();
-        $booking = new Booking();
+        $receipt = new Receipt();
 
-        $booking->name = request('customerName');
-        $booking->email = request('customerEmail');
-        $booking->phoneNo = request('customerPhone');
-        $booking->bookingDate = request('bookingDate');
-        $booking->reserveDate = request('reserveDate');
-        $booking->time = request('time');
-        $booking->noOfPeople = request('noOfPeople');
-        $booking->served = false;
+        $receipt->customer_name = request('customerName');
+        $receipt->reserveDate = request('reserveDate');
+        $total_item = 0;
+        if(!empty(request('ItemName1')))
+        {
+            $total_item +=1;
+        }
+        if(!empty(request('ItemName2')))
+        {
+            $total_item +=1;
+        }
+        if(!empty(request('ItemName3')))
+        {
+            $total_item +=1;
+        }
+        if(!empty(request('ItemName4')))
+        {
+            $total_item +=1;
+        }
+        $receipt->total_item =$total_item;
+        $receipt->total_spent = request('ItemPrice1')+request('ItemPrice2')+request('ItemPrice3')+request('ItemPrice4');
 
-        $booking->save();
-        return redirect('booking')->with('status', $booking->id);
-
+        $receipt->save();
+        return redirect('receipt');
     }
 
     /**

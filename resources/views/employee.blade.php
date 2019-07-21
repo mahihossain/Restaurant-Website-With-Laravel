@@ -25,27 +25,27 @@
 
 <body>
     <div class="container-fluid justify-content-center">
-            <h2 class="row justify-content-md-center heading">Add Employee</h2>
-            <div class="row middle">
-                <div class="row align-items-center custom">
-                        <div class="col img-col">
-                                <img class="img-fluid my-img" src="{{asset('image/form-img.jpg')}}" alt="Booking Image">
-                            </div>
+            <h2 class="row justify-content-md-center heading">Add employee</h2>
+            <div class="col middle">
                             <div class="col justify-content-center form-col">
-                                    <form class="custom-form">
+                                    <form method="POST" action="employeestore" class="custom-form">
                                         <div class="form-group">
                                             <div class="form-row">
                                                 <div class="form-group col-md-3">
-                                                    <label for="customerName">First Name</label>
-                                                    <input type="text" class="form-control" id="customerName" value="John ">
+                                                    <label for="employeeName">First Name</label>
+                                                    <input type="text" name="employeeName" class="form-control" id="employeeName" >
                                                 </div>
                                                 <div class="form-group col-md-3">
-                                                    <label for="customerEmail">Middle Name</label>
-                                                    <input type="text" class="form-control" id="customerMiddleName" value=" Doe">
+                                                    <label for="employeeLastName">Last Name</label>
+                                                    <input type="text" name="employeeLastName" class="form-control" id="cMiddleName" >
                                                 </div>
                                                 <div class="form-group col-md-3">
-                                                    <label for="customerEmail">Last Name</label>
-                                                    <input type="text" class="form-control" id="customerLastName" value=" Smith">
+                                                    <label for="employeeEmail">email</label>
+                                                    <input type="text" name="employeeEmail" class="form-control" id="employeeLastName" >
+                                                </div>
+                                                <div class="form-group col-md-3">
+                                                    <label for="employeePhone">Phone no</label>
+                                                    <input type="text" name="phoneNo" class="form-control" id="employeeLastName" >
                                                 </div>
                                             </div>
                                         </div>
@@ -53,12 +53,12 @@
                                                 <div class="form-row">
                                                         <div class="form-row">
                                                             <div class="form-group col-md-6">
-                                                                <label for="customerFatherName">Father Name</label>
-                                                                <input type="text" class="form-control" id="customerFatherName" value="John ">
+                                                                <label for="employeeFatherName">Father Name</label>
+                                                                <input type="text" name="employeeFatherName" class="form-control" id="employeeFatherName" >
                                                             </div>
                                                             <div class="form-group col-md-6">
-                                                                <label for="customerMotherName">Mother Name</label>
-                                                                <input type="text" class="form-control" id="customerMotherName" value=" Doe">
+                                                                <label for="employeeMotherName">Mother Name</label>
+                                                                <input type="text" name="employeeMotherName" class="form-control" id="employeeMotherName" >
                                                             </div>
                                                         </div>
                                                 </div>
@@ -67,74 +67,75 @@
                                                 <label for="presentAddress">Present Address</label>
                                                 <div class="form-row">
                                                     <div class="form-group col-md-3">
-                                                        <label for="inputState">House No</label>
-                                                        <input type="text" class="form-control" id="House no" value="8">
+                                                        <label for="PHouseNo">House No</label>
+                                                        <input type="number" name="PhouseNo" class="form-control" id="House no" >
                                                     </div>
                                                     <div class="form-group col-md-3">
-                                                        <label for="inputState">Location</label>
-                                                        <input type="text" class="form-control" id="Location" value="Rampura">
+                                                        <label for="Plocation">Location</label>
+                                                        <input type="text" name="Plocation" class="form-control" id="Location" >
                                                     </div>
                                                     <div class="form-group col-md-2">
-                                                            <label for="inputState">Village/Street</label>
-                                                            <input type="text" class="form-control" id="Village/Street" value="4">
+                                                            <label for="Pstreet">Street</label>
+                                                            <input type="text" name="Pstreet" class="form-control" id="Village/Street">
                                                     </div>
                                                 </div>
             
                                                 <div class="form-row">
                                                         <div class="form-group col-md-2">
                                                             <label for="inputState">Thana</label>
-                                                            <input type="text" class="form-control" id="Thana" value="8">
+                                                            <input type="text" name="Pthana" class="form-control" id="Thana" >
                                                         </div>
                                                         <div class="form-group col-md-2">
                                                             <label for="inputState">District</label>
-                                                            <input type="text" class="form-control" id="District" value="Rampura">
+                                                            <input type="text" name="Pdistrict" class="form-control" id="District" >
                                                         </div>
                                                         <div class="form-group col-md-2">
                                                                 <label for="inputState">Post Code</label>
-                                                                <input type="text" class="form-control" id="Post Code" value="4">
+                                                                <input type="number" name="Ppostcode" class="form-control" id="Post Code" >
                                                         </div>
                                                     </div>
                                             </div>
                                             <div class="form-group">
                                                     <label for="permanentAddress">Permanent Address</label>
                                                     <div class="form-row">
-                                                        <div class="form-group col-md-3">
-                                                            <label for="inputState">House No</label>
-                                                            <input type="text" class="form-control" id="House no" value="8">
-                                                        </div>
-                                                        <div class="form-group col-md-3">
-                                                            <label for="inputState">Location</label>
-                                                            <input type="text" class="form-control" id="Location" value="Rampura">
-                                                        </div>
-                                                        <div class="form-group col-md-2">
-                                                                <label for="inputState">Village/Street</label>
-                                                                <input type="text" class="form-control" id="Village/Street" value="4">
-                                                        </div>
-                                                    </div>
-                
-                                                    <div class="form-row">
-                                                            <div class="form-group col-md-2">
-                                                                <label for="inputState">Thana</label>
-                                                                <input type="text" class="form-control" id="Thana" value="8">
+                                                            <div class="form-group col-md-3">
+                                                                <label for="PHouseNo">House No</label>
+                                                                <input type="number" name="RhouseNo" class="form-control" id="House no" >
+                                                            </div>
+                                                            <div class="form-group col-md-3">
+                                                                <label for="Plocation">Location</label>
+                                                                <input type="text" name="Rlocation" class="form-control" id="Location" >
                                                             </div>
                                                             <div class="form-group col-md-2">
-                                                                <label for="inputState">District</label>
-                                                                <input type="text" class="form-control" id="District" value="Rampura">
+                                                                    <label for="Pstreet">Street</label>
+                                                                    <input type="text" name="Rstreet" class="form-control" id="Village/Street">
                                                             </div>
-                                                            <div class="form-group col-md-2">
-                                                                    <label for="inputState">Post Code</label>
-                                                                    <input type="text" class="form-control" id="Post Code" value="4">
+                                                        </div>
+                    
+                                                        <div class="form-row">
+                                                                <div class="form-group col-md-2">
+                                                                    <label for="inputState">Thana</label>
+                                                                    <input type="text" name="Rthana" class="form-control" id="Thana" >
+                                                                </div>
+                                                                <div class="form-group col-md-2">
+                                                                    <label for="inputState">District</label>
+                                                                    <input type="text" name="Rdistrict" class="form-control" id="District" >
+                                                                </div>
+                                                                <div class="form-group col-md-2">
+                                                                        <label for="inputState">Post Code</label>
+                                                                        <input type="number" name="Rpostcode" class="form-control" id="Post Code" >
+                                                                </div>
                                                             </div>
                                                         </div>
                                                 </div>
                                             <div class="form-row">
                                                 <div class="form-group col-md-6">
                                                     <label for="Date of Birth">Date of Birth</label>
-                                                    <input class="form-control" type="date" value="2019-08-19" id="date-of-birth">
+                                                    <input class="form-control" name="dob" type="date" id="date-of-birth">
             
                                                 </div>
                                             </div>
-                                            <button type="submit" class="btn btn-primary">Add Employee</button>
+                                            <button type="submit" class="btn btn-primary">Add employee</button>
                                           </form>
                             </div>
                     </div>

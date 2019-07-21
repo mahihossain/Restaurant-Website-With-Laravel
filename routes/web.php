@@ -17,8 +17,11 @@ Route::get('/', function () {
 Route::get('/test', function () {
     return view('test');
 });
-Route::get('/booking', function () {
-    return view('booking');
+Route::get('/bookings/input', function () {
+    return view('bookings.input');
+});
+Route::get('/bookings/search', function () {
+    return view('bookings.search');
 });
 Route::get('/receipt', function () {
     return view('receipt');
@@ -30,7 +33,25 @@ Route::get('/employee', function () {
 
 Auth::routes();
 
-Route::post('/bookingstore', 'BookingController@store');
-Route::get('/showbookings', 'BookingController@index');
-Route::post('/showbookings/search', 'BookingController@index');
+
+// Route::post('/bookings', 'BookingsController@store');
+
+
+// Route::get('/searchbookings', function () {
+//     return view('searchbookings');
+// });
+
+
+Route::post('/bookings/search', 'BookingsController@search');
+
+Route::resource('bookings','BookingsController');
+
+
+Route::post('/showreceipt', 'ReceiptController@index');
+
+Route::post('/receiptstore', 'ReceiptController@store');
+
+Route::post('/employeestore', 'EmployeeController@store');
+
+
 

@@ -28,87 +28,63 @@
         <h2 class="row justify-content-md-center heading">Bill</h2>
                 <div class="row middle">
                     <div class="col  custom">
-                        <form class="custom-form">
-                              @csrf
+                        <form method="POST" action="/receiptstore" class="custom-form">
+                            @csrf
                                 <div class="form-row">
-                                  <div class="form-group col-md-4">
-                                    <label for="customerName">Name</label>
-                                    <input type="text" class="form-control" id="customerName" value="Rifat Hossain" readonly>
-                                  </div>
-                                  <div class="form-group col-md-4">
-                                    <label for="customerEmail">Email</label>
-                                    <input type="email" class="form-control" id="customerEmail" value="abc@gmail.com" readonly>
-                                  </div>
-                                  <div class="form-group col-md-4">
-                                        <label for="customerPhone">Phone No</label>
-                                        <input type="text" class="form-control" id="customerPhone" value="017120768463" readonly>
-                                  </div>
+                                    <div class="form-group col-md-4">
+										<label for="customerName">Name</label>
+										<input type="text" name="customerName" class="form-control" id="customerName"  >
+									</div>
                                 </div>
                                 <div class="form-group">
                                     <div class="form-row">
                                         <div class="form-group col-md-5">
-                                            <label for="example-date-input" class="col-2 col-form-label">Booking Date</label>
-                                            <input class="form-control" type="date" value="2019-08-19" id="example-date-input" readonly>
-                                        </div>
-                                        <div class="form-group col-md-5">
                                             <label for="example-date-input" class="col-2 col-form-label">Reserve Date</label>
-                                            <input class="form-control" type="date" value="2019-08-22" id="example-date-input" readonly>
+                                            <input class="form-control" type="date" name="reserveDate" id="example-date-input" >
                                         </div>
                                     </div>
                                 </div>
                                 <div class="form-row">
-                                    <div class="form-group col-md-4">
-                                        <label for="inputState">Time</label>
-                                        <input type="text" class="form-control" id="customerTime" value="8.00 P.M" readonly>
-                                    </div>
-                                    <div class="form-group col-md-4">
-                                        <label for="inputState">No of people</label>
-                                        <input type="text" class="form-control" id="customerNumber" value="4" readonly>
-
-                                    </div>
-                                </div>
-                                <div class="form-row">
                                         <div class="form-group col-md-4">
-                                          <label for="MealName1">Item Name</label>
-                                          <input type="text" class="form-control" id="ItemName" placeholder="Name">
+											<label for="MealName1">Item Name</label>
+											<input type="text" class="form-control" name="ItemName1" placeholder="Name">
                                         </div>
                                         <div class="form-group col-md-4">
-                                          <label for="ItemPrice1">Price</label>
-                                          <input type="text" class="form-control" id="ItemPrice" placeholder="Price">
+											<label for="ItemPrice1">Price</label>
+											<input type="number" class="form-control" name="ItemPrice1" placeholder="Price">
                                         </div>
-                                 </div>
-                                 <div class="form-row">
+									</div>
+									<div class="form-row">
                                         <div class="form-group col-md-4">
-                                          <label for="MealName2">Item Name</label>
-                                          <input type="text" class="form-control" id="ItemName" placeholder="Name">
-                                        </div>
-                                        <div class="form-group col-md-4">
-                                          <label for="ItemPrice2">Price</label>
-                                          <input type="text" class="form-control" id="ItemPrice" placeholder="Price">
-                                        </div>
-                                 </div>
-                                 <div class="form-row">
-                                        <div class="form-group col-md-4">
-                                          <label for="MealName3">Item Name</label>
-                                          <input type="text" class="form-control" id="ItemName" placeholder="Name">
+											<label for="MealName2">Item Name</label>
+											<input type="text" class="form-control" name="ItemName2" placeholder="Name">
                                         </div>
                                         <div class="form-group col-md-4">
-                                          <label for="ItemPrice3">Price</label>
-                                          <input type="text" class="form-control" id="ItemPrice" placeholder="Price">
+											<label for="ItemPrice2">Price</label>
+											<input type="number" class="form-control" name="ItemPrice2" placeholder="Price">
                                         </div>
-                                 </div>
-                                 <div class="form-row">
+									</div>
+									<div class="form-row">
                                         <div class="form-group col-md-4">
-                                          <label for="MealName3">Item Name</label>
-                                          <input type="text" class="form-control" id="ItemName" placeholder="Name">
+											<label for="MealName3">Item Name</label>
+											<input type="text" class="form-control" name="ItemName3" placeholder="Name">
                                         </div>
                                         <div class="form-group col-md-4">
-                                          <label for="ItemPrice4">Price</label>
-                                          <input type="text" class="form-control" id="ItemPrice" placeholder="Price">
+											<label for="ItemPrice3">Price</label>
+											<input type="number" class="form-control" name="ItemPrice3" placeholder="Price">
                                         </div>
-                                 </div>
-                                <button type="submit" class="btn btn-primary">Place Booking</button>
-                              </form>
+									</div>
+									<div class="form-row">
+                                        <div class="form-group col-md-4">
+											<label for="MealName3">Item Name</label>
+											<input type="text" class="form-control" name="ItemName4" placeholder="Name">
+                                        </div>
+                                        <div class="form-group col-md-4">
+											<label for="ItemPrice4">Price</label>
+											<input type="number" class="form-control" name="ItemPrice4" placeholder="Price">
+                                        </div>
+                                <button type="submit" class="btn btn-primary">Place Receipt</button>
+                            </form>
                 </div>
                 </div>
         </div>

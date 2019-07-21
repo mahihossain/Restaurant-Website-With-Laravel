@@ -41,7 +41,7 @@
                     <img class="img-fluid my-img" src="{{asset('image/form-img.jpg')}}" alt="Booking Image">
                 </div>
                 <div class="col justify-content-center form-col">
-                    <form method="POST" action="/bookingstore" class="custom-form" onsubmit="return mySubmitFunction(event)">
+                    <form method="POST" action="/bookings" class="custom-form" onsubmit="return mySubmitFunction(event)">
                         @csrf
                         <div class="form-row">
                         <div class="form-group col-md-4">
@@ -90,7 +90,6 @@
                                     <option>2</option>
                                     <option>3</option>
                                     <option>4</option>
-                                    <option>More Than 4</option>
                                 </select>
                             </div>
                         </div>
