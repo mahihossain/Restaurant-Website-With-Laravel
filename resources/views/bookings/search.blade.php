@@ -25,10 +25,10 @@
 
 <body>
     <div class="container-fluid justify-content-center container-booking">
-        <h2 class="row justify-content-md-center heading">Booking Place For Your Meal</h2>
+        <h2 class="row justify-content-md-center heading">Search Bookings</h2>
 
             @if (Auth::check())
-                <form method="POST" action="/bookings/search">
+                <form method="POST" action="/receipt/search">
                     @csrf
                     <div class="col search">
                         <div class="form-group col-md-3">

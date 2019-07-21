@@ -60,12 +60,12 @@ body {
     background: rgb(68, 137, 148) !important;
 }
 
-#border-color {
-    border-color: #2a2a2a;
-    border-style: solid;
-    padding: 1%;
-}
-
 .search {
     margin-block-end: 1%;
+}
+
+.custom-btn {
+    padding: 1em;
+    margin-block-start: 1em;
+    margin-left: 1em;
 }

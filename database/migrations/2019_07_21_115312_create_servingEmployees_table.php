@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateServingEmployeeTable extends Migration
+class CreateServingEmployeesTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,7 +13,7 @@ class CreateServingEmployeeTable extends Migration
      */
     public function up()
     {
-        Schema::create('serving_employee', function (Blueprint $table) {
+        Schema::create('serving_employees', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->string('fname');
             $table->string('lname');
@@ -33,6 +33,8 @@ class CreateServingEmployeeTable extends Migration
             $table->string('Rthana');
             $table->string('Rdistrict');
             $table->integer('Rpostcode');
+            $table->date('dob');
+            $table->string('job_title');
             $table->timestamps();
         });
     }
@@ -44,6 +46,6 @@ class CreateServingEmployeeTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('serving_employee');
+        Schema::dropIfExists('serving_employees');
     }
 }

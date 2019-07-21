@@ -23,9 +23,8 @@ Route::get('/bookings/input', function () {
 Route::get('/bookings/search', function () {
     return view('bookings.search');
 });
-Route::get('/receipt', function () {
-    return view('receipt');
-});
+Route::get('showreceipt', 'ReceiptController@index');
+
 Route::get('/employee', function () {
     return view('employee');
 });
@@ -34,24 +33,19 @@ Route::get('/employee', function () {
 Auth::routes();
 
 
-// Route::post('/bookings', 'BookingsController@store');
-
-
-// Route::get('/searchbookings', function () {
-//     return view('searchbookings');
-// });
-
-
 Route::post('/bookings/search', 'BookingsController@search');
 
 Route::resource('bookings','BookingsController');
+Route::resource('serving_employee','ServingEmployeesController');
+Route::resource('cooking_employee','CookingEmployeesController');
 
 
-Route::post('/showreceipt', 'ReceiptController@index');
 
+Route::post('/receipt/search', 'ReceiptController@search');
 Route::post('/receiptstore', 'ReceiptController@store');
 
-Route::post('/employeestore', 'EmployeeController@store');
+
+
 
 
 

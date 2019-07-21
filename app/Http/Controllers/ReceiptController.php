@@ -19,7 +19,6 @@ class ReceiptController extends Controller
         // $bookings = DB::table('bookings')->where('id', request('customerID'))->get();
         
         $bookings = DB::table('bookings')->where('id', request('customerID'))->get();
-        return view('showreceipt')->withBookings($bookings);
     }
 
     /**
@@ -65,7 +64,7 @@ class ReceiptController extends Controller
         $receipt->total_spent = request('ItemPrice1')+request('ItemPrice2')+request('ItemPrice3')+request('ItemPrice4');
 
         $receipt->save();
-        return redirect('receipt');
+        return redirect('bookings/create');
     }
 
     /**
@@ -111,5 +110,14 @@ class ReceiptController extends Controller
     public function destroy($id)
     {
         //
+    }
+    
+    public function search()
+    {
+        $redirect = request('redirect');
+        // $booking = Booking::findOrFail($redirect);
+        $booking = DB::table('bookings')->where('id', request('redirect'))->get();
+        // dd($bookings);
+        return view('showreceipt', compact('booking'));
     }
 }

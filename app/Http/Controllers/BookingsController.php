@@ -17,8 +17,6 @@ class BookingsController extends Controller
     public function index()
     {
         $bookings = DB::table('bookings')->get();
-        // $bookings = DB::table('bookings')->where('id', request('customerID'))->get();
-
         return view('bookings.index'); 
     }
 
@@ -89,17 +87,6 @@ class BookingsController extends Controller
      */
     public function update(Request $request, Booking $booking)
     {
-        // $booking->name = request('customerName');
-        // $booking->email = request('customerEmail');
-        // $booking->phoneNo = request('customerPhone');
-        // $booking->bookingDate = request('bookingDate');
-        // $booking->reserveDate = request('reserveDate');
-        // $booking->time = request('time');
-        // $booking->noOfPeople = request('noOfPeople');
-        // $booking->served = false;
-
-        // $booking->save();
-
         $data = array(
             'name' => request('customerName'),
             'email' => request('customerEmail'),

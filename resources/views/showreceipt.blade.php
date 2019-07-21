@@ -26,98 +26,87 @@
 <body>
     <div class="container-fluid justify-content-center container-receipt">
         <h2 class="row justify-content-md-center heading">Bill</h2>
-                    <div class="col  custom">
-                        @foreach ($bookings as $booking)
-                        <form  method="POST" action="/receiptstore" class="custom-form">
-                                @csrf
-                                    <div class="form-row">
-                                        <div class="form-group col-md-2">
-                                            <label for="customerName">Name</label>
-                                            <input type="text" class="form-control" name="customerName" id="customerName" placeholder="Name" value="{{$booking->name}}" readonly>
-                                        </div>
-                                        <div class="form-group col-md-2">
-                                            <label for="customerID">ID</label>
-                                            <input type="text" class="form-control" name="customerID" id="customerID" placeholder="ID" value="{{$booking->id}}" readonly>
-                                        </div>
-                                        <div class="form-group col-md-2">
-                                            <label for="customerEmail">Email</label>
-                                            <input type="email" class="form-control" name="customerEmail" id="customerEmail" placeholder="email" value="{{$booking->email}}" readonly>
-                                        </div>
-                                        <div class="form-group col-md-2">
-                                            <label for="customerPhone">Phone No</label>
-                                            <input type="text" class="form-control" name="customerPhone" id="customerPhone" placeholder="Phone no" value="{{$booking->phoneNo}}" readonly>
-                                        </div>
-                                    </div>
-                                    <div class="form-group">
-                                        <div class="form-row">
-                                            <div class="form-group col-md-5">
-                                                <label for="example-date-input" class="col-2 col-form-label">Booking Date</label>
-                                                <input class="form-control" type="date" value="2019-08-19" id="example-date-input" readonly>
-                                            </div>
-                                            <div class="form-group col-md-5">
-                                                <label for="example-date-input" class="col-2 col-form-label">Reserve Date</label>
-                                                <input class="form-control" type="date" value="2019-08-22" id="example-date-input" readonly>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="form-row">
-                                        <div class="form-group col-md-4">
-                                            <label for="inputState">Time</label>
-                                            <input type="text" class="form-control" id="customerTime" value="8.00 P.M" readonly>
-                                        </div>
-                                        <div class="form-group col-md-4">
-                                            <label for="inputState">No of people</label>
-                                            <input type="text" class="form-control" id="customerNumber" value="4" readonly>
-    
-                                        </div>
-                                    </div>
-                                    <div class="form-row">
-                                            <div class="form-group col-md-4">
-                                                <label for="MealName1">Item Name</label>
-                                                <input type="text" class="form-control" id="ItemName" placeholder="Name">
-                                            </div>
-                                            <div class="form-group col-md-4">
-                                                <label for="ItemPrice1">Price</label>
-                                                <input type="text" class="form-control" id="ItemPrice" placeholder="Price">
-                                            </div>
-                                    </div>
-                                    <div class="form-row">
-                                            <div class="form-group col-md-4">
-                                                <label for="MealName2">Item Name</label>
-                                                <input type="text" class="form-control" id="ItemName" placeholder="Name">
-                                            </div>
-                                            <div class="form-group col-md-4">
-                                                <label for="ItemPrice2">Price</label>
-                                                <input type="text" class="form-control" id="ItemPrice" placeholder="Price">
-                                            </div>
-                                    </div>
-                                    <div class="form-row">
-                                            <div class="form-group col-md-4">
-                                                <label for="MealName3">Item Name</label>
-                                                <input type="text" class="form-control" id="ItemName" placeholder="Name">
-                                            </div>
-                                            <div class="form-group col-md-4">
-                                                <label for="ItemPrice3">Price</label>
-                                                <input type="text" class="form-control" id="ItemPrice" placeholder="Price">
-                                            </div>
-                                    </div>
-                                    <div class="form-row">
-                                            <div class="form-group col-md-4">
-                                                <label for="MealName3">Item Name</label>
-                                                <input type="text" class="form-control" id="ItemName" placeholder="Name">
-                                            </div>
-                                            <div class="form-group col-md-4">
-                                                <label for="ItemPrice4">Price</label>
-                                                <input type="text" class="form-control" id="ItemPrice" placeholder="Price">
-                                            </div>
-                                    </div>
-                                    <button type="submit" class="btn btn-primary">Place Booking</button>
-                                </form>
-                        @endforeach
-                        
-                </div>
-                </div>
+            @if ($booking->count() > 0)
+            <div class="col  custom">
+                @foreach ($booking as $item)
+                <form  method="POST" action="/receiptstore" class="custom-form">
+                    @csrf
+                        <div class="form-row">
+                            <div class="form-group col-md-2">
+                                <label for="customerName">Name</label>
+                                <input type="text" class="form-control" name="customerName" id="customerName" placeholder="Name" value="{{$item->name}}" readonly>
+                            </div>
+                            <div class="form-group col-md-2">
+                                <label for="customerID">ID</label>
+                                <input type="text" class="form-control" name="customerID" id="customerID" placeholder="ID" value="{{$item->id}}" readonly>
+                            </div>
+                            <div class="form-group col-md-2">
+                                <label for="customerEmail">Email</label>
+                                <input type="email" class="form-control" name="customerEmail" id="customerEmail" placeholder="email" value="{{$item->email}}" readonly>
+                            </div>
+                            <div class="form-group col-md-2">
+                                <label for="customerPhone">Phone No</label>
+                                <input type="text" class="form-control" name="customerPhone" id="customerPhone" placeholder="Phone no" value="{{$item->phoneNo}}" readonly>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="form-row">
+                                <div class="form-group col-md-5">
+                                    <label for="example-date-input" class="col-2 col-form-label">Reserve Date</label>
+                                    <input class="form-control" type="date" name="reserveDate" value="{{$item->reserveDate}}" id="example-date-input" readonly>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                                <div class="form-group col-md-4">
+                                    <label for="MealName1">Item Name</label>
+                                    <input type="text" class="form-control" name="ItemName1" placeholder="Name">
+                                </div>
+                                <div class="form-group col-md-4">
+                                    <label for="ItemPrice1">Price</label>
+                                    <input type="number" class="form-control" name="ItemPrice1" placeholder="Price">
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-md-4">
+                                    <label for="MealName2">Item Name</label>
+                                    <input type="text" class="form-control" name="ItemName2" placeholder="Name">
+                                </div>
+                                <div class="form-group col-md-4">
+                                    <label for="ItemPrice2">Price</label>
+                                    <input type="number" class="form-control" name="ItemPrice2" placeholder="Price">
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-md-4">
+                                    <label for="MealName3">Item Name</label>
+                                    <input type="text" class="form-control" name="ItemName3" placeholder="Name">
+                                </div>
+                                <div class="form-group col-md-4">
+                                    <label for="ItemPrice3">Price</label>
+                                    <input type="number" class="form-control" name="ItemPrice3" placeholder="Price">
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-md-4">
+                                    <label for="MealName3">Item Name</label>
+                                    <input type="text" class="form-control" name="ItemName4" placeholder="Name">
+                                </div>
+                                <div class="form-group col-md-4">
+                                    <label for="ItemPrice4">Price</label>
+                                    <input type="number" class="form-control" name="ItemPrice4" placeholder="Price">
+                                </div>
+                            </div>
+                        <button type="submit" class="btn btn-primary">Place Receipt</button>
+                </form>
+            </div>
+                @endforeach
+                    
         </div>
+        @else
+            <h3 class="row justify-content-md-center heading">No Customer with that id</h3>
+        @endif
+    </div>
     </body>
     
 </html>

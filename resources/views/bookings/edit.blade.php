@@ -81,7 +81,7 @@
                 <form action="/bookings/{{$booking->id}}" method="post">
                     {{method_field('DELETE')}}
                     @csrf
-                    <button type="submit" class="btn btn-primary">Delete</button>
+                    <button type="submit" class="btn btn-primary custom-btn">Delete</button>
                 </form>
             </div>
     </div>

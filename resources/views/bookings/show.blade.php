@@ -68,7 +68,7 @@
                         </div>
                     </div>
                     <form method="GET" action="/bookings/{{$booking->id}}/edit">
-                        <button type="submit" class="btn btn-primary">Cancel or Edit Booking</button>
+                        <button type="submit" class="btn btn-primary custom-btn">Cancel or Edit Booking</button>
                     </form>
             </div>
     </div>

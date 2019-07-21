@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateCookingEmployeeTable extends Migration
+class CreateCookingEmployeesTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,7 +13,7 @@ class CreateCookingEmployeeTable extends Migration
      */
     public function up()
     {
-        Schema::create('cooking_employee', function (Blueprint $table) {
+        Schema::create('cooking_employees', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->string('fname');
             $table->string('lname');
@@ -33,6 +33,8 @@ class CreateCookingEmployeeTable extends Migration
             $table->string('Rthana');
             $table->string('Rdistrict');
             $table->integer('Rpostcode');
+            $table->date('dob');
+            $table->string('job_title');
             $table->timestamps();
         });
     }
@@ -44,6 +46,6 @@ class CreateCookingEmployeeTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('cooking_employee');
+        Schema::dropIfExists('cooking_employees');
     }
 }

@@ -25,23 +25,24 @@
 
 <body>
     <div class="container-fluid justify-content-center">
-            <h2 class="row justify-content-md-center heading">Add employee</h2>
+            <h2 class="row justify-content-md-center heading">Add Serving Employee</h2>
             <div class="col middle">
                             <div class="col justify-content-center form-col">
-                                    <form method="POST" action="employeestore" class="custom-form">
+                                    <form method="POST" action="/serving_employee" class="custom-form">
+                                        @csrf
                                         <div class="form-group">
                                             <div class="form-row">
                                                 <div class="form-group col-md-3">
                                                     <label for="employeeName">First Name</label>
-                                                    <input type="text" name="employeeName" class="form-control" id="employeeName" >
+                                                    <input type="text" name="fname" class="form-control" id="employeeName" >
                                                 </div>
                                                 <div class="form-group col-md-3">
                                                     <label for="employeeLastName">Last Name</label>
-                                                    <input type="text" name="employeeLastName" class="form-control" id="cMiddleName" >
+                                                    <input type="text" name="lname" class="form-control" id="cMiddleName" >
                                                 </div>
                                                 <div class="form-group col-md-3">
                                                     <label for="employeeEmail">email</label>
-                                                    <input type="text" name="employeeEmail" class="form-control" id="employeeLastName" >
+                                                    <input type="text" name="email" class="form-control" id="employeeLastName" >
                                                 </div>
                                                 <div class="form-group col-md-3">
                                                     <label for="employeePhone">Phone no</label>
@@ -54,11 +55,11 @@
                                                         <div class="form-row">
                                                             <div class="form-group col-md-6">
                                                                 <label for="employeeFatherName">Father Name</label>
-                                                                <input type="text" name="employeeFatherName" class="form-control" id="employeeFatherName" >
+                                                                <input type="text" name="father_name" class="form-control" id="employeeFatherName" >
                                                             </div>
                                                             <div class="form-group col-md-6">
                                                                 <label for="employeeMotherName">Mother Name</label>
-                                                                <input type="text" name="employeeMotherName" class="form-control" id="employeeMotherName" >
+                                                                <input type="text" name="mother_name" class="form-control" id="employeeMotherName" >
                                                             </div>
                                                         </div>
                                                 </div>
@@ -132,11 +133,20 @@
                                                 <div class="form-group col-md-6">
                                                     <label for="Date of Birth">Date of Birth</label>
                                                     <input class="form-control" name="dob" type="date" id="date-of-birth">
-            
+                                                </div>
+                                                <div class="form-group col-md-4">
+                                                    <label for="inputState">Job Title</label>
+                                                    <select name="job_title" id="inputState" class="form-control">
+                                                        <option selected>Choose...</option>
+                                                        <option>waiter</option>
+                                                        <option>senior waiter</option>
+                                                        <option>server</option>
+                                                        <option>manager</option>
+                                                    </select>
                                                 </div>
                                             </div>
                                             <button type="submit" class="btn btn-primary">Add employee</button>
-                                          </form>
+                                        </form>
                             </div>
                     </div>
                 </div>

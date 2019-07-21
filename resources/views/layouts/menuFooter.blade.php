@@ -21,16 +21,16 @@
                     </li>
                     @if (Auth::check())
                     <li class="nav-item ">
-                        <a class="nav-link" href="{{ url('employee') }}">Employee <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="{{ url('serving_employee') }}">Serving Employee <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item ">
-                            <a class="nav-link" href="{{ url('receipt') }}">Receipt <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="{{ url('serving_employee/create') }}">Add Serving Employee <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item ">
-                        <a class="nav-link" href="#">Our story <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="{{ url('cooking_employee') }}">Cooking Employee <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item ">
-                        <a class="nav-link" href="#">FAQ <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="{{ url('cooking_employee/create') }}">Add Cooking Employee <span class="sr-only">(current)</span></a>
                     </li>
                     @endif
                     @guest
