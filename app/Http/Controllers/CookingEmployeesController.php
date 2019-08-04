@@ -37,7 +37,8 @@ class CookingEmployeesController extends Controller
     public function store(Request $request)
     {
         cookingEmployee::create(request()->all());
-        return redirect('cooking_employee/create');
+        // dd(request()->all());
+        return redirect('cooking_employee');
     }
 
     /**
@@ -74,7 +75,7 @@ class CookingEmployeesController extends Controller
     public function update(Request $request, CookingEmployee $cookingEmployee)
     {
         $cookingEmployee->update(request()->all());
-        return redirect('cooking_employee/create');
+        return redirect('cooking_employee');
     }
 
     /**
@@ -85,6 +86,7 @@ class CookingEmployeesController extends Controller
      */
     public function destroy(CookingEmployee $cookingEmployee)
     {
-        //
+        $cookingEmployee->delete();
+        return redirect('cooking_employee');
     }
 }

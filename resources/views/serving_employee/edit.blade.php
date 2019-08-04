@@ -147,7 +147,7 @@
                                             <button type="submit" class="btn btn-primary">Update Employee</button>
                                         </form>
                                         <div class="row del" style="padding= 1em">
-                                            <form action="/servingEmployee/{{$servingEmployee->id}}" method="post">
+                                            <form action="/serving_employee/{{$servingEmployee->id}}" method="post">
                                                 {{method_field('DELETE')}}
                                                 @csrf
                                             <button type="submit" class="btn btn-primary">Delete Employee</button>

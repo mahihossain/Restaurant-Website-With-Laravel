@@ -14,9 +14,6 @@
 Route::get('/', function () {
     return view('index');
 });
-Route::get('/test', function () {
-    return view('test');
-});
 Route::get('/bookings/input', function () {
     return view('bookings.input');
 });
@@ -24,10 +21,6 @@ Route::get('/bookings/search', function () {
     return view('bookings.search');
 });
 Route::get('showreceipt', 'ReceiptController@index');
-
-Route::get('/employee', function () {
-    return view('employee');
-});
 
 
 Auth::routes();

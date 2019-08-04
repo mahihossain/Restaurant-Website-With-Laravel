@@ -38,7 +38,7 @@ class ServingEmployeesController extends Controller
     public function store(Request $request)
     {
         ServingEmployee::create(request()->all());
-        return redirect('serving_employee/create');
+        return redirect('serving_employee');
     }
 
     /**
@@ -74,7 +74,7 @@ class ServingEmployeesController extends Controller
     public function update(Request $request, ServingEmployee $servingEmployee)
     {
         $servingEmployee->update(request()->all());
-        return redirect('serving_employee/create');
+        return redirect('serving_employee');
     }
 
     /**
@@ -86,6 +86,6 @@ class ServingEmployeesController extends Controller
     public function destroy(ServingEmployee $servingEmployee)
     {
         $servingEmployee->delete();
-        return redirect('serving_employee/create');
+        return redirect('serving_employee');
     }
 }
