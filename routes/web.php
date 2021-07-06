@@ -14,7 +14,31 @@
 Route::get('/', function () {
     return view('index');
 });
-Route::get('/test', function () {
-    return view('test');
+Route::get('/bookings/input', function () {
+    return view('bookings.input');
 });
+Route::get('/bookings/search', function () {
+    return view('bookings.search');
+});
+Route::get('showreceipt', 'ReceiptController@index');
+
+
+Auth::routes();
+
+
+Route::post('/bookings/search', 'BookingsController@search');
+
+Route::resource('bookings','BookingsController');
+Route::resource('serving_employee','ServingEmployeesController');
+Route::resource('cooking_employee','CookingEmployeesController');
+
+
+
+Route::post('/receipt/search', 'ReceiptController@search');
+Route::post('/receiptstore', 'ReceiptController@store');
+
+
+
+
+
 
